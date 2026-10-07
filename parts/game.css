@@ -1,0 +1,27 @@
+
+/* Game switch: FC 26 is the default, so FIFA 23 blocks only show once picked */
+:root[data-game="fc23"] .g26{display:none!important}
+:root:not([data-game="fc23"]) .g23{display:none!important}
+.gsw{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 12px}
+.gsw-k{font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.gsw .segc button{padding:6px 14px;font-size:.9rem}
+.n26{margin:16px 0 0;padding:10px 12px 11px;border-radius:10px;background:var(--chip);border-left:4px solid var(--accent)}
+.n26-t{margin:2px 0 0;font-size:.9rem;line-height:1.45}
+.nums.kv th,.nums.kv td{text-align:left;vertical-align:top;font-variant-numeric:normal}
+.nums.kv th{width:36%;padding-right:10px}
+.nums.kv td{font-weight:500}
+:root{--edge26:#8A6500}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--edge26:#FFD31A}}
+:root[data-theme="dark"]{--edge26:#FFD31A}
+.n26{border-left-color:var(--edge26)}
+.titem:focus-visible,.tab:focus-visible{outline-offset:-3px}
+.clip-ref{padding:3px 9px 2px}
+.segc.lv small{opacity:1}
+.bug-state{background:#CC3A30}
+.tverdict.bad{background:#CC3A30}
+.tchoice.bad{background:#CC3A30;border-color:#CC3A30}
+.k-B{background:#C93A30}
+.k-X{background:#2368C4}
+.kc-row{flex-wrap:wrap;justify-content:flex-end;row-gap:3px;white-space:normal}
+.kc-row .kb{flex:none;white-space:nowrap}
+.kc-row>span:last-child{flex:1 1 7.5em;min-width:7.5em;white-space:normal;text-align:right;line-height:1.25;overflow:visible;text-overflow:clip}

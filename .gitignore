@@ -1,46 +1,45 @@
+# NOTE: do not add generic Python-packaging ignores here (parts/, lib/, dist/,
+# sdist/, var/, eggs/). This project has a real top-level parts/ directory holding
+# game.js, game.css and the FC 26 HTML components. A `parts/` rule silently
+# untracks the most-edited source files in the repo.
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 venv/
+.venv/
+env/
 ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
 
 # Node
 node_modules/
 npm-debug.log
 yarn-error.log
 
-# IDE
+# IDE / OS
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+Thumbs.db
 
 # Playwright
 .playwright/
 test-results/
+playwright-report/
 
-# Temporary files
+# Regenerable QA screenshots (the page and the scripts that make them are tracked;
+# run docs/research/qa/standards/shots_visual.py to recreate). Bug screenshots in
+# docs/research/qa/bug-screenshots/ ARE tracked — those states no longer exist.
+docs/research/qa/**/shots/
+
+# Temporary
 *.tmp
 *.bak
 .cache/
