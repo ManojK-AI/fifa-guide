@@ -1,0 +1,3947 @@
+{
+ "tactics": [
+  {
+   "id": "U1",
+   "g": "ultimate",
+   "name": "Kick-off over the top",
+   "short": "Back first, then over their line",
+   "watch": "Their front two chasing the back pass while your striker is already running.",
+   "cue": "At kick-off, pass back to the edge of the circle, then hit a driven lob over their back line.",
+   "setting": "Chance Creation: Forward Runs, so your striker makes the run.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "RB",
+      "+",
+      "Y"
+     ],
+     "Driven lobbed through ball"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "B"
+     ],
+     "Finesse, far post"
+    ]
+   ],
+   "src": {
+    "t": "RealSport101: FIFA 23 kick-off routine",
+    "u": "https://realsport101.com/article/fifa-23-score-every-single-time-from-this-new-kick-off-routine"
+   },
+   "wrong": {
+    "dur": 4.2,
+    "say": [
+     [
+      0,
+      "Kick-off. You play it forward on the ground."
+     ],
+     [
+      1.3,
+      "Ground ball into their back line."
+     ],
+     [
+      2.75,
+      "Their CB reads it easily."
+     ],
+     [
+      3.5,
+      "Possession gone in five seconds."
+     ]
+    ],
+    "key": [
+     [
+      1.1,
+      [
+       "Y"
+      ],
+      "Ground through ball",
+      "bad"
+     ]
+    ],
+    "real": 5.2
+   },
+   "right": {
+    "dur": 6.6,
+    "say": [
+     [
+      0,
+      "Kick-off. This time it goes back first."
+     ],
+     [
+      1,
+      "Their front two chase the ball. Your striker is already running."
+     ],
+     [
+      1.85,
+      "Driven lob over their back line."
+     ],
+     [
+      3.4,
+      "In behind. One-on-one."
+     ],
+     [
+      6,
+      "Goal from your own kick-off."
+     ]
+    ],
+    "key": [
+     [
+      1.7,
+      [
+       "LB",
+       "+",
+       "RB",
+       "+",
+       "Y"
+      ],
+      "Driven lob through",
+      "good"
+     ],
+     [
+      5.1,
+      [
+       "RB",
+       "+",
+       "B"
+      ],
+      "Finesse, far post",
+      "good"
+     ]
+    ],
+    "real": 7.699999999999999
+   }
+  },
+  {
+   "id": "U2",
+   "g": "ultimate",
+   "name": "Beat the press, then go",
+   "short": "Escape the press, then sprint",
+   "watch": "Where their pressers end up once your CM turns: behind the ball.",
+   "cue": "The moment you beat their press, drive forward. Don’t pass back and let them reset.",
+   "keys": [
+    [
+     [
+      "RT"
+     ],
+     "Sprint forward"
+    ],
+    [
+     [
+      "Y"
+     ],
+     "Through ball to the runner"
+    ]
+   ],
+   "src": {
+    "t": "fut.gg: Title Update 6, CPU pressers are slow to track back",
+    "u": "https://www.fut.gg/news/ea-patch-pressing-fifa-23-title-update-6-overview/"
+   },
+   "wrong": {
+    "dur": 4.6,
+    "say": [
+     [
+      0,
+      "They press high. Two quick passes get you out."
+     ],
+     [
+      1.7,
+      "Press beaten. Their pressers are behind the ball."
+     ],
+     [
+      2,
+      "Look at the space ahead of you."
+     ],
+     [
+      2.2,
+      "He passes back anyway."
+     ],
+     [
+      3.4,
+      "Their press resets. Chance gone."
+     ]
+    ],
+    "key": [
+     [
+      2,
+      [
+       "A"
+      ],
+      "Safe pass back",
+      "bad"
+     ]
+    ],
+    "real": 5.699999999999999
+   },
+   "right": {
+    "dur": 5.9,
+    "say": [
+     [
+      0,
+      "Same press. Same two passes out."
+     ],
+     [
+      1.7,
+      "Press beaten. Their pressers are behind the ball."
+     ],
+     [
+      1.95,
+      "Go now. They are slow to get back."
+     ],
+     [
+      3.3,
+      "Through ball down the line."
+     ],
+     [
+      5.2,
+      "Three of theirs left behind. Counter on."
+     ]
+    ],
+    "key": [
+     [
+      2.05,
+      [
+       "RT"
+      ],
+      "Sprint forward",
+      "good"
+     ],
+     [
+      3.1,
+      [
+       "Y"
+      ],
+      "Through ball",
+      "good"
+     ]
+    ],
+    "real": 6.9
+   }
+  },
+  {
+   "id": "U3",
+   "g": "ultimate",
+   "name": "Fake, then a yard",
+   "short": "Defender within a yard? Fake first",
+   "watch": "The gap between your striker and the nearest defender at the moment he shoots.",
+   "cue": "If a defender is within a yard, fake shot first. Shoot once you have space.",
+   "keys": [
+    [
+     [
+      "B",
+      "then",
+      "A"
+     ],
+     "Fake shot, with a direction"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "B"
+     ],
+     "Finesse, far post"
+    ]
+   ],
+   "src": {
+    "t": "EA Pitch Notes: CPU blocks reach about 1 metre",
+    "u": "https://www.ea.com/news/pitch-notes-fifa-23-gameplay-deep-dive"
+   },
+   "wrong": {
+    "dur": 3.2,
+    "say": [
+     [
+      0,
+      "Your striker is at the edge of the box."
+     ],
+     [
+      0.9,
+      "He shoots with a defender right in front of him."
+     ],
+     [
+      1.15,
+      "Blocked. CPU defenders block anything within about a yard."
+     ],
+     [
+      2.3,
+      "Chance gone."
+     ]
+    ],
+    "key": [
+     [
+      0.8,
+      [
+       "B"
+      ],
+      "Shoot anyway",
+      "bad"
+     ]
+    ],
+    "real": 4.2
+   },
+   "right": {
+    "dur": 3.6,
+    "say": [
+     [
+      0,
+      "Same spot, same defender."
+     ],
+     [
+      0.85,
+      "He is within a yard, so he would block it. Fake it first."
+     ],
+     [
+      1.3,
+      "He bites. Cut inside."
+     ],
+     [
+      1.95,
+      "Now you have a yard. Shoot."
+     ],
+     [
+      2.7,
+      "Goal."
+     ]
+    ],
+    "key": [
+     [
+      0.85,
+      [
+       "B",
+       "then",
+       "A"
+      ],
+      "Fake shot",
+      "good"
+     ],
+     [
+      1.85,
+      [
+       "RB",
+       "+",
+       "B"
+      ],
+      "Finesse, far post",
+      "good"
+     ]
+    ],
+    "real": 4.6
+   }
+  },
+  {
+   "id": "U4",
+   "g": "ultimate",
+   "name": "Over the high line",
+   "short": "High line? Lob it over",
+   "watch": "How close their CBs are to the ground pass, and how far above them the lob goes.",
+   "cue": "When their line is high and your runner is level, play the lobbed through ball, not the ground one.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "Y"
+     ],
+     "Lobbed through ball"
+    ],
+    [
+     [
+      "LB",
+      "+",
+      "RB",
+      "+",
+      "Y"
+     ],
+     "Driven lob: flatter and faster"
+    ]
+   ],
+   "src": {
+    "t": "Push Square: lofted through balls into space",
+    "u": "https://www.pushsquare.com/guides/fifa-23-guide-fut-23-walkthrough-tips-tricks-and-how-to-win-more-matches"
+   },
+   "wrong": {
+    "dur": 3.6,
+    "say": [
+     [
+      0,
+      "Their line is high. Your striker is on it."
+     ],
+     [
+      1.2,
+      "Ground ball through the middle."
+     ],
+     [
+      2.1,
+      "Their CB steps across and cuts it out."
+     ]
+    ],
+    "key": [
+     [
+      1,
+      [
+       "Y"
+      ],
+      "Ground through ball",
+      "bad"
+     ]
+    ],
+    "real": 4.6
+   },
+   "right": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Same high line."
+     ],
+     [
+      1.15,
+      "Ball over the top, into his run."
+     ],
+     [
+      2.3,
+      "Over their heads. They have to turn and chase."
+     ],
+     [
+      3.3,
+      "Through on goal."
+     ]
+    ],
+    "key": [
+     [
+      1.1,
+      [
+       "LB",
+       "+",
+       "Y"
+      ],
+      "Lobbed through ball",
+      "good"
+     ]
+    ],
+    "real": 5.4
+   }
+  },
+  {
+   "id": "U5",
+   "g": "ultimate",
+   "name": "Keeper rushes: chip",
+   "short": "Keeper off his line? Chip it",
+   "watch": "How far the keeper comes off his line before your striker shoots.",
+   "cue": "One-on-one and the keeper rushes out? Chip it. If he stays on his line, shoot low to a corner.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "B"
+     ],
+     "Chip shot"
+    ]
+   ],
+   "src": {
+    "t": "Sportskeeda: chip shot tips",
+    "u": "https://www.sportskeeda.com/esports/5-best-fifa-23-tips-score-goals-march-2023"
+   },
+   "wrong": {
+    "dur": 3.2,
+    "say": [
+     [
+      0,
+      "One-on-one. Their keeper rushes out."
+     ],
+     [
+      1.2,
+      "He shoots low."
+     ],
+     [
+      1.55,
+      "The keeper spreads and saves."
+     ]
+    ],
+    "key": [
+     [
+      1.15,
+      [
+       "B"
+      ],
+      "Low shot",
+      "bad"
+     ]
+    ],
+    "real": 4.2
+   },
+   "right": {
+    "dur": 3.2,
+    "say": [
+     [
+      0,
+      "Same one-on-one. The keeper rushes again."
+     ],
+     [
+      1.25,
+      "He is off his line. Chip it."
+     ],
+     [
+      1.6,
+      "Over him."
+     ],
+     [
+      2.25,
+      "Goal."
+     ]
+    ],
+    "key": [
+     [
+      1.15,
+      [
+       "LB",
+       "+",
+       "B"
+      ],
+      "Chip shot",
+      "good"
+     ]
+    ],
+    "real": 4.2
+   }
+  },
+  {
+   "id": "U6",
+   "g": "ultimate",
+   "name": "Shoot past a body",
+   "short": "A few yards off? Shoot now",
+   "watch": "The defender between your striker and the keeper, and how far off your striker he is.",
+   "cue": "A defender a few yards off, standing between you and the keeper? Shoot now. He can’t block it and the keeper sees it late.",
+   "keys": [
+    [
+     [
+      "B"
+     ],
+     "Shoot low, far post"
+    ]
+   ],
+   "src": {
+    "t": "EA Pitch Notes: keepers react slower when their view is blocked",
+    "u": "https://www.ea.com/news/pitch-notes-fifa-23-gameplay-deep-dive"
+   },
+   "wrong": {
+    "dur": 3.2,
+    "say": [
+     [
+      0,
+      "Space at the edge. A defender a few yards off."
+     ],
+     [
+      0.5,
+      "He tries to dribble closer first."
+     ],
+     [
+      1.3,
+      "Now the defender is within a yard."
+     ],
+     [
+      1.6,
+      "Blocked."
+     ]
+    ],
+    "key": [
+     [
+      0.4,
+      [
+       "LS"
+      ],
+      "Dribble closer",
+      "bad"
+     ]
+    ],
+    "real": 4.2
+   },
+   "right": {
+    "dur": 3,
+    "say": [
+     [
+      0,
+      "Same spot, same defender."
+     ],
+     [
+      0.6,
+      "He’s too far off to block it, and he’s in the keeper’s way."
+     ],
+     [
+      0.8,
+      "Shoot now. Low, far post."
+     ],
+     [
+      1.6,
+      "The keeper sees it late. Goal."
+     ]
+    ],
+    "key": [
+     [
+      0.5,
+      [
+       "B"
+      ],
+      "Shoot now",
+      "good"
+     ]
+    ],
+    "real": 4.1
+   }
+  },
+  {
+   "id": "U7",
+   "g": "ultimate",
+   "name": "Don’t sprint into traffic",
+   "short": "No space? Pass and move",
+   "watch": "How fast their two midfielders close the gap when your player sprints.",
+   "cue": "No space in front of you? Don’t sprint at them. Pass, then move into the space behind them.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "A"
+     ],
+     "Pass and go"
+    ],
+    [
+     [
+      "Y"
+     ],
+     "Return pass into his run"
+    ]
+   ],
+   "src": {
+    "t": "FIFA Infinity: the AI closes down a sprinting ball carrier",
+    "u": "https://www.fifa-infinity.com/fifa-23/5-squad-battles-tips-to-reach-better-ranks/"
+   },
+   "wrong": {
+    "dur": 3.6,
+    "say": [
+     [
+      0,
+      "No space ahead. Two of theirs in front."
+     ],
+     [
+      0.3,
+      "He sprints straight at them."
+     ],
+     [
+      0.9,
+      "The AI closes the gap at once."
+     ],
+     [
+      1.2,
+      "Ball gone. Now they counter."
+     ]
+    ],
+    "key": [
+     [
+      0.2,
+      [
+       "RT"
+      ],
+      "Sprint at them",
+      "bad"
+     ]
+    ],
+    "real": 4.6
+   },
+   "right": {
+    "dur": 3.6,
+    "say": [
+     [
+      0,
+      "Same spot. Two of theirs in front."
+     ],
+     [
+      0.4,
+      "Pass and go: LB + A."
+     ],
+     [
+      1.1,
+      "He runs into the space behind them."
+     ],
+     [
+      1.7,
+      "Return pass into his run."
+     ],
+     [
+      2.7,
+      "Through the press."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "LB",
+       "+",
+       "A"
+      ],
+      "Pass and go",
+      "good"
+     ],
+     [
+      1.5,
+      [
+       "Y"
+      ],
+      "Return into his run",
+      "good"
+     ]
+    ],
+    "real": 4.6
+   }
+  },
+  {
+   "id": "A1",
+   "g": "stop",
+   "name": "Through ball behind your line",
+   "short": "Hold the line, cover the runner",
+   "watch": "The gap behind your CB the moment he steps out.",
+   "cue": "When their midfielder faces forward, hold your line. Let a midfielder press, and switch (LB) to the CB nearest their runner.",
+   "keys": [
+    [
+     [
+      "LB"
+     ],
+     "Switch to the CB by the runner"
+    ],
+    [
+     [
+      "LT"
+     ],
+     "Jockey, stay goal-side"
+    ]
+   ],
+   "src": {
+    "t": "EA Title Update 4: CPU through passes made more effective",
+    "u": "https://www.fut.gg/news/fifa-23-title-update-4-overview-including-a-fut-champions-win-counter-and-a-trivela-nerf/"
+   },
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Their midfielder has it, facing forward. You control a CB."
+     ],
+     [
+      0.3,
+      "You step out to the man who dropped short."
+     ],
+     [
+      1.3,
+      "Gap behind you. The CPU loves this pass."
+     ],
+     [
+      2,
+      "Through ball. Their striker is in."
+     ],
+     [
+      3.4,
+      "Conceded."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "RT"
+      ],
+      "CB steps out",
+      "bad"
+     ]
+    ],
+    "real": 5.5
+   },
+   "right": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Same moment. This time your pivot presses the man who dropped."
+     ],
+     [
+      0.95,
+      "Your CB holds the line. Switch to him: he’s nearest their runner."
+     ],
+     [
+      1.6,
+      "Stay goal-side of the runner."
+     ],
+     [
+      2.3,
+      "The through ball has nowhere to go."
+     ],
+     [
+      3,
+      "Cut out. Your ball."
+     ]
+    ],
+    "key": [
+     [
+      0.8,
+      [
+       "LB"
+      ],
+      "Switch to the CB by the runner",
+      "good"
+     ],
+     [
+      1.7,
+      [
+       "LT"
+      ],
+      "Jockey, goal-side",
+      "good"
+     ]
+    ],
+    "real": 5.5
+   }
+  },
+  {
+   "id": "A2",
+   "g": "stop",
+   "name": "Contain the dribbler",
+   "short": "Jockey, show him the touchline",
+   "watch": "Your full-back staying a yard off, on the inside, until the dribbler slows down.",
+   "cue": "Never dive in on a CPU dribbler. Jockey, show him the touchline, tackle when he slows.",
+   "keys": [
+    [
+     [
+      "LT"
+     ],
+     "Jockey"
+    ],
+    [
+     [
+      "B"
+     ],
+     "Tackle when he stops"
+    ]
+   ],
+   "src": {
+    "t": "EA Pitch Notes: some CPU players get +10 on the ball on Legendary and Ultimate",
+    "u": "https://www.ea.com/news/pitch-notes-fifa-23-gameplay-deep-dive"
+   },
+   "wrong": {
+    "dur": 5,
+    "say": [
+     [
+      0,
+      "Their winger runs at you. You control your right-back."
+     ],
+     [
+      0.4,
+      "You sprint at him and dive in."
+     ],
+     [
+      1.5,
+      "On Ultimate, some CPU players get +10 to every stat on the ball."
+     ],
+     [
+      2,
+      "He skips past you."
+     ],
+     [
+      3.75,
+      "Your keeper saves you. Don’t count on that."
+     ]
+    ],
+    "key": [
+     [
+      0.4,
+      [
+       "RT"
+      ],
+      "Sprint and tackle",
+      "bad"
+     ]
+    ],
+    "real": 6
+   },
+   "right": {
+    "dur": 3.8,
+    "say": [
+     [
+      0,
+      "Same winger. This time, jockey."
+     ],
+     [
+      0.4,
+      "Stay a yard off, on his inside. Show him the touchline."
+     ],
+     [
+      1,
+      "He has to go outside, away from goal."
+     ],
+     [
+      2.15,
+      "He slows down. Now tackle."
+     ],
+     [
+      2.7,
+      "Ball won. Play it out."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "LT"
+      ],
+      "Jockey",
+      "good"
+     ],
+     [
+      2.05,
+      [
+       "B"
+      ],
+      "Tackle when he stops",
+      "good"
+     ]
+    ],
+    "real": 4.8
+   }
+  },
+  {
+   "id": "A3",
+   "g": "stop",
+   "name": "Box first vs crosses",
+   "short": "CBs stay in the box",
+   "watch": "The near post the moment your CB leaves it.",
+   "cue": "When their winger reaches your byline, control the CB at the near post. Your full-back takes the winger.",
+   "keys": [
+    [
+     [
+      "RS"
+     ],
+     "Switch to the near-post CB"
+    ]
+   ],
+   "src": {
+    "t": "EA Pitch Notes: the CPU is more willing to cross and counter",
+    "u": "https://www.ea.com/news/pitch-notes-fifa-23-gameplay-deep-dive"
+   },
+   "wrong": {
+    "dur": 4.2,
+    "say": [
+     [
+      0,
+      "Their winger is near your byline. You control a CB."
+     ],
+     [
+      0.3,
+      "You rush your CB out to him."
+     ],
+     [
+      1.25,
+      "The CPU loves to cross. Now your box is short a defender."
+     ],
+     [
+      2.45,
+      "Header at the near post."
+     ],
+     [
+      3.45,
+      "Goal against."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "RT"
+      ],
+      "CB chases the winger",
+      "bad"
+     ]
+    ],
+    "real": 5.2
+   },
+   "right": {
+    "dur": 4.2,
+    "say": [
+     [
+      0,
+      "Same winger. This time your box comes first."
+     ],
+     [
+      0.4,
+      "Your full-back takes the winger. Your CBs stay in the box."
+     ],
+     [
+      1.2,
+      "Control the CB at the near post before the cross."
+     ],
+     [
+      2.5,
+      "Headed clear."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "RS"
+      ],
+      "Switch to the near-post CB",
+      "good"
+     ]
+    ],
+    "real": 5.2
+   }
+  },
+  {
+   "id": "A4",
+   "g": "stop",
+   "name": "Close the edge of the box",
+   "short": "Guard the edge, close the late runner",
+   "watch": "The edge of your box when their midfielder arrives late.",
+   "cue": "When the ball goes wide near your box, keep one midfielder on the edge. Close the late runner while the pass travels.",
+   "keys": [
+    [
+     [
+      "LB"
+     ],
+     "Switch to the midfielder"
+    ],
+    [
+     [
+      "RT"
+     ],
+     "Close him down"
+    ]
+   ],
+   "src": {
+    "t": "EA Pitch Notes: the CPU-only First Time Shots trait",
+    "u": "https://www.ea.com/news/pitch-notes-fifa-23-gameplay-deep-dive"
+   },
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Their winger has it near your box. You control your pivot."
+     ],
+     [
+      0.3,
+      "You drop into the box with everyone else."
+     ],
+     [
+      1.3,
+      "Their midfielder arrives at the edge. Nobody is with him."
+     ],
+     [
+      2.7,
+      "First-time shot."
+     ],
+     [
+      3.4,
+      "Conceded."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "LS"
+      ],
+      "Drop into the box",
+      "bad"
+     ]
+    ],
+    "real": 5.4
+   },
+   "right": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Same ball out wide."
+     ],
+     [
+      0.4,
+      "This time your pivot stays on the edge of the box."
+     ],
+     [
+      1.3,
+      "The pass goes back to their runner. Close him while it travels."
+     ],
+     [
+      2.6,
+      "He shoots first time. Blocked."
+     ]
+    ],
+    "key": [
+     [
+      1.35,
+      [
+       "RT"
+      ],
+      "Close him down",
+      "good"
+     ]
+    ],
+    "real": 5.4
+   }
+  },
+  {
+   "id": "A5",
+   "g": "stop",
+   "name": "Keeper halfway in a one-on-one",
+   "short": "Come halfway, then set",
+   "watch": "Where your keeper stops when their striker is through.",
+   "cue": "Their striker through on goal? Bring your keeper halfway with Y, then let him set. Don’t charge all the way.",
+   "keys": [
+    [
+     [
+      "Y"
+     ],
+     "Keeper comes out: halfway only"
+    ]
+   ],
+   "src": {
+    "t": "Sportskeeda: bring the keeper halfway out",
+    "u": "https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023"
+   },
+   "wrong": {
+    "dur": 4.1,
+    "say": [
+     [
+      0,
+      "Their striker is through. You control your keeper."
+     ],
+     [
+      0.4,
+      "You charge all the way out."
+     ],
+     [
+      1.3,
+      "CPU strikers with Chip Shot punish this."
+     ],
+     [
+      1.6,
+      "Chipped."
+     ],
+     [
+      2.6,
+      "Conceded."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "Y"
+      ],
+      "Charge all the way",
+      "bad"
+     ]
+    ],
+    "real": 5.1
+   },
+   "right": {
+    "dur": 3.6,
+    "say": [
+     [
+      0,
+      "Same striker through."
+     ],
+     [
+      0.4,
+      "This time your keeper comes halfway, then sets."
+     ],
+     [
+      1.3,
+      "Halfway covers both the chip and the low shot."
+     ],
+     [
+      1.8,
+      "The striker has to pick one. Saved."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "Y"
+      ],
+      "Come halfway, then set",
+      "good"
+     ]
+    ],
+    "real": 4.6
+   }
+  },
+  {
+   "id": "A6",
+   "g": "stop",
+   "name": "Counter their late push",
+   "short": "They chase the game? Hit the space",
+   "watch": "How few of theirs are left back when they chase the game.",
+   "cue": "Leading late and they throw players forward? Win it, then hit the space behind them straight away.",
+   "setting": "If you lead late, keep the ball at the back until you can break.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "RB",
+      "+",
+      "Y"
+     ],
+     "Driven lob over the top"
+    ]
+   ],
+   "src": {
+    "t": "EA Pitch Notes: the CPU changes formation and subs to chase a game",
+    "u": "https://www.ea.com/news/pitch-notes-fifa-23-gameplay-deep-dive"
+   },
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "They’re losing late, so they threw players forward."
+     ],
+     [
+      0.4,
+      "You win it."
+     ],
+     [
+      1.5,
+      "And play it back."
+     ],
+     [
+      2.6,
+      "They all get back in shape. Chance gone."
+     ]
+    ],
+    "key": [
+     [
+      1.3,
+      [
+       "A"
+      ],
+      "Safe pass back",
+      "bad"
+     ]
+    ],
+    "real": 5.5
+   },
+   "right": {
+    "dur": 7,
+    "say": [
+     [
+      0,
+      "They’re losing late, so they threw players forward."
+     ],
+     [
+      0.4,
+      "You win it."
+     ],
+     [
+      1.1,
+      "Go now. Driven lob over their last two."
+     ],
+     [
+      3,
+      "Your striker is through."
+     ],
+     [
+      6,
+      "Goal. That’s how you punish a late push."
+     ]
+    ],
+    "key": [
+     [
+      0.95,
+      [
+       "LB",
+       "+",
+       "RB",
+       "+",
+       "Y"
+      ],
+      "Driven lob over the top",
+      "good"
+     ]
+    ],
+    "real": 8.1
+   }
+  },
+  {
+   "id": "B1",
+   "g": "build",
+   "name": "Pivot",
+   "short": "Always a pass in front of your CBs",
+   "watch": "Wrong: the empty space in front of your center-backs. Right: the pivot standing in it.",
+   "cue": "Before you build, find your pivot. If he isn’t in front of the CBs, don’t force a pass.",
+   "setting": "One central midfielder on Stay Back While Attacking.",
+   "keys": [
+    [
+     [
+      "RB",
+      "+",
+      "A"
+     ],
+     "Driven pass into the pivot"
+    ]
+   ],
+   "wrong": {
+    "dur": 7,
+    "say": [
+     [
+      0,
+      "Your CB has the ball. Look at the space in front of him."
+     ],
+     [
+      1.9,
+      "Both CMs have pushed up. No short pass in front of the CBs."
+     ],
+     [
+      2.6,
+      "Under pressure, he hits it long."
+     ],
+     [
+      4.95,
+      "Their CB wins the header."
+     ],
+     [
+      5.8,
+      "Your midfield is stranded upfield. Counter on."
+     ]
+    ],
+    "key": [
+     [
+      2.15,
+      [
+       "X"
+      ],
+      "Lob it long",
+      "bad"
+     ]
+    ],
+    "real": 8.6
+   },
+   "right": {
+    "dur": 6.6,
+    "say": [
+     [
+      0,
+      "Same moment. This time your pivot stays home."
+     ],
+     [
+      1.3,
+      "Pivot on Stay Back While Attacking. Always a pass in front of the CBs."
+     ],
+     [
+      2.2,
+      "Driven pass. Their striker is beaten."
+     ],
+     [
+      3.9,
+      "Pivot finds the CM. First line broken."
+     ],
+     [
+      5,
+      "Ball in midfield, facing forward."
+     ]
+    ],
+    "key": [
+     [
+      1.45,
+      [
+       "RB",
+       "+",
+       "A"
+      ],
+      "Driven pass",
+      "good"
+     ]
+    ],
+    "real": 7.8999999999999995
+   }
+  },
+  {
+   "id": "B2",
+   "g": "build",
+   "name": "Wide, then inside",
+   "short": "Blocked lane? Go around it",
+   "watch": "How far their midfielder shifts when the ball goes out to your full-back.",
+   "cue": "If the lane into your CM is blocked, go wide first, then play the diagonal back inside.",
+   "keys": [
+    [
+     [
+      "A"
+     ],
+     "Pass to the full-back"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "A"
+     ],
+     "Driven diagonal into the CM"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.8,
+    "say": [
+     [
+      0,
+      "Your CB wants to play into the CM."
+     ],
+     [
+      1.15,
+      "Straight pass. Their midfielder already sits in the lane."
+     ],
+     [
+      2.5,
+      "Intercepted 30 yards from your goal."
+     ],
+     [
+      3.3,
+      "And their striker is already running."
+     ]
+    ],
+    "key": [
+     [
+      1.5,
+      [
+       "A"
+      ],
+      "Straight into the CM",
+      "bad"
+     ]
+    ],
+    "real": 6
+   },
+   "right": {
+    "dur": 6,
+    "say": [
+     [
+      0,
+      "Same lane, same defender sitting in it."
+     ],
+     [
+      0.55,
+      "Don’t force it. Go around him."
+     ],
+     [
+      1.1,
+      "Ball goes wide. Watch them shift toward it."
+     ],
+     [
+      2.5,
+      "The lane inside just opened."
+     ],
+     [
+      3.8,
+      "Diagonal into the CM. He receives facing forward."
+     ],
+     [
+      4.9,
+      "Through the middle. Their press is behind the ball."
+     ]
+    ],
+    "key": [
+     [
+      0.75,
+      [
+       "A"
+      ],
+      "Pass to the full-back",
+      "good"
+     ],
+     [
+      2.6,
+      [
+       "RB",
+       "+",
+       "A"
+      ],
+      "Driven, into feet",
+      "good"
+     ]
+    ],
+    "real": 8.1
+   }
+  },
+  {
+   "id": "B3",
+   "g": "build",
+   "name": "Up, back, through",
+   "short": "Whoever faces forward plays forward",
+   "watch": "Which way your CM is facing when the ball reaches him.",
+   "cue": "Back to goal means lay it off first time. Whoever faces forward plays forward.",
+   "keys": [
+    [
+     [
+      "A"
+     ],
+     "First-time lay-off: press before the ball arrives"
+    ],
+    [
+     [
+      "Y"
+     ],
+     "Through ball to the runner"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.8,
+    "say": [
+     [
+      0,
+      "CB plays into the CM. A defender is tight on his back."
+     ],
+     [
+      1.7,
+      "He receives facing his own goal and tries to turn."
+     ],
+     [
+      2.7,
+      "Turning into pressure. Tackled."
+     ],
+     [
+      3.3,
+      "Lost in midfield. They break."
+     ]
+    ],
+    "key": [
+     [
+      2,
+      [
+       "LS"
+      ],
+      "Turn with it",
+      "bad"
+     ]
+    ],
+    "real": 5.8
+   },
+   "right": {
+    "dur": 6,
+    "say": [
+     [
+      0,
+      "Same pass into the CM. Same defender on his back."
+     ],
+     [
+      1.62,
+      "Don’t turn. Lay it back to the man facing forward."
+     ],
+     [
+      2.35,
+      "Pivot faces forward. Winger starts his run."
+     ],
+     [
+      2.7,
+      "Pivot plays the runner."
+     ],
+     [
+      5,
+      "In behind. Up, back, through."
+     ]
+    ],
+    "key": [
+     [
+      1.72,
+      [
+       "A"
+      ],
+      "First-time lay-off",
+      "good"
+     ],
+     [
+      2.45,
+      [
+       "Y"
+      ],
+      "Through ball",
+      "good"
+     ]
+    ],
+    "real": 8.1
+   }
+  },
+  {
+   "id": "B4",
+   "g": "build",
+   "name": "Draw and release",
+   "short": "Carry until someone commits",
+   "watch": "The moment their CM leaves his man to step out at your center-back.",
+   "cue": "Unpressed CB? Walk forward. Pass the moment a defender commits to him.",
+   "keys": [
+    [
+     [
+      "LS"
+     ],
+     "Walk with it, no sprint"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "A"
+     ],
+     "Driven pass to the free man"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Nobody is pressing your CB. He has time and space."
+     ],
+     [
+      0.5,
+      "Space in front of him."
+     ],
+     [
+      1.4,
+      "He passes straight away anyway."
+     ],
+     [
+      2.4,
+      "The CM was still marked. Their man steps in."
+     ],
+     [
+      3.4,
+      "Lost. And you had all that space."
+     ]
+    ],
+    "key": [
+     [
+      1.25,
+      [
+       "A"
+      ],
+      "Pass straight away",
+      "bad"
+     ]
+    ],
+    "real": 6.4
+   },
+   "right": {
+    "dur": 6,
+    "say": [
+     [
+      0,
+      "Same moment. Nobody is pressing your CB."
+     ],
+     [
+      0.5,
+      "Walk into the space. Make someone come to you."
+     ],
+     [
+      2.75,
+      "Their CM steps out to stop him. Pass to the man he left."
+     ],
+     [
+      3.4,
+      "The free CM turns. Their midfield line is broken."
+     ]
+    ],
+    "key": [
+     [
+      0.9,
+      [
+       "LS"
+      ],
+      "Walk forward, no sprint",
+      "good"
+     ],
+     [
+      2.8,
+      [
+       "RB",
+       "+",
+       "A"
+      ],
+      "Driven pass",
+      "good"
+     ]
+    ],
+    "real": 8.2
+   }
+  },
+  {
+   "id": "B5",
+   "g": "build",
+   "name": "Over the press",
+   "short": "Three pressers? Go over them",
+   "watch": "Three pressers around your CB, and your full-back free behind them.",
+   "cue": "When three men press your CB, go over them, not through them.",
+   "keys": [
+    [
+     [
+      "A",
+      "A"
+     ],
+     "Lofted pass"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "X"
+     ],
+     "Driven lob for a longer switch"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.6,
+    "say": [
+     [
+      0,
+      "They press high. Three men around your CB."
+     ],
+     [
+      0.9,
+      "Every short pass is covered."
+     ],
+     [
+      1.65,
+      "He plays it short anyway."
+     ],
+     [
+      2.5,
+      "Intercepted at the edge of your box."
+     ]
+    ],
+    "key": [
+     [
+      1.35,
+      [
+       "A"
+      ],
+      "Short pass anyway",
+      "bad"
+     ]
+    ],
+    "real": 5.6
+   },
+   "right": {
+    "dur": 6.2,
+    "say": [
+     [
+      0,
+      "Same press. Three men around your CB."
+     ],
+     [
+      0.9,
+      "Short passes are covered. Go over the top."
+     ],
+     [
+      1.6,
+      "Lofted pass over their winger."
+     ],
+     [
+      3,
+      "Your full-back is free. Three pressers out of the game."
+     ]
+    ],
+    "key": [
+     [
+      1.2,
+      [
+       "A",
+       "A"
+      ],
+      "Lofted pass",
+      "good"
+     ]
+    ],
+    "real": 7.2
+   }
+  },
+  {
+   "id": "B6",
+   "g": "build",
+   "name": "Reset and switch",
+   "short": "Nothing on? Back, across, far side",
+   "watch": "How much space opens on the far side while they shift.",
+   "cue": "Nothing on? Go back to a CB, across the back, then hit the far side before they reset.",
+   "keys": [
+    [
+     [
+      "A"
+     ],
+     "Back to the CB"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "A"
+     ],
+     "Driven pass wide"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Ball on your left. Everything is covered."
+     ],
+     [
+      0.9,
+      "Nothing on here. The other side is empty."
+     ],
+     [
+      1.8,
+      "He forces it down the line anyway."
+     ],
+     [
+      2.5,
+      "Cut out. They break down your left."
+     ]
+    ],
+    "key": [
+     [
+      1.45,
+      [
+       "Y"
+      ],
+      "Force it forward",
+      "bad"
+     ]
+    ],
+    "real": 5.5
+   },
+   "right": {
+    "dur": 6.8,
+    "say": [
+     [
+      0,
+      "Ball on your left. Everything is covered."
+     ],
+     [
+      0.9,
+      "Nothing on. Reset and switch."
+     ],
+     [
+      1.3,
+      "Back to the CB. No shame in it."
+     ],
+     [
+      2.4,
+      "Across the back while they shift."
+     ],
+     [
+      3.5,
+      "They’re still shifting. Hit the far side."
+     ],
+     [
+      4.95,
+      "Switched. Now attack the open side."
+     ]
+    ],
+    "key": [
+     [
+      1.05,
+      [
+       "A"
+      ],
+      "Back to the CB",
+      "good"
+     ],
+     [
+      3.6,
+      [
+       "RB",
+       "+",
+       "A"
+      ],
+      "Driven pass wide",
+      "good"
+     ]
+    ],
+    "real": 8.7
+   }
+  },
+  {
+   "id": "C1",
+   "g": "chance",
+   "name": "Byline cutback",
+   "short": "Byline, then look back",
+   "watch": "Where your edge-of-box man arrives while their defenders drop toward goal.",
+   "cue": "Reach the byline, then look back, not across.",
+   "setting": "One central midfielder on Stay On Edge Of Box For Cross.",
+   "keys": [
+    [
+     [
+      "RT"
+     ],
+     "Sprint to the byline"
+    ],
+    [
+     [
+      "X",
+      "X"
+     ],
+     "Ground cross"
+    ],
+    [
+     [
+      "B"
+     ],
+     "Shoot first time"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.6,
+    "say": [
+     [
+      0,
+      "Your winger is wide with the ball."
+     ],
+     [
+      1.2,
+      "He swings in a high cross."
+     ],
+     [
+      2.75,
+      "Their CB wins the header easily."
+     ],
+     [
+      3.7,
+      "High crosses mostly feed their center-backs."
+     ]
+    ],
+    "key": [
+     [
+      0.95,
+      [
+       "X"
+      ],
+      "Cross",
+      "bad"
+     ]
+    ],
+    "real": 5.6
+   },
+   "right": {
+    "dur": 5.4,
+    "say": [
+     [
+      0,
+      "Same winger, same space."
+     ],
+     [
+      0.3,
+      "This time he drives to the byline."
+     ],
+     [
+      1.9,
+      "At the byline. Look back, not across."
+     ],
+     [
+      2.2,
+      "Ground cross back to the edge of the box."
+     ],
+     [
+      3.4,
+      "First-time finish from your edge man."
+     ],
+     [
+      4.1,
+      "Goal. The cutback beats their deep line."
+     ]
+    ],
+    "key": [
+     [
+      0.2,
+      [
+       "RT"
+      ],
+      "Sprint to the byline",
+      "good"
+     ],
+     [
+      2,
+      [
+       "X",
+       "X"
+      ],
+      "Ground cross",
+      "good"
+     ],
+     [
+      3.15,
+      [
+       "B"
+      ],
+      "Shoot first time",
+      "good"
+     ]
+    ],
+    "real": 6.5
+   }
+  },
+  {
+   "id": "C2",
+   "g": "chance",
+   "name": "Overload, then switch",
+   "short": "Draw them, then switch",
+   "watch": "How many of theirs end up on the ball side, and who is left on the far side.",
+   "cue": "Three or four short passes on one side, then switch to the one-on-one.",
+   "keys": [
+    [
+     [
+      "A"
+     ],
+     "Short passes to draw them in"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "X"
+     ],
+     "Driven lob switch"
+    ]
+   ],
+   "wrong": {
+    "dur": 5.6,
+    "say": [
+     [
+      0,
+      "Short passes on the left."
+     ],
+     [
+      1.5,
+      "And again. They keep shifting across."
+     ],
+     [
+      3.4,
+      "Five of theirs on this side. Your winger is alone on the far side."
+     ],
+     [
+      3.7,
+      "He forces another short one."
+     ],
+     [
+      4.45,
+      "Lost in the crowd."
+     ]
+    ],
+    "key": [
+     [
+      3.5,
+      [
+       "Y"
+      ],
+      "Squeeze it through",
+      "bad"
+     ]
+    ],
+    "real": 6.8
+   },
+   "right": {
+    "dur": 7.3,
+    "say": [
+     [
+      0,
+      "Same start. Short passes on the left."
+     ],
+     [
+      1.5,
+      "Keep it moving. They shift across."
+     ],
+     [
+      3.4,
+      "They have overloaded. The far side is one-on-one."
+     ],
+     [
+      3.75,
+      "Driven lob to the far winger."
+     ],
+     [
+      5.6,
+      "Switched. He is one-on-one with their full-back."
+     ],
+     [
+      6.4,
+      "Attack him, or work the cutback."
+     ]
+    ],
+    "key": [
+     [
+      3.5,
+      [
+       "RB",
+       "+",
+       "X"
+      ],
+      "Driven lob",
+      "good"
+     ]
+    ],
+    "real": 8.3
+   }
+  },
+  {
+   "id": "C3",
+   "g": "chance",
+   "name": "Pass and go",
+   "short": "Pass, then sprint past him",
+   "watch": "Your marker’s eyes. He watches the ball, not your run.",
+   "cue": "Pass into the striker’s feet, then sprint past the man who is watching the ball.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "A"
+     ],
+     "Pass and go (hold LB)"
+    ],
+    [
+     [
+      "A"
+     ],
+     "Return pass"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "B"
+     ],
+     "Finesse shot"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.6,
+    "say": [
+     [
+      0,
+      "Your CAM has it at the edge of the box."
+     ],
+     [
+      0.8,
+      "He passes into the striker and stands still."
+     ],
+     [
+      1.6,
+      "You passed and stopped. Your marker didn’t."
+     ],
+     [
+      2.9,
+      "The striker has to play it back."
+     ],
+     [
+      3.5,
+      "Nothing on. The attack stalls."
+     ]
+    ],
+    "key": [
+     [
+      0.6,
+      [
+       "A"
+      ],
+      "Pass, then stand",
+      "bad"
+     ]
+    ],
+    "real": 5.699999999999999
+   },
+   "right": {
+    "dur": 4.6,
+    "say": [
+     [
+      0,
+      "Same pass into the striker."
+     ],
+     [
+      0.8,
+      "This time: pass and sprint."
+     ],
+     [
+      1.45,
+      "Their midfielder is watching the ball, not your run."
+     ],
+     [
+      2.15,
+      "First-time return into his run."
+     ],
+     [
+      3.4,
+      "Goal. Pass, then go."
+     ]
+    ],
+    "key": [
+     [
+      0.6,
+      [
+       "LB",
+       "+",
+       "A"
+      ],
+      "Pass and go",
+      "good"
+     ],
+     [
+      1.6,
+      [
+       "A"
+      ],
+      "Return first time",
+      "good"
+     ],
+     [
+      2.45,
+      [
+       "RB",
+       "+",
+       "B"
+      ],
+      "Finesse shot",
+      "good"
+     ]
+    ],
+    "real": 5.5
+   }
+  },
+  {
+   "id": "C4",
+   "g": "chance",
+   "name": "Through-ball timing",
+   "short": "Release when he is level",
+   "watch": "Where your runner is when the pass leaves, compared with the last defender.",
+   "cue": "Release when the runner is level with the last defender and that defender is facing the ball.",
+   "keys": [
+    [
+     [
+      "RB",
+      "+",
+      "Y"
+     ],
+     "Driven through ball, tight gaps"
+    ],
+    [
+     [
+      "LB",
+      "+",
+      "Y"
+     ],
+     "Lobbed through ball, high line"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Your CAM has it. Striker on the shoulder of the last defender."
+     ],
+     [
+      1,
+      "The striker runs too early."
+     ],
+     [
+      1.85,
+      "Released too late. He is already past the line."
+     ],
+     [
+      3.1,
+      "Flag up. Possession gone."
+     ]
+    ],
+    "key": [
+     [
+      1.55,
+      [
+       "Y"
+      ],
+      "Through ball, late",
+      "bad"
+     ]
+    ],
+    "real": 5.6000000000000005
+   },
+   "right": {
+    "dur": 4.8,
+    "say": [
+     [
+      0,
+      "Same moment. This time the striker holds his run."
+     ],
+     [
+      1.25,
+      "Runner level with the line. Defender facing the ball. Release now."
+     ],
+     [
+      2.2,
+      "Through on goal, and onside."
+     ],
+     [
+      3.8,
+      "Goal. Timing beats pace."
+     ]
+    ],
+    "key": [
+     [
+      1.3,
+      [
+       "RB",
+       "+",
+       "Y"
+      ],
+      "Driven through ball",
+      "good"
+     ],
+     [
+      3.05,
+      [
+       "RB",
+       "+",
+       "B"
+      ],
+      "Finesse, far corner",
+      "good"
+     ]
+    ],
+    "real": 6
+   }
+  },
+  {
+   "id": "C5",
+   "g": "chance",
+   "name": "First-time finish",
+   "short": "Shoot before it arrives",
+   "watch": "How fast the defender closes during that one extra touch.",
+   "cue": "In the box, press shoot before the ball arrives.",
+   "note": "In the box, if you pass, make the shot active so that it lands in the goal. You don’t need to wait.",
+   "keys": [
+    [
+     [
+      "B"
+     ],
+     "Shoot: press it early"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "B"
+     ],
+     "Finesse to the far post"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.2,
+    "say": [
+     [
+      0,
+      "Your winger slides it into the striker."
+     ],
+     [
+      1.6,
+      "He takes a touch to set himself."
+     ],
+     [
+      2.6,
+      "One touch too many. Blocked."
+     ],
+     [
+      3.3,
+      "Chance gone."
+     ]
+    ],
+    "key": [
+     [
+      2.15,
+      [
+       "B"
+      ],
+      "Shoot after a touch",
+      "bad"
+     ]
+    ],
+    "real": 5.2
+   },
+   "right": {
+    "dur": 3.6,
+    "say": [
+     [
+      0,
+      "Same ball into the striker."
+     ],
+     [
+      1.15,
+      "Press shoot while the ball is still coming."
+     ],
+     [
+      1.6,
+      "First time. No touch, no block."
+     ],
+     [
+      2.05,
+      "Goal."
+     ]
+    ],
+    "key": [
+     [
+      1,
+      [
+       "B"
+      ],
+      "Shoot before it arrives",
+      "good"
+     ]
+    ],
+    "real": 4.6
+   }
+  },
+  {
+   "id": "D1",
+   "g": "defend",
+   "name": "Read the through ball",
+   "short": "He turns, you drop",
+   "watch": "The moment their midfielder turns to face your goal.",
+   "cue": "Their midfielder turns: switch to the CB near the runner and drop before the pass.",
+   "keys": [
+    [
+     [
+      "RS"
+     ],
+     "Flick to switch"
+    ],
+    [
+     [
+      "LT"
+     ],
+     "Jockey while you drop"
+    ]
+   ],
+   "wrong": {
+    "dur": 5,
+    "say": [
+     [
+      0,
+      "Their midfielder has the ball. You control your pivot."
+     ],
+     [
+      1,
+      "He has turned to face your goal. You are chasing the ball."
+     ],
+     [
+      1.6,
+      "Through ball. Your CB reacts late."
+     ],
+     [
+      3.5,
+      "In behind. One-on-one with your keeper."
+     ],
+     [
+      4.3,
+      "Goal against."
+     ]
+    ],
+    "key": [
+     [
+      1.15,
+      [
+       "RT"
+      ],
+      "Sprint at the ball",
+      "bad"
+     ]
+    ],
+    "real": 6.1
+   },
+   "right": {
+    "dur": 4.8,
+    "say": [
+     [
+      0,
+      "Same moment. Their midfielder has the ball."
+     ],
+     [
+      1,
+      "He has turned to face your goal. Switch to the CB near the runner."
+     ],
+     [
+      1.3,
+      "Drop early, on the ball side of the runner."
+     ],
+     [
+      2.3,
+      "The through ball runs straight to your CB."
+     ],
+     [
+      3.5,
+      "Cut out. No chance."
+     ]
+    ],
+    "key": [
+     [
+      1.05,
+      [
+       "RS"
+      ],
+      "Flick to switch",
+      "good"
+     ],
+     [
+      1.7,
+      [
+       "LT"
+      ],
+      "Jockey while dropping",
+      "good"
+     ]
+    ],
+    "real": 6
+   }
+  },
+  {
+   "id": "D2",
+   "g": "defend",
+   "name": "Lock the lane",
+   "short": "Stand in the lane, don’t charge",
+   "watch": "The lane between the ball and their striker.",
+   "cue": "Stand in the passing lane, jockey and let him come. Don’t sprint at the ball.",
+   "note": "Ensure our player is blocking the opponent’s intended teammate. Avoid moving towards the opponent until they’re close.",
+   "keys": [
+    [
+     [
+      "LT"
+     ],
+     "Jockey"
+    ],
+    [
+     [
+      "A",
+      "hold"
+     ],
+     "Contain"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.2,
+    "say": [
+     [
+      0,
+      "Their midfielder has the ball. You control your pivot."
+     ],
+     [
+      0.3,
+      "You sprint straight at him."
+     ],
+     [
+      1,
+      "The lane behind you is wide open."
+     ],
+     [
+      2.1,
+      "Pass into their striker. He turns."
+     ],
+     [
+      3,
+      "Now he runs at your back line."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "RT"
+      ],
+      "Sprint at the ball",
+      "bad"
+     ]
+    ],
+    "real": 5.2
+   },
+   "right": {
+    "dur": 4.6,
+    "say": [
+     [
+      0,
+      "Same moment. Their midfielder has the ball."
+     ],
+     [
+      0.3,
+      "Step into the passing lane. Jockey, don’t dive in."
+     ],
+     [
+      1,
+      "You are standing in the lane to their striker."
+     ],
+     [
+      2.2,
+      "No forward pass. He has to go sideways."
+     ],
+     [
+      3.3,
+      "Their attack slows. Your shape holds."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "LT"
+      ],
+      "Jockey in the lane",
+      "good"
+     ]
+    ],
+    "real": 5.699999999999999
+   }
+  },
+  {
+   "id": "D3",
+   "g": "defend",
+   "name": "Hand it off",
+   "short": "Pass the dribbler to the next man",
+   "watch": "The hole your first defender leaves when he follows the dribbler.",
+   "cue": "When the dribbler enters the next defender’s zone, switch to that defender and send the first one home.",
+   "note": "If the opponent moves towards another defender, immediately give the position to the person who’s being targeted.",
+   "keys": [
+    [
+     [
+      "RS"
+     ],
+     "Switch to the next man"
+    ],
+    [
+     [
+      "LT"
+     ],
+     "Jockey"
+    ]
+   ],
+   "wrong": {
+    "dur": 5,
+    "say": [
+     [
+      0,
+      "Their CAM dribbles across. You control your CM."
+     ],
+     [
+      0.9,
+      "You follow him across the pitch."
+     ],
+     [
+      2.1,
+      "Two of yours on one of theirs. A hole where you started."
+     ],
+     [
+      3,
+      "Pass into the space you left."
+     ],
+     [
+      4.1,
+      "Their winger is free."
+     ]
+    ],
+    "key": [
+     [
+      0.4,
+      [
+       "RT"
+      ],
+      "Follow the dribbler",
+      "bad"
+     ]
+    ],
+    "real": 6.1
+   },
+   "right": {
+    "dur": 4.8,
+    "say": [
+     [
+      0,
+      "Same dribble across."
+     ],
+     [
+      1.25,
+      "He is entering your other player’s zone. Hand him over."
+     ],
+     [
+      1.45,
+      "Switch to the next man. Your first man goes back to his zone."
+     ],
+     [
+      2.6,
+      "Jockey. Don’t dive in."
+     ],
+     [
+      3.1,
+      "No gap anywhere. He has to recycle it."
+     ]
+    ],
+    "key": [
+     [
+      1.3,
+      [
+       "RS"
+      ],
+      "Switch to the next man",
+      "good"
+     ],
+     [
+      2.3,
+      [
+       "LT"
+      ],
+      "Jockey",
+      "good"
+     ]
+    ],
+    "real": 6
+   }
+  },
+  {
+   "id": "D4",
+   "g": "defend",
+   "name": "CBs hold the line",
+   "short": "Press with a midfielder, not a CB",
+   "watch": "The gap that opens behind a center-back who steps out.",
+   "cue": "Ball in midfield? Control a midfielder, never a CB. Let the back four hold itself.",
+   "note": "Ensure the last four defenders aren’t moving away. If you rush, they’ll trigger another defender, escape your player, and pass the ball to them.",
+   "keys": [
+    [
+     [
+      "A",
+      "hold"
+     ],
+     "Contain with your midfielder"
+    ],
+    [
+     [
+      "RS"
+     ],
+     "Switch off the CB"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Their CAM has the ball 20 yards out. You control a CB."
+     ],
+     [
+      0.3,
+      "You rush your CB out at him."
+     ],
+     [
+      1.05,
+      "There is a hole behind your CB now."
+     ],
+     [
+      1.5,
+      "Through ball into the hole."
+     ],
+     [
+      3,
+      "Striker clean through on your keeper."
+     ]
+    ],
+    "key": [
+     [
+      0.25,
+      [
+       "RT"
+      ],
+      "Rush out with your CB",
+      "bad"
+     ]
+    ],
+    "real": 5.5
+   },
+   "right": {
+    "dur": 4.4,
+    "say": [
+     [
+      0,
+      "Same moment. This time you control your pivot."
+     ],
+     [
+      0.3,
+      "Press with the midfielder. Leave the CBs alone."
+     ],
+     [
+      1.15,
+      "Your pivot presses. The back four stays together."
+     ],
+     [
+      2.4,
+      "No gap behind. He plays it backward."
+     ],
+     [
+      3.2,
+      "Shape held. The ball is still in front of you."
+     ]
+    ],
+    "key": [
+     [
+      0.25,
+      [
+       "A",
+       "hold"
+      ],
+      "Contain with your pivot",
+      "good"
+     ]
+    ],
+    "real": 5.5
+   }
+  },
+  {
+   "id": "N1",
+   "g": "notes",
+   "name": "Three plus a runner",
+   "short": "Triangle, diagonals, fourth man",
+   "watch": "Their midfielder turning his body after every diagonal pass.",
+   "cue": "Make a triangle, pass diagonally, then trigger the fourth man.",
+   "note": "Place / move 3 attackers when attacking. Give passes diagonally. Triggers that 4th player and manage to give ball to him safely.",
+   "keys": [
+    [
+     [
+      "LB"
+     ],
+     "Trigger the run"
+    ],
+    [
+     [
+      "Y"
+     ],
+     "Through ball"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.8,
+    "say": [
+     [
+      0,
+      "Three attackers in a flat line."
+     ],
+     [
+      0.6,
+      "Square pass."
+     ],
+     [
+      1.85,
+      "And back. Every pass is square."
+     ],
+     [
+      2.8,
+      "Flat line, square passes. Easy for them to read."
+     ],
+     [
+      3.65,
+      "Intercepted. They never had to turn."
+     ]
+    ],
+    "key": [
+     [
+      3,
+      [
+       "A"
+      ],
+      "Another square pass",
+      "bad"
+     ]
+    ],
+    "real": 5.8
+   },
+   "right": {
+    "dur": 7.2,
+    "say": [
+     [
+      0,
+      "Same three. This time in a triangle."
+     ],
+     [
+      0.6,
+      "Diagonal pass forward."
+     ],
+     [
+      1.7,
+      "Triangle shape. Every pass is diagonal, so they have to turn."
+     ],
+     [
+      1.9,
+      "Diagonal back."
+     ],
+     [
+      2.85,
+      "Diagonal forward, the other way."
+     ],
+     [
+      3.55,
+      "They have turned twice. Trigger the fourth man."
+     ],
+     [
+      5.35,
+      "Through. Three passes, one runner."
+     ],
+     [
+      6.55,
+      "Goal."
+     ]
+    ],
+    "key": [
+     [
+      3.35,
+      [
+       "LB"
+      ],
+      "Trigger the run",
+      "good"
+     ],
+     [
+      4.05,
+      [
+       "Y"
+      ],
+      "Through ball",
+      "good"
+     ]
+    ],
+    "real": 9.1
+   }
+  },
+  {
+   "id": "N2",
+   "g": "notes",
+   "name": "Drag one way, pass the other",
+   "short": "Carry one way, pass the other",
+   "watch": "Their midfield sliding across with your dribble.",
+   "cue": "Carry the ball one way to drag them, then pass the other way.",
+   "note": "Cross pass, opposite to the heading direction. When moving to that side the opponent will be ready.",
+   "keys": [
+    [
+     [
+      "RB",
+      "+",
+      "A"
+     ],
+     "Driven pass against your run"
+    ]
+   ],
+   "wrong": {
+    "dur": 4,
+    "say": [
+     [
+      0,
+      "Your CAM carries it."
+     ],
+     [
+      0.4,
+      "He drives right."
+     ],
+     [
+      1.7,
+      "And passes right, where he is running."
+     ],
+     [
+      2.2,
+      "They were already there. Intercepted."
+     ]
+    ],
+    "key": [
+     [
+      1.45,
+      [
+       "A"
+      ],
+      "Pass where you run",
+      "bad"
+     ]
+    ],
+    "real": 5
+   },
+   "right": {
+    "dur": 5.2,
+    "say": [
+     [
+      0,
+      "Same carry. This time he drives left."
+     ],
+     [
+      0.4,
+      "Their midfield slides with him."
+     ],
+     [
+      1.8,
+      "Drag them left. Look right."
+     ],
+     [
+      2.05,
+      "Pass against the direction of your run."
+     ],
+     [
+      3.4,
+      "Free man. Space and time."
+     ]
+    ],
+    "key": [
+     [
+      1.9,
+      [
+       "RB",
+       "+",
+       "A"
+      ],
+      "Pass against your run",
+      "good"
+     ]
+    ],
+    "real": 6.300000000000001
+   }
+  },
+  {
+   "id": "N3",
+   "g": "notes",
+   "name": "Diagonal runs",
+   "short": "Run across them, not past them",
+   "watch": "Whether the defender can keep facing the ball.",
+   "cue": "Make runs diagonal, not straight. Trigger with LB, then aim it with RS.",
+   "note": "Running straight up and down: wrong. Running diagonally: correct.",
+   "keys": [
+    [
+     [
+      "LB"
+     ],
+     "Trigger a run"
+    ],
+    [
+     [
+      "LB",
+      "then",
+      "RS"
+     ],
+     "Directed run: tap LB, flick RS"
+    ],
+    [
+     [
+      "Y"
+     ],
+     "Through ball"
+    ]
+   ],
+   "wrong": {
+    "dur": 4.2,
+    "say": [
+     [
+      0,
+      "Your CAM looks for the striker."
+     ],
+     [
+      0.6,
+      "The striker runs in a straight line."
+     ],
+     [
+      1,
+      "Straight run. The defender just runs with him."
+     ],
+     [
+      2.95,
+      "Cut out. Straight runs are easy to track."
+     ]
+    ],
+    "key": [
+     [
+      1,
+      [
+       "Y"
+      ],
+      "Through ball",
+      "bad"
+     ]
+    ],
+    "real": 5.2
+   },
+   "right": {
+    "dur": 5,
+    "say": [
+     [
+      0,
+      "Same pass, same defender."
+     ],
+     [
+      0.6,
+      "The striker runs diagonally across his back."
+     ],
+     [
+      1.05,
+      "Diagonal run. The defender has to turn to follow."
+     ],
+     [
+      3.15,
+      "Through, and onside. Diagonal runs beat the line."
+     ],
+     [
+      4.3,
+      "Goal."
+     ]
+    ],
+    "key": [
+     [
+      0.3,
+      [
+       "LB",
+       "then",
+       "RS"
+      ],
+      "Directed run",
+      "good"
+     ],
+     [
+      1.15,
+      [
+       "Y"
+      ],
+      "Through ball",
+      "good"
+     ]
+    ],
+    "real": 6
+   }
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s1",
+   "clip": "B4",
+   "side": "att",
+   "type": "mate",
+   "fb": "Two of theirs went to your CM, so your AM is free. Play him in.",
+   "tell": "Two of them go to the ball",
+   "act": "Pass to the man they left",
+   "ans": "am",
+   "decoy": {
+    "lcb": "Safe, but backwards. ",
+    "rcb": "Safe, but backwards. ",
+    "pv": "Their striker is on him. ",
+    "st": "Two CBs on him. ",
+    "lw": "Their full-back is on him. ",
+    "rw": "Their full-back is on him. "
+   }
+  },
+  {
+   "id": "s2",
+   "side": "att",
+   "type": "spot",
+   "fb": "Their CB followed your striker out. The space is behind him: through ball into the run.",
+   "tell": "Their CB follows your striker out",
+   "act": "Play it into the space behind him",
+   "ans": {
+    "at": [
+     88,
+     45
+    ],
+    "r": 7
+   },
+   "decoy": {
+    "st": "He is marked now. ",
+    "lw": "Marked. ",
+    "cm": "Backwards. "
+   },
+   "okIds": [
+    "rw"
+   ]
+  },
+  {
+   "id": "s3",
+   "clip": "U4",
+   "side": "att",
+   "type": "mate",
+   "fb": "Their line is high and your striker is level with it. Lob it over the top: LB + Y.",
+   "tell": "High line, runner level with it",
+   "act": "Lob it over the top (LB + Y)",
+   "ans": "st",
+   "decoy": {
+    "rw": "Offside. He is already past their line. ",
+    "pv": "Safe, but you can hurt them here. ",
+    "am": "Marked. ",
+    "lw": "Marked. "
+   }
+  },
+  {
+   "id": "s4",
+   "clip": "C1",
+   "side": "att",
+   "type": "mate",
+   "fb": "Their defenders are all in the six-yard box. Cut it back low to your CM arriving late.",
+   "tell": "Their box is full",
+   "act": "Cut it back low",
+   "ans": "cm",
+   "decoy": {
+    "st": "Two CBs on him. ",
+    "am": "Marked at the far post. ",
+    "rw": "Too far, and marked. "
+   }
+  },
+  {
+   "id": "s5",
+   "clip": "C2",
+   "side": "att",
+   "type": "mate",
+   "fb": "Everyone shifted to the ball, so the far side is empty. Switch it: X, or RB + X for a driven one.",
+   "tell": "They all shift to one side",
+   "act": "Switch it to the far side",
+   "ans": "rw",
+   "decoy": {
+    "rcb": "Safe, but slow. ",
+    "cm": "Marked. ",
+    "lw": "Marked. ",
+    "am": "Marked. ",
+    "st": "Marked. ",
+    "pv": "Marked. "
+   }
+  },
+  {
+   "id": "s6",
+   "clip": "B2",
+   "side": "att",
+   "type": "mate",
+   "fb": "Their 10 is standing in the lane to your CM. Go wide to the full-back, then play it inside.",
+   "tell": "The lane to your CM is blocked",
+   "act": "Go wide first, then inside",
+   "ans": "lb",
+   "decoy": {
+    "cm": "Blocked. Their 10 is in the lane. ",
+    "rcb": "Safe, but sideways. ",
+    "pv": "Their striker is on him. ",
+    "am": "Marked. ",
+    "lw": "Marked. "
+   }
+  },
+  {
+   "id": "s7",
+   "clip": "D1",
+   "side": "def",
+   "type": "switch",
+   "fb": "He turned to face your goal and a runner is going. Switch to the CB nearest the runner and drop.",
+   "tell": "Their midfielder turns to face your goal",
+   "act": "Switch to the CB by the runner and drop",
+   "ans": "lcb",
+   "decoy": {
+    "pv": "He is already beaten. ",
+    "rcb": "The runner is on the other side. ",
+    "cm": "Too far from the danger. ",
+    "lb": "Too wide. ",
+    "rb": "Too wide. "
+   }
+  },
+  {
+   "id": "s8",
+   "clip": "D3",
+   "side": "def",
+   "type": "switch",
+   "fb": "He dribbled out of your CM’s zone into your pivot’s. Switch to the pivot (LB) and stand him up.",
+   "tell": "The dribbler moves into a new zone",
+   "act": "Switch to the player in that zone",
+   "ans": "pv",
+   "decoy": {
+    "cm": "He is past your CM. ",
+    "lcb": "Don’t pull a CB out. ",
+    "rcb": "Don’t pull a CB out. ",
+    "lb": "Too wide. ",
+    "rb": "Too wide. "
+   }
+  },
+  {
+   "id": "s9",
+   "clip": "A3",
+   "side": "def",
+   "type": "switch",
+   "fb": "A cross is coming and your full-back has the winger. Switch to the CB at the near post.",
+   "tell": "Their winger reaches your byline",
+   "act": "Switch to the near-post CB",
+   "ans": "rcb",
+   "decoy": {
+    "rb": "He is already on the winger. ",
+    "lcb": "Far post. The danger is at the near post. ",
+    "pv": "Too far from goal. ",
+    "cm": "Too far from goal. ",
+    "lb": "Wrong side. "
+   }
+  },
+  {
+   "id": "s10",
+   "clip": "U5",
+   "side": "att",
+   "type": "choice",
+   "fb": "The keeper is off his line. Chip it over him: LB + B. If he stays home, shoot low.",
+   "tell": "Their keeper rushes out",
+   "act": "Chip it (LB + B)",
+   "opts": [
+    "Shoot low",
+    "Chip it",
+    "Pass across"
+   ],
+   "ans": 1
+  },
+  {
+   "id": "s11",
+   "clip": "U2",
+   "side": "att",
+   "type": "choice",
+   "fb": "Their pressers are behind you and slow to get back. Drive forward with RT and attack the space.",
+   "tell": "You just beat their press",
+   "act": "Drive forward (RT)",
+   "opts": [
+    "Pass back",
+    "Drive forward",
+    "Long ball"
+   ],
+   "ans": 1
+  },
+  {
+   "id": "s12",
+   "clip": "B6",
+   "side": "att",
+   "type": "mate",
+   "fb": "Every pass forward is marked. Go back to your free CB, then switch the play. Don’t force it.",
+   "tell": "Nothing on in front of you",
+   "act": "Back to the free CB, then switch",
+   "ans": "lcb",
+   "decoy": {
+    "rcb": "Their striker is in that lane. ",
+    "cm": "Marked. ",
+    "am": "Marked. ",
+    "lb": "Marked. ",
+    "rb": "Marked. "
+   }
+  },
+  {
+   "id": "s13",
+   "clip": "U3",
+   "side": "att",
+   "type": "choice",
+   "fb": "The CPU blocks almost anything within a yard. Fake shot first (B then A), then shoot with space.",
+   "tell": "A defender within a yard of your shot",
+   "act": "Fake shot first (B then A)",
+   "opts": [
+    "Shoot",
+    "Fake shot",
+    "Pass back"
+   ],
+   "ans": 1
+  },
+  {
+   "id": "s14",
+   "clip": "D2",
+   "side": "def",
+   "type": "lane",
+   "fb": "Their striker dropped short to get the ball. Put your pivot in the lane between the ball and him.",
+   "tell": "Their striker drops short for the ball",
+   "act": "Stand in the lane between them",
+   "ans": {
+    "a": "xcm",
+    "b": "xst",
+    "w": 2.6
+   },
+   "q": "Where does your pivot stand?",
+   "qs": "Tap the spot"
+  },
+  {
+   "id": "s15",
+   "clip": "D4",
+   "side": "def",
+   "type": "switch",
+   "fb": "Press with your nearest midfielder. Keep your CBs home: their striker is waiting for the gap.",
+   "tell": "Their midfielder carries it at you",
+   "act": "Press with a midfielder, not a CB",
+   "ans": "pv",
+   "q": "Who presses the ball?",
+   "qs": "Tap the player",
+   "decoy": {
+    "rcb": "Don’t pull your CB out. Their striker runs into the gap. ",
+    "lcb": "Don’t pull your CB out. ",
+    "cm": "Further away. ",
+    "am": "Behind the ball. ",
+    "lb": "Too wide. ",
+    "rb": "Too wide. "
+   }
+  },
+  {
+   "id": "s16",
+   "clip": "A1",
+   "side": "def",
+   "type": "spot",
+   "fb": "Your CB stepped out and left a gap. The CPU plays direct and its through balls got stronger. Hold your line and switch (LB) to the CB nearest the runner.",
+   "tell": "Your CB steps out and their striker is level",
+   "act": "Hold the line, cover the runner",
+   "ans": {
+    "at": [
+     13.5,
+     38
+    ],
+    "r": 6
+   },
+   "q": "Where does the AI play it?",
+   "qs": "Tap the spot",
+   "decoy": {
+    "x10": "He dropped short to pull your CB out. ",
+    "xwT": "Too wide. ",
+    "xwB": "Too wide. ",
+    "xcm2": "Too far from goal. "
+   },
+   "okIds": [
+    "xst"
+   ]
+  },
+  {
+   "id": "s17",
+   "clip": "A4",
+   "side": "def",
+   "type": "predict",
+   "fb": "Their midfielder arrives late at the edge of your box. CPU players with First Time Shots hit it the moment it arrives. Close him while the pass travels.",
+   "tell": "A runner arrives late at the edge of your box",
+   "act": "Close him while the pass travels",
+   "ans": "xam",
+   "q": "Who shoots?",
+   "qs": "Tap their player",
+   "decoy": {
+    "xst": "Two CBs are on him. ",
+    "x9": "Your full-back has him. ",
+    "xcm": "Too deep to hurt you. ",
+    "xwT": "Far side. "
+   }
+  },
+  {
+   "id": "s18",
+   "side": "def",
+   "type": "predict",
+   "fb": "Everyone shifted to the ball. CPU long passers switch it to the free winger. Keep your far full-back close enough to step out.",
+   "tell": "Your whole team shifts to one side",
+   "act": "Far full-back stays ready to step out",
+   "ans": "xwB",
+   "q": "Where does the AI play it?",
+   "qs": "Tap their player",
+   "decoy": {
+    "xw": "Your full-back is on him. ",
+    "xst": "Your CBs have him. ",
+    "x10": "Your pivot is on him. ",
+    "xcm": "Your AM is on him. ",
+    "xcm2": "Backwards. Not the danger. "
+   }
+  },
+  {
+   "id": "s19",
+   "clip": "A3",
+   "side": "def",
+   "type": "spot",
+   "fb": "The CPU uses the touchlines more and likes to cross. Get your full-back goal-side, jockey him outside, and keep your CBs in the box.",
+   "tell": "Their winger has the touchline ahead of him",
+   "act": "Full-back goal-side, CBs stay home",
+   "ans": {
+    "at": [
+     17,
+     62.5
+    ],
+    "r": 6
+   },
+   "q": "Where is he going?",
+   "qs": "Tap the spot",
+   "decoy": {
+    "xw": "That’s him. Where is he going? ",
+    "xst": "Your CBs have him. ",
+    "x10": "Not where the danger is. ",
+    "xcm": "Too deep. "
+   }
+  },
+  {
+   "id": "s20",
+   "clip": "A6",
+   "side": "att",
+   "type": "mate",
+   "fb": "They threw players forward to chase the game. You just won it: go now, into the space behind their last two.",
+   "tell": "They push everyone up late",
+   "act": "Win it, then counter at once",
+   "ans": "st",
+   "decoy": {
+    "cm": "Safe, but slow. They get back. ",
+    "lcb": "Backwards. They get back. ",
+    "rcb": "Backwards. They get back. ",
+    "am": "Marked. ",
+    "lw": "Their full-back is with him. ",
+    "rw": "Their full-back is with him. "
+   }
+  },
+  {
+   "id": "s21",
+   "clip": "A5",
+   "side": "def",
+   "type": "choice",
+   "fb": "CPU strikers with Chip Shot or Round the Keeper punish a keeper who charges all the way. Bring him halfway and make the striker decide.",
+   "tell": "Their striker is through on your keeper",
+   "act": "Bring the keeper halfway",
+   "opts": [
+    "Rush all the way",
+    "Come halfway",
+    "Stay on the line"
+   ],
+   "ans": 1
+  },
+  {
+   "id": "s22",
+   "clip": "U7",
+   "side": "att",
+   "type": "choice",
+   "fb": "No space ahead and two of them closing. The AI shuts down a sprinting ball carrier fast. Pass, then move into space.",
+   "tell": "Two of them close in, no space ahead",
+   "act": "Pass, then move",
+   "opts": [
+    "Sprint at them",
+    "Pass, then move",
+    "Stop and shield"
+   ],
+   "ans": 1
+  },
+  {
+   "id": "s23",
+   "clip": "U6",
+   "side": "att",
+   "type": "choice",
+   "fb": "He’s too far off to block it, and he’s in the keeper’s way, so the keeper sees it late. Shoot now, low to the far post.",
+   "tell": "A defender a few yards off, between you and the keeper",
+   "act": "Shoot now, past him",
+   "opts": [
+    "Shoot now",
+    "Dribble closer",
+    "Pass back"
+   ],
+   "ans": 0
+  }
+ ],
+ "F26": {
+  "U1": {
+   "cue": "At kick-off, pass back to the edge of the circle. If their back line is still high, play a lobbed through ball over it.",
+   "setting": "Striker on Advanced Forward (Attack), so he makes the run in behind.",
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "Y"
+     ],
+     "Lobbed through ball"
+    ],
+    [
+     [
+      "RB",
+      "+",
+      "B"
+     ],
+     "Finesse, far post"
+    ]
+   ],
+   "n": "FC 26 made this harder. Since update 1.0.3 the defending team sits more compact for a short time after kick-off, and update 1.1.0 made its markers tighter at kick-off. Only go over the top if their line is still high.",
+   "src": [
+    {
+     "t": "EA 1.0.3 notes: more compact after kick-off",
+     "u": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-version-1-0-3-update-notes/12696716"
+    },
+    {
+     "t": "EA 1.1.0 notes: tighter marking at kick-off",
+     "u": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780"
+    }
+   ]
+  },
+  "U2": {
+   "n": "Since update 1.4.0 (January 2026) AI defenders react slower when marking the ball carrier, so space opens while they turn.",
+   "src": {
+    "t": "EA Title Update 1.4.0: AI defenders react slower",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0"
+   }
+  },
+  "U3": {
+   "n": "EA gives no block-reach number for FC 26. It did make the Fake Shot 5% faster in update 1.5.0.",
+   "src": {
+    "t": "EA Title Update 1.5.0: Fake Shot made faster",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0"
+   }
+  },
+  "U4": {
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "Y"
+     ],
+     "Lobbed through ball"
+    ]
+   ],
+   "n": "FIFA 23’s driven lobbed through (LB + RB + Y) is gone. In FC 26 that combo plays a driven ground through ball. Use LB + Y to go over the top.",
+   "src": {
+    "t": "FIFPlay: FC 26 controls",
+    "u": "https://www.fifplay.com/fc-26-controls/"
+   }
+  },
+  "U5": {
+   "n": "EA made chip shots more accurate and less likely to go wide in update 1.5.0. FC 26 keepers also make smarter one-on-one choices, so chip only once he commits.",
+   "src": [
+    {
+     "t": "EA Title Update 1.5.0: chip shots more accurate",
+     "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0"
+    },
+    {
+     "t": "EA Gameplay Deep Dive: keepers in one-on-ones",
+     "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive"
+    }
+   ]
+  },
+  "U6": {
+   "cue": "A defender a few yards off, standing between you and the keeper? Shoot now, low. He is too far off to block it.",
+   "keys": [
+    [
+     [
+      "B",
+      "B"
+     ],
+     "Low driven: double-tap B"
+    ]
+   ],
+   "n": "Squad Battles uses Competitive gameplay, and EA lists “fewer auto tackles and auto blocks” there. In FC 26 a low driven shot is a double-tap of B. EA made them less accurate at extreme power, so don’t max it.",
+   "src": {
+    "t": "EA Gameplay Deep Dive: fewer auto blocks; double-tap for low driven",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive"
+   }
+  },
+  "U7": {
+   "n": "FC 26 adds Controlled Sprint (hold RB) to keep the ball close. Against two men closing in, still pass first.",
+   "src": {
+    "t": "Red Bull: quick, first-time passing is one of FC 26’s strongest attacks",
+    "u": "https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking"
+   }
+  },
+  "A1": {
+   "n": "Since update 1.4.0 the Squad Battles CPU moves the ball forward quicker instead of keeping it.",
+   "src": {
+    "t": "EA Title Update 1.4.0: the Squad Battles CPU attacks quicker",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0"
+   }
+  },
+  "A2": {
+   "n": "Update 1.1.3 made the CPU dribble with sharper turns. EA also made jockey more responsive (1.1.0) and tackles from behind less effective, so stay in front of him.",
+   "src": [
+    {
+     "t": "EA 1.1.3 notes: the CPU dribbles with sharper turns",
+     "u": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-1-3-update-notes/12876617"
+    },
+    {
+     "t": "EA 1.1.0: jockey more responsive",
+     "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update"
+    }
+   ]
+  },
+  "A3": {
+   "n": "EA lowered cross height in update 1.3.0, so crosses arrive flatter. Get the near post covered early.",
+   "src": {
+    "t": "EA 1.3.0 notes: lower crosses",
+    "u": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-3-0-update-notes/12977359"
+   }
+  },
+  "A4": {
+   "n": "Since update 1.2.0 AI defenders, your teammates included, mark the edge of the box less tightly. Nobody closes that runner unless you do.",
+   "src": {
+    "t": "EA 1.2.0 notes: looser marking at the edge of the box",
+    "u": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902"
+   }
+  },
+  "A5": {
+   "n": "Chip shots got more accurate in update 1.5.0, so a keeper who charges all the way gets punished. The halfway tip itself comes from FIFA 23 guides.",
+   "src": [
+    {
+     "t": "EA Title Update 1.5.0: chip shots more accurate",
+     "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0"
+    },
+    {
+     "t": "Sportskeeda (FIFA 23): bring the keeper halfway",
+     "u": "https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023"
+    }
+   ]
+  },
+  "A6": {
+   "keys": [
+    [
+     [
+      "LB",
+      "+",
+      "Y"
+     ],
+     "Lobbed through over the top"
+    ]
+   ],
+   "n": "A player tip on EA’s forums: the FC 26 Squad Battles AI “seems to really struggle with counter attacks”. It was written before update 1.4.0 made the CPU attack more, which leaves even more space behind.",
+   "src": [
+    {
+     "t": "EA forums, player tip: the AI struggles with counter attacks",
+     "u": "https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774"
+    },
+    {
+     "t": "EA Title Update 1.4.0: the CPU attacks more",
+     "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0"
+    }
+   ]
+  },
+  "B1": {
+   "setting": "One central midfielder as Deep-Lying Playmaker (Build-Up), so there is always a pass in front of your CBs.",
+   "n": "FC 26 has no Player Instructions. Each player’s Role and Focus decide where he goes.",
+   "src": {
+    "t": "EA (FC 25 FC IQ, still used in FC 26): instructions replaced by Roles",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive"
+   }
+  },
+  "C1": {
+   "setting": "FC 26 has no edge-of-box instruction. Roles decide who arrives, so look back for the late man.",
+   "n": "Since update 1.2.0 AI defenders mark the edge of their box less tightly, so the cutback man has more room. For a faster ball: LB + RB + X, X (driven ground cross).",
+   "src": [
+    {
+     "t": "EA 1.2.0 notes: looser marking at the edge of the box",
+     "u": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902"
+    },
+    {
+     "t": "EarlyGame (German): driven ground cross for cutbacks",
+     "u": "https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel"
+    }
+   ]
+  },
+  "C4": {
+   "n": "Aim the through ball at the gap between two defenders. In FC 26, semi-assisted through balls pick the runner in that lane.",
+   "src": {
+    "t": "EA Gameplay Deep Dive: passing lanes for through balls",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive"
+   }
+  },
+  "C5": {
+   "n": "EA made one-touch shots more responsive in FC 26’s Competitive gameplay, which Squad Battles uses.",
+   "src": {
+    "t": "EA FUT Deep Dive: more responsive one-touch shooting",
+    "u": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive"
+   }
+  },
+  "D2": {
+   "n": "In FC 26, hold A only contains if Defending is set to Tactical in your controller settings. On the default, Advanced, hold A is a physical tackle.",
+   "src": {
+    "t": "EA: FC 26 settings guide (Defending: Advanced, Tactical, Legacy)",
+    "u": "https://www.ea.com/able/resources/ea-sports-fc/fc-26"
+   }
+  },
+  "D4": {
+   "n": "In FC 26, hold A only contains if Defending is set to Tactical in your controller settings. On the default, Advanced, hold A is a physical tackle.",
+   "src": {
+    "t": "EA: FC 26 settings guide (Defending: Advanced, Tactical, Legacy)",
+    "u": "https://www.ea.com/able/resources/ea-sports-fc/fc-26"
+   }
+  }
+ },
+ "L26": {
+  "Driven lobbed through ball": [
+   [
+    "LB",
+    "+",
+    "Y"
+   ],
+   "Lobbed through ball"
+  ],
+  "Driven lob through": [
+   [
+    "LB",
+    "+",
+    "Y"
+   ],
+   "Lobbed through ball"
+  ],
+  "Driven lob over the top": [
+   [
+    "LB",
+    "+",
+    "Y"
+   ],
+   "Lobbed through over the top"
+  ],
+  "Driven lob: flatter and faster": [
+   [
+    "LB",
+    "+",
+    "Y"
+   ],
+   "Lobbed through ball"
+  ],
+  "Driven lob": [
+   [
+    "LB",
+    "+",
+    "RB",
+    "+",
+    "X"
+   ],
+   "Driven lob"
+  ],
+  "Driven lob for a longer switch": [
+   [
+    "LB",
+    "+",
+    "RB",
+    "+",
+    "X"
+   ],
+   "Driven lob for a longer switch"
+  ],
+  "Driven lob switch": [
+   [
+    "LB",
+    "+",
+    "RB",
+    "+",
+    "X"
+   ],
+   "Driven lob switch"
+  ],
+  "Driven through ball": [
+   [
+    "LB",
+    "+",
+    "RB",
+    "+",
+    "Y"
+   ],
+   "Driven through ball"
+  ],
+  "Driven through ball, tight gaps": [
+   [
+    "LB",
+    "+",
+    "RB",
+    "+",
+    "Y"
+   ],
+   "Driven through ball, tight gaps"
+  ],
+  "Shoot low, far post": [
+   [
+    "B",
+    "B"
+   ],
+   "Low driven, far post"
+  ],
+  "Shoot now": [
+   [
+    "B",
+    "B"
+   ],
+   "Low driven: double-tap B"
+  ],
+  "Low shot": [
+   [
+    "B",
+    "B"
+   ],
+   "Low driven shot"
+  ],
+  "Lofted pass": [
+   [
+    "A",
+    "A"
+   ],
+   "Lofted ground pass"
+  ]
+ },
+ "SAY26": {
+  "Driven lob over their back line.": "Lobbed through ball over their back line.",
+  "Blocked. CPU defenders block anything within about a yard.": "Blocked. He was close enough to get a foot to it.",
+  "He is within a yard, so he would block it. Fake it first.": "He is right on you, so he would block it. Fake it first.",
+  "He’s too far off to block it, and he’s in the keeper’s way.": "He’s too far off to block it.",
+  "Shoot now. Low, far post.": "Shoot now. Low driven, far post.",
+  "The keeper sees it late. Goal.": "Goal.",
+  "Go now. They are slow to get back.": "Go now, while their defenders are still turning.",
+  "Gap behind you. The CPU loves this pass.": "Gap behind you. That’s the pass it looks for.",
+  "On Ultimate, some CPU players get +10 to every stat on the ball.": "Since update 1.1.3 the CPU dribbles with sharper turns.",
+  "The CPU loves to cross. Now your box is short a defender.": "The cross is coming. Now your box is short a defender.",
+  "CPU strikers with Chip Shot punish this.": "A chip punishes this. Chips got more accurate in update 1.5.0.",
+  "Go now. Driven lob over their last two.": "Go now. Lobbed through over their last two.",
+  "Pivot on Stay Back While Attacking. Always a pass in front of the CBs.": "Pivot as a Deep-Lying Playmaker. Always a pass in front of the CBs."
+ },
+ "FB26": {
+  "s5": "Everyone shifted to the ball, so the far side is empty. Switch it: X, or LB + RB + X for a driven one.",
+  "s11": "Their pressers are behind you and still turning. Drive forward with RT and attack the space.",
+  "s13": "He is close enough to block it. Fake shot first (B then A), then shoot with space.",
+  "s16": "Your CB stepped out and left a gap. Since update 1.4.0 the Squad Battles CPU goes forward quicker. Hold your line and switch (LB) to the CB nearest the runner.",
+  "s17": "Their midfielder arrives late at the edge of your box. In FC 26 your AI teammates mark the edge loosely, so close him yourself while the pass travels.",
+  "s18": "Everyone shifted to the ball, so their far winger is free. A long switch is on. Keep your far full-back close enough to step out.",
+  "s19": "Their winger has the touchline. Get your full-back goal-side, jockey him outside, and keep your CBs in the box.",
+  "s21": "Chip shots got more accurate in FC 26 update 1.5.0, so a keeper who charges all the way gets chipped. Bring him halfway and make the striker decide.",
+  "s22": "No space ahead and two of them closing. Sprinting into them loses it. Pass, then move into space.",
+  "s23": "He’s too far off to block it. Shoot now: low driven (double-tap B) to the far post."
+ },
+ "REEL23": [
+  "U1",
+  "A1",
+  "U2",
+  "U3",
+  "A2",
+  "A3",
+  "U6"
+ ],
+ "REEL26": [
+  "U2",
+  "A1",
+  "U3",
+  "A2",
+  "A4",
+  "C1",
+  "U6"
+ ],
+ "GROUPS": [
+  {
+   "id": "ultimate",
+   "name": "Break the AI",
+   "tab": "Break it",
+   "gap": "When it defends"
+  },
+  {
+   "id": "stop",
+   "name": "Stop the AI",
+   "tab": "Stop it",
+   "gap": "When it attacks"
+  },
+  {
+   "id": "build",
+   "name": "Build-up",
+   "gap": "Gap 1"
+  },
+  {
+   "id": "chance",
+   "name": "Chances",
+   "gap": "Gap 2"
+  },
+  {
+   "id": "defend",
+   "name": "Defending",
+   "gap": "Gap 3"
+  },
+  {
+   "id": "notes",
+   "name": "Your notes",
+   "tab": "Notes",
+   "gap": "Your sketches"
+  }
+ ]
+}

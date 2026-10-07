@@ -1,0 +1,11 @@
+{
+ "name": "endcard",
+ "fails": [],
+ "oks": 12,
+ "notes": [
+  "320: sample end card {'vis': True, 'top': 33, 'bot': 183, 'h': 216, 'btns': [['Replay', 78, 40, False], ['Right way again', 139, 40, False], ['Next: Kick-off over the top →', 228, 40, False]]}",
+  "390: sample end card {'vis': True, 'top': 72, 'bot': 197, 'h': 269, 'btns': [['Replay', 78, 40, False], ['Right way again', 139, 40, False], ['Next: Kick-off over the top →', 228, 40, False]]}",
+  "820: sample end card {'vis': True, 'top': 207, 'bot': 285, 'h': 493, 'btns': [['Replay', 78, 40, False], ['Right way again', 139, 40, False], ['Next: Kick-off over the top →', 228, 40, False]]}",
+  "1280: sample end card {'vis': True, 'top': 219, 'bot': 296, 'h': 515, 'btns': [['Replay', 78, 40, False], ['Right way again', 139, 40, False], ['Next: Kick-off over the top →', 228, 40, False]]}"
+ ]
+}

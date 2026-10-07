@@ -1,0 +1,66 @@
+{
+ "overflow": [],
+ "storage": {
+  "fc26": {
+   "threw": true,
+   "game": "fc26",
+   "modeSelected": [
+    "mt-trainer"
+   ],
+   "trainerVisible": true,
+   "tcvPainted": [
+    43,
+    113,
+    61,
+    255
+   ],
+   "afterClicks": "fc26",
+   "chkCount": "0 of 12 done",
+   "cvPainted": [
+    23,
+    25,
+    30,
+    255
+   ],
+   "say": "Kick-off. You play it forward on the ground.",
+   "chkAfterTick": "1 of 12 done",
+   "errors": []
+  },
+  "fc23": {
+   "threw": true,
+   "game": "fc26",
+   "modeSelected": [
+    "mt-trainer"
+   ],
+   "trainerVisible": true,
+   "tcvPainted": [
+    43,
+    113,
+    61,
+    255
+   ],
+   "afterClicks": "fc23",
+   "chkCount": "0 of 11 done",
+   "cvPainted": [
+    23,
+    25,
+    30,
+    255
+   ],
+   "say": "Kick-off. You play it forward on the ground.",
+   "chkAfterTick": "1 of 11 done",
+   "errors": []
+  }
+ },
+ "dupids": {
+  "fc26": [],
+  "fc26_aria_refs": [],
+  "fc23": [],
+  "fc23_aria_refs": []
+ },
+ "errors": [],
+ "gutter": [
+  "16px",
+  "16px"
+ ]
+}

@@ -1,0 +1,731 @@
+[
+ {
+  "where": "Replays coach card U1 (cue)",
+  "text": "At kick-off, pass back to the edge of the circle. If their back line is still high, play a lobbed through ball over it.",
+  "sources": [
+   "EA 1.0.3 notes: more compact after kick-off <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-version-1-0-3-update-notes/12696716>",
+   "EA 1.1.0 notes: tighter marking at kick-off <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780>"
+  ]
+ },
+ {
+  "where": "Replays coach card U1 (setting)",
+  "text": "Striker on Advanced Forward (Attack), so he makes the run in behind.",
+  "sources": [
+   "EA 1.0.3 notes: more compact after kick-off <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-version-1-0-3-update-notes/12696716>",
+   "EA 1.1.0 notes: tighter marking at kick-off <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780>"
+  ]
+ },
+ {
+  "where": "Replays coach card U1 (In FC 26 note)",
+  "text": "FC 26 made this harder. Since update 1.0.3 the defending team sits more compact for a short time after kick-off, and update 1.1.0 made its markers tighter at kick-off. Only go over the top if their line is still high.",
+  "sources": [
+   "EA 1.0.3 notes: more compact after kick-off <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-version-1-0-3-update-notes/12696716>",
+   "EA 1.1.0 notes: tighter marking at kick-off <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780>"
+  ]
+ },
+ {
+  "where": "Replays coach card U2 (In FC 26 note)",
+  "text": "Since update 1.4.0 (January 2026) AI defenders react slower when marking the ball carrier, so space opens while they turn.",
+  "sources": [
+   "EA Title Update 1.4.0: AI defenders react slower <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>"
+  ]
+ },
+ {
+  "where": "Replays coach card U3 (In FC 26 note)",
+  "text": "EA gives no block-reach number for FC 26. It did make the Fake Shot 5% faster in update 1.5.0.",
+  "sources": [
+   "EA Title Update 1.5.0: Fake Shot made faster <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>"
+  ]
+ },
+ {
+  "where": "Replays coach card U4 (In FC 26 note)",
+  "text": "FIFA 23’s driven lobbed through (LB + RB + Y) is gone. In FC 26 that combo plays a driven ground through ball. Use LB + Y to go over the top.",
+  "sources": [
+   "FIFPlay: FC 26 controls <https://www.fifplay.com/fc-26-controls/>"
+  ]
+ },
+ {
+  "where": "Replays coach card U5 (In FC 26 note)",
+  "text": "EA made chip shots more accurate and less likely to go wide in update 1.5.0. FC 26 keepers also make smarter one-on-one choices, so chip only once he commits.",
+  "sources": [
+   "EA Title Update 1.5.0: chip shots more accurate <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>",
+   "EA Gameplay Deep Dive: keepers in one-on-ones <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card U6 (cue)",
+  "text": "A defender a few yards off, standing between you and the keeper? Shoot now, low. He is too far off to block it.",
+  "sources": [
+   "EA Gameplay Deep Dive: fewer auto blocks; double-tap for low driven <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card U6 (In FC 26 note)",
+  "text": "Squad Battles uses Competitive gameplay, and EA lists “fewer auto tackles and auto blocks” there. In FC 26 a low driven shot is a double-tap of B. EA made them less accurate at extreme power, so don’t max it.",
+  "sources": [
+   "EA Gameplay Deep Dive: fewer auto blocks; double-tap for low driven <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card U7 (In FC 26 note)",
+  "text": "FC 26 adds Controlled Sprint (hold RB) to keep the ball close. Against two men closing in, still pass first.",
+  "sources": [
+   "Red Bull: quick, first-time passing is one of FC 26’s strongest attacks <https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking>"
+  ]
+ },
+ {
+  "where": "Replays coach card A1 (In FC 26 note)",
+  "text": "Since update 1.4.0 the Squad Battles CPU moves the ball forward quicker instead of keeping it.",
+  "sources": [
+   "EA Title Update 1.4.0: the Squad Battles CPU attacks quicker <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>"
+  ]
+ },
+ {
+  "where": "Replays coach card A2 (In FC 26 note)",
+  "text": "Update 1.1.3 made the CPU dribble with sharper turns. EA also made jockey more responsive (1.1.0) and tackles from behind less effective, so stay in front of him.",
+  "sources": [
+   "EA 1.1.3 notes: the CPU dribbles with sharper turns <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-1-3-update-notes/12876617>",
+   "EA 1.1.0: jockey more responsive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update>"
+  ]
+ },
+ {
+  "where": "Replays coach card A3 (In FC 26 note)",
+  "text": "EA lowered cross height in update 1.3.0, so crosses arrive flatter. Get the near post covered early.",
+  "sources": [
+   "EA 1.3.0 notes: lower crosses <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-3-0-update-notes/12977359>"
+  ]
+ },
+ {
+  "where": "Replays coach card A4 (In FC 26 note)",
+  "text": "Since update 1.2.0 AI defenders, your teammates included, mark the edge of the box less tightly. Nobody closes that runner unless you do.",
+  "sources": [
+   "EA 1.2.0 notes: looser marking at the edge of the box <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902>"
+  ]
+ },
+ {
+  "where": "Replays coach card A5 (In FC 26 note)",
+  "text": "Chip shots got more accurate in update 1.5.0, so a keeper who charges all the way gets punished. The halfway tip itself comes from FIFA 23 guides.",
+  "sources": [
+   "EA Title Update 1.5.0: chip shots more accurate <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>",
+   "Sportskeeda (FIFA 23): bring the keeper halfway <https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023>"
+  ]
+ },
+ {
+  "where": "Replays coach card A6 (In FC 26 note)",
+  "text": "A player tip on EA’s forums: the FC 26 Squad Battles AI “seems to really struggle with counter attacks”. It was written before update 1.4.0 made the CPU attack more, which leaves even more space behind.",
+  "sources": [
+   "EA forums, player tip: the AI struggles with counter attacks <https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774>",
+   "EA Title Update 1.4.0: the CPU attacks more <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>"
+  ]
+ },
+ {
+  "where": "Replays coach card B1 (setting)",
+  "text": "One central midfielder as Deep-Lying Playmaker (Build-Up), so there is always a pass in front of your CBs.",
+  "sources": [
+   "EA (FC 25 FC IQ, still used in FC 26): instructions replaced by Roles <https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card B1 (In FC 26 note)",
+  "text": "FC 26 has no Player Instructions. Each player’s Role and Focus decide where he goes.",
+  "sources": [
+   "EA (FC 25 FC IQ, still used in FC 26): instructions replaced by Roles <https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card C1 (setting)",
+  "text": "FC 26 has no edge-of-box instruction. Roles decide who arrives, so look back for the late man.",
+  "sources": [
+   "EA 1.2.0 notes: looser marking at the edge of the box <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902>",
+   "EarlyGame (German): driven ground cross for cutbacks <https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel>"
+  ]
+ },
+ {
+  "where": "Replays coach card C1 (In FC 26 note)",
+  "text": "Since update 1.2.0 AI defenders mark the edge of their box less tightly, so the cutback man has more room. For a faster ball: LB + RB + X, X (driven ground cross).",
+  "sources": [
+   "EA 1.2.0 notes: looser marking at the edge of the box <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902>",
+   "EarlyGame (German): driven ground cross for cutbacks <https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel>"
+  ]
+ },
+ {
+  "where": "Replays coach card C4 (In FC 26 note)",
+  "text": "Aim the through ball at the gap between two defenders. In FC 26, semi-assisted through balls pick the runner in that lane.",
+  "sources": [
+   "EA Gameplay Deep Dive: passing lanes for through balls <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card C5 (In FC 26 note)",
+  "text": "EA made one-touch shots more responsive in FC 26’s Competitive gameplay, which Squad Battles uses.",
+  "sources": [
+   "EA FUT Deep Dive: more responsive one-touch shooting <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive>"
+  ]
+ },
+ {
+  "where": "Replays coach card D2 (In FC 26 note)",
+  "text": "In FC 26, hold A only contains if Defending is set to Tactical in your controller settings. On the default, Advanced, hold A is a physical tackle.",
+  "sources": [
+   "EA: FC 26 settings guide (Defending: Advanced, Tactical, Legacy) <https://www.ea.com/able/resources/ea-sports-fc/fc-26>"
+  ]
+ },
+ {
+  "where": "Replays coach card D4 (In FC 26 note)",
+  "text": "In FC 26, hold A only contains if Defending is set to Tactical in your controller settings. On the default, Advanced, hold A is a physical tackle.",
+  "sources": [
+   "EA: FC 26 settings guide (Defending: Advanced, Tactical, Legacy) <https://www.ea.com/able/resources/ea-sports-fc/fc-26>"
+  ]
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Lobbed through ball over their back line.",
+  "replaces": "Driven lob over their back line.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Blocked. He was close enough to get a foot to it.",
+  "replaces": "Blocked. CPU defenders block anything within about a yard.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "He is right on you, so he would block it. Fake it first.",
+  "replaces": "He is within a yard, so he would block it. Fake it first.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "He’s too far off to block it.",
+  "replaces": "He’s too far off to block it, and he’s in the keeper’s way.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Shoot now. Low driven, far post.",
+  "replaces": "Shoot now. Low, far post.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Goal.",
+  "replaces": "The keeper sees it late. Goal.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Go now, while their defenders are still turning.",
+  "replaces": "Go now. They are slow to get back.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Gap behind you. That’s the pass it looks for.",
+  "replaces": "Gap behind you. The CPU loves this pass.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Since update 1.1.3 the CPU dribbles with sharper turns.",
+  "replaces": "On Ultimate, some CPU players get +10 to every stat on the ball.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "The cross is coming. Now your box is short a defender.",
+  "replaces": "The CPU loves to cross. Now your box is short a defender.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "A chip punishes this. Chips got more accurate in update 1.5.0.",
+  "replaces": "CPU strikers with Chip Shot punish this.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Go now. Lobbed through over their last two.",
+  "replaces": "Go now. Driven lob over their last two.",
+  "sources": []
+ },
+ {
+  "where": "Replays caption (FC 26)",
+  "text": "Pivot as a Deep-Lying Playmaker. Always a pass in front of the CBs.",
+  "replaces": "Pivot on Stay Back While Attacking. Always a pass in front of the CBs.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s5 (FC 26)",
+  "text": "Everyone shifted to the ball, so the far side is empty. Switch it: X, or LB + RB + X for a driven one.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s11 (FC 26)",
+  "text": "Their pressers are behind you and still turning. Drive forward with RT and attack the space.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s13 (FC 26)",
+  "text": "He is close enough to block it. Fake shot first (B then A), then shoot with space.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s16 (FC 26)",
+  "text": "Your CB stepped out and left a gap. Since update 1.4.0 the Squad Battles CPU goes forward quicker. Hold your line and switch (LB) to the CB nearest the runner.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s17 (FC 26)",
+  "text": "Their midfielder arrives late at the edge of your box. In FC 26 your AI teammates mark the edge loosely, so close him yourself while the pass travels.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s18 (FC 26)",
+  "text": "Everyone shifted to the ball, so their far winger is free. A long switch is on. Keep your far full-back close enough to step out.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s19 (FC 26)",
+  "text": "Their winger has the touchline. Get your full-back goal-side, jockey him outside, and keep your CBs in the box.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s21 (FC 26)",
+  "text": "Chip shots got more accurate in FC 26 update 1.5.0, so a keeper who charges all the way gets chipped. Bring him halfway and make the striker decide.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s22 (FC 26)",
+  "text": "No space ahead and two of them closing. Sprinting into them loses it. Pass, then move into space.",
+  "sources": []
+ },
+ {
+  "where": "Trainer feedback s23 (FC 26)",
+  "text": "He’s too far off to block it. Shoot now: low driven (double-tap B) to the far post.",
+  "sources": []
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + Y = Lobbed through ball",
+  "replaces": "Driven lobbed through ball",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + Y = Lobbed through ball",
+  "replaces": "Driven lob through",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + Y = Lobbed through over the top",
+  "replaces": "Driven lob over the top",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + Y = Lobbed through ball",
+  "replaces": "Driven lob: flatter and faster",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + RB + X = Driven lob",
+  "replaces": "Driven lob",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + RB + X = Driven lob for a longer switch",
+  "replaces": "Driven lob for a longer switch",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + RB + X = Driven lob switch",
+  "replaces": "Driven lob switch",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + RB + Y = Driven through ball",
+  "replaces": "Driven through ball",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "LB + RB + Y = Driven through ball, tight gaps",
+  "replaces": "Driven through ball, tight gaps",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "B B = Low driven, far post",
+  "replaces": "Shoot low, far post",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "B B = Low driven: double-tap B",
+  "replaces": "Shoot now",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "B B = Low driven shot",
+  "replaces": "Low shot",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "Button prompt (FC 26)",
+  "text": "A A = Lofted ground pass",
+  "replaces": "Lofted pass",
+  "sources": [
+   "https://www.fifplay.com/fc-26-controls/"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #1 Goes forward fast",
+  "text": "Their midfielder looking forward the moment he gets it, instead of passing it sideways. | Get your shape first. Press with a midfielder, keep your CBs home, and switch (LB) to the CB nearest their runner. | Since update 1.4.0 (January 2026) EA says the Squad Battles CPU takes “a more proactive and attacking approach” and won’t keep the ball as much as before.",
+  "sources": [
+   "EA, Title Update 1.4.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #2 Through ball between your CBs",
+  "text": "Their striker level with your last defender and a gap opening between your two CBs. | Don’t step out with a CB. Jockey (LT) goal-side of the runner and let a midfielder press the passer. | Since update 1.1.3 the CPU looks for passes more often and decides quicker. Players report pinpoint through balls between two defenders.",
+  "sources": [
+   "EA, update 1.1.3 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-1-3-update-notes/12876617>",
+   "EA forums, player report <https://forums.ea.com/discussions/fc-26-ultimate-team-en/fc26-squad-battles-is-the-biggest-disappointment-of-the-game-itself/13093643>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #3 Sharp dribbler",
+  "text": "A dribbler cutting back and changing direction instead of running in a straight line. | Jockey (LT) a yard off, on his inside. Never tackle from behind. Tackle (B) when he slows or turns his back. | Update 1.1.3 made the CPU dribble with sharper turns and less time on the ball. EA made tackles from behind less effective, and made jockey quicker in update 1.1.0.",
+  "sources": [
+   "EA, update 1.1.3 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-1-3-update-notes/12876617>",
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA, update 1.1.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #4 Late shot from the edge of your box",
+  "text": "The ball goes wide near your box and their midfielder arrives late at the edge. | Keep one midfielder on the edge. Control him and close the runner while the pass travels. | EA says CPU players are less timid about shooting and power up shots like a human. Since update 1.2.0 AI defenders, your teammates included, mark the edge of the box less tightly.",
+  "sources": [
+   "EA, Closed Beta feedback update <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-closed-beta-feedback-update>",
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA, update 1.2.0 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #5 Crosses into your box",
+  "text": "A winger with grass ahead of him on the touchline, or already at your byline. | Full-back goal-side and jockey him outside. CBs stay in the box. Switch to the near-post CB before the cross. | Pull a CB out to the winger and your box is short. EA lowered cross height in update 1.3.0, so crosses come in flatter.",
+  "sources": [
+   "EA, update 1.3.0 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-3-0-update-notes/12977359>",
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #6 Quick passing through your lines",
+  "text": "Short, fast passes into feet between your midfield and defence. | Stand in the passing lane and let the man come to you. Don’t chase the ball. | Update 1.5.0 made ground passes quicker and more accurate, most of all for good passers. That goes for the CPU too.",
+  "sources": [
+   "EA, Title Update 1.5.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #7 Strong man shielding the ball",
+  "text": "A big forward with his back to you, holding you off. | Don’t barge him from behind. Stay goal-side, bring a second man with hold RB, and win it when he turns. | Update 1.4.0 gave Strength and Aggression more say in shielding, and EA cut the success of tackles from behind.",
+  "sources": [
+   "EA, Title Update 1.4.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>",
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #8 Striker through on your keeper",
+  "text": "Their striker clean through, your keeper on his line. | Hold Y briefly to bring the keeper halfway, then let him set. Don’t charge all the way. | Update 1.5.0 made chip shots more accurate, more so for strikers with the Chip Shot PlayStyle. The halfway idea itself is a FIFA 23 tip.",
+  "sources": [
+   "EA, Title Update 1.5.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>",
+   "Sportskeeda (FIFA 23 tip) <https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023>"
+  ]
+ },
+ {
+  "where": "AI moves: When it attacks you #9 Corners",
+  "text": "Their strongest players lining up in your box. | Put your strongest headers on the defending-corner jobs FC 26 added: Near Post, Back Post and Threat Marker. | EA added those corner roles in FC 26, and says stronger players now win the box-out when an air ball comes in.",
+  "sources": [
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #1 Slow to react in transition",
+  "text": "You beat their first press, and their defenders are still turning. | Go now. Drive forward or play the runner before they reset. | Update 1.4.0: AI defenders react slower when marking the ball carrier, which leaves space while they turn.",
+  "sources": [
+   "EA, Title Update 1.4.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #2 Looser line, fewer automatic blocks",
+  "text": "Gaps in their back line and a defender a few yards off your striker. | Shoot early with a low driven shot (double-tap B), or slide the runner into the gap. | Squad Battles uses Competitive gameplay. EA lists “less AI defending, resulting in looser defensive lines” and “fewer auto tackles and auto blocks”.",
+  "sources": [
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #3 Gaps between two defenders",
+  "text": "A runner and a lane between two of their defenders. | Aim the through ball (Y) at the gap, not at the player. Through Pass Assistance on Semi. | FC 26 semi-assisted through balls use passing lanes: aim at the gap between two opponents and the game picks the runner in it.",
+  "sources": [
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA, update 1.1.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #4 Edge of its box left open",
+  "text": "Their defenders dropping toward goal while your midfielder arrives late. | Get to the byline, then cut it back to the edge of the box. | Since update 1.2.0 AI defenders mark the edge of their box less tightly.",
+  "sources": [
+   "EA, update 1.2.0 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #5 Closes the ball down fast",
+  "text": "Two of them stepping up to your man on the ball. | Pass and move. First-time passes, then run into the space they left. | Update 1.1.3 has the CPU switch defenders more often. Red Bull’s FC 26 guide calls first-time passes “extremely powerful”.",
+  "sources": [
+   "EA, update 1.1.3 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-1-3-update-notes/12876617>",
+   "Red Bull, FC 26 meta guide <https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #6 Blocks up close",
+  "text": "A defender within a yard when your striker wants to shoot. | Fake shot first (B then A, with a direction), then shoot with space. | Close up he can get a foot to it. Update 1.5.0 made the Fake Shot 5% faster.",
+  "sources": [
+   "EA, Title Update 1.5.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #7 Keeper in a one-on-one",
+  "text": "Your striker through, their keeper deciding whether to come. | If he rushes out, chip it (LB + B). If he stays home, low driven (double-tap B) to a corner. | EA says FC 26 keepers make “more reasonable” one-on-one decisions, and update 1.5.0 made chips more accurate.",
+  "sources": [
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA, Title Update 1.5.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #8 Finesse from the edge, not from range",
+  "text": "Space at the edge of the box after a cut inside. | Cut inside, then finesse to the far post (RB + B). From long range, use a power shot (LB + RB + B). | At launch EA cut the top spin on finesse shots from outside the box. Update 1.5.0 made power shots better from range. Players still rate the Finesse Shot PlayStyle+ in Squad Battles.",
+  "sources": [
+   "EA, Launch update <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update>",
+   "EA, Title Update 1.5.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>",
+   "EA forums, player tips <https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774>"
+  ]
+ },
+ {
+  "where": "AI moves: When it defends #9 Leaves space when it attacks",
+  "text": "Their full-backs and midfielders forward when you win the ball. | Win it, then go straight into the space behind them. | Update 1.4.0 made the Squad Battles CPU more attacking. Players on EA’s forums say it “seems to really struggle with counter attacks”.",
+  "sources": [
+   "EA, Title Update 1.4.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>",
+   "EA forums, player tips <https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774>"
+  ]
+ },
+ {
+  "where": "AI moves: Squad Battles AI in FC 26 box",
+  "text": "Gameplay: Competitive, always. EA locks it in Ultimate Team. | Tiredness: EA says CPU-controlled players in Squad Battles aren’t affected by fatigue. | Since 1.4.0: It attacks quicker, and its defenders react slower. | Ultimate vs Legendary: EA hasn’t published the numbers for FC 26. | Squad Battles runs from Beginner up to Ultimate.",
+  "sources": [
+   "EA, FC 26 Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA, Title Update 1.4.0 <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>",
+   "FIFAUTeam, Squad Battles points <https://fifauteam.com/fc-26-squad-battle-points/>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-cam",
+  "text": "Camera: Co-Op, Height 20, Zoom 0. You see almost the whole pitch, so free men and runners jump out. Too far away? Tele Broadcast at the same height and zoom.",
+  "sources": [
+   "RealSport101: best FC 26 controller and camera settings <https://realsport101.com/article/fc-26-game-settings-best-controller-camera-settings>",
+   "Dexerto: best FC 26 camera settings <https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/best-camera-settings/>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-pzoom",
+  "text": "Power Shot Zoom: Off. The camera stops moving in on power shots, so the box stays in view.",
+  "sources": [
+   "RealSport101: best FC 26 controller and camera settings <https://realsport101.com/article/fc-26-game-settings-best-controller-camera-settings>",
+   "EarlyGame (German): best FC 26 controller settings <https://earlygame.com/de/guides/fifa/ea-fc-26-die-besten-controller-einstellungen-fuer-einen-perfekten-start>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-radar",
+  "text": "Radar: 2D. One glance shows the far side. My pick: FC 26 guides don’t name one.",
+  "sources": []
+ },
+ {
+  "where": "Plan checklist f26-ind",
+  "text": "Next Player Switch Indicator: On. Shows who you get when you press LB, so you switch to the right man first time.",
+  "sources": [
+   "EA: FC 26 accessibility and settings guide <https://www.ea.com/able/resources/ea-sports-fc/fc-26>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-auto",
+  "text": "Auto Switching: Air Balls and Loose Balls. Auto Switching Move Assistance: None. The game only switches for you on long and loose balls, and doesn’t steer your player after a switch.",
+  "sources": [
+   "RealSport101: best FC 26 controller and camera settings <https://realsport101.com/article/fc-26-game-settings-best-controller-camera-settings>",
+   "EarlyGame (German): best FC 26 controller settings <https://earlygame.com/de/guides/fifa/ea-fc-26-die-besten-controller-einstellungen-fuer-einen-perfekten-start>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-lock",
+  "text": "Pass Receiver Lock: Late. You can change who the pass goes to at the last moment if a lane closes.",
+  "sources": [
+   "Red Bull: best FC 26 controller and gameplay settings <https://www.redbull.com/us-en/ea-fc-26-best-controller-and-gameplay-settings>",
+   "RealSport101: best FC 26 controller and camera settings <https://realsport101.com/article/fc-26-game-settings-best-controller-camera-settings>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-assist",
+  "text": "Ground Pass: Assisted. Through Pass: Semi. Lobbed Through Pass: Semi. Shot Assistance: Assisted. Full help on the passes you play most, more control over through balls. Some guides pick Precision for shots.",
+  "sources": [
+   "RealSport101: best FC 26 controller and camera settings <https://realsport101.com/article/fc-26-game-settings-best-controller-camera-settings>",
+   "Sportskeeda: best FC 26 controller and game settings <https://www.sportskeeda.com/gaming-tech/best-ea-fc-26-controller-and-game-settings>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-def",
+  "text": "Defending: Tactical. Keeps hold A as Contain, the way the clips here use it. On the default, Advanced, hold A is a physical tackle.",
+  "sources": [
+   "EA: FC 26 accessibility and settings guide <https://www.ea.com/able/resources/ea-sports-fc/fc-26>",
+   "Red Bull: best FC 26 controller and gameplay settings <https://www.redbull.com/us-en/ea-fc-26-best-controller-and-gameplay-settings>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-shot",
+  "text": "Learn the new low shot: double-tap B. Timed Finishing is gone in FC 26. A double-tap of B is now a low driven shot.",
+  "sources": [
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-tac",
+  "text": "Tactics: Build-Up Style Balanced, Defensive Approach Balanced, Line Height 45. Balanced build-up gives you runners and short options. A line just under the default 50 means fewer balls in behind you.",
+  "sources": [
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA Sports: FC 25 FC IQ deep dive (the tactics system FC 26 still uses) <https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-roles",
+  "text": "Roles: 4-3-3 (4), called 4-3-3 Attack in Kick-off. Striker Advanced Forward (Attack). Wingers Inside Forward (Balanced). CAM Shadow Striker (Attack). One CM Deep-Lying Playmaker (Build-Up), the other Box-to-Box (Balanced). Full-backs Fullback (Defend). CBs Defender (Defend). That gives you runners in behind, always a pass in front of your CBs, and full-backs who stay home. Based on fut.gg’s FC 26 4-3-3 (4), with both full-backs on Defend.",
+  "sources": [
+   "fut.gg: 4-3-3(4) custom tactics in FC 26 <https://www.fut.gg/news/4-3-34-custom-tactics-the-hyper-aggressive-setup-to-break-ai-defending-in-fc-26/>",
+   "FIFPlay: FC 26 4-3-3 Attack <https://www.fifplay.com/fc-26/formations/4-3-3-attack/>"
+  ]
+ },
+ {
+  "where": "Plan checklist f26-warm",
+  "text": "One round of the Scan trainer at Legendary speed. Wakes your eyes up before the first whistle.",
+  "sources": []
+ },
+ {
+  "where": "Plan match script: Kick-off.",
+  "text": "FC 26 defenders sit compact right after kick-off. Pass back, keep it, and go over the top (LB + Y) only if their line is still high.",
+  "sources": [
+   "EA: FC 26 update 1.0.3 notes (kick-off defending) <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-version-1-0-3-update-notes/12696716>"
+  ]
+ },
+ {
+  "where": "Plan match script: On the ball.",
+  "text": "Look first. Quick, first-time passes. Aim through balls at the gap between two defenders.",
+  "sources": [
+   "Red Bull: FC 26 meta guide <https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking>",
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Plan match script: In the box.",
+  "text": "Cut it back to the edge. Defender within a yard? Fake shot. Keeper rushing out? Chip it (LB + B). Otherwise a low driven shot: double-tap B.",
+  "sources": [
+   "EA: FC 26 update 1.2.0 notes <https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-2-0-update-notes/12906902>",
+   "EA Sports: FC 26 Title Update 1.5.0 Pitch Notes <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0>"
+  ]
+ },
+ {
+  "where": "Plan match script: Defending.",
+  "text": "Hold your line and press with midfielders, not CBs. Jockey (LT), and never tackle from behind.",
+  "sources": [
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "EA Sports: FC 26 update 1.1.0 Pitch Notes <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update>"
+  ]
+ },
+ {
+  "where": "Plan match script: You win it.",
+  "text": "Go forward fast. Since update 1.4.0 their defenders react slower while they turn.",
+  "sources": [
+   "EA Sports: FC 26 Title Update 1.4.0 Pitch Notes <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>"
+  ]
+ },
+ {
+  "where": "Plan match script: Leading late.",
+  "text": "Keep it at the back. When they push up to chase it, counter into the space.",
+  "sources": [
+   "EA forums: “Cheesing squad battles” (player tips) <https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774>"
+  ]
+ },
+ {
+  "where": "Plan squad: Striker: tall and strong.",
+  "text": "Lengthy acceleration now needs 185 cm or more and Strength 65+, and strength also wins shoulder challenges and box-outs.",
+  "sources": [
+   "EA Sports: FC 26 Title Update 1.4.0 Pitch Notes <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0>",
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Plan squad: Wingers and full-backs: Explosive.",
+  "text": "Quick off the mark over short bursts, for beating a man and for getting back.",
+  "sources": [
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>",
+   "FIFAUTeam: FC 26 AcceleRATE <https://fifauteam.com/fc-26-accelerate/>"
+  ]
+ },
+ {
+  "where": "Plan squad: CBs: strong and good in the air.",
+  "text": "Strength wins box-outs at corners, and the new Aerial Fortress PlayStyle wins defensive headers.",
+  "sources": [
+   "EA Sports: FC 26 Pitch Notes, Gameplay Deep Dive <https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive>"
+  ]
+ },
+ {
+  "where": "Plan squad: PlayStyles worth having.",
+  "text": "Finesse Shot and Low Driven Shot up front, Incisive Pass in midfield, Jockey and Intercept at the back.",
+  "sources": [
+   "FIFPlay: FC 26 PlayStyles <https://www.fifplay.com/fc-26-playstyles/>"
+  ]
+ },
+ {
+  "where": "Plan squad: Pace up front.",
+  "text": "Fast counters are one of FC 26’s strongest attacks, and players beating Squad Battles lean on fast players.",
+  "sources": [
+   "Red Bull: FC 26 meta guide <https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking>",
+   "EA forums: “Cheesing squad battles” (player tips) <https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774>"
+  ]
+ }
+]

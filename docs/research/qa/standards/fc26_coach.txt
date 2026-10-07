@@ -1,0 +1,494 @@
+===== U1
+U1 · BREAK THE AI · WHEN IT DEFENDS
+KICK-OFF OVER THE TOP
+WATCH FOR
+Their front two chasing the back pass while your striker is already running.
+IN YOUR MATCH
+At kick-off, pass back to the edge of the circle. If their back line is still high, play a lobbed through ball over it.
+SETTING
+Striker on Advanced Forward (Attack), so he makes the run in behind.
+BUTTONS
+LB
++
+Y
+Lobbed through ball
+RB
++
+B
+Finesse, far post
+IN FC 26
+FC 26 made this harder. Since update 1.0.3 the defending team sits more compact for a short time after kick-off, and update 1.1.0 made its markers tighter at kick-off. Only go over the top if their line is still high.
+Sources: EA 1.0.3 notes: more compact after kick-off · EA 1.1.0 notes: tighter marking at kick-off
+===== U2
+U2 · BREAK THE AI · WHEN IT DEFENDS
+BEAT THE PRESS, THEN GO
+WATCH FOR
+Where their pressers end up once your CM turns: behind the ball.
+IN YOUR MATCH
+The moment you beat their press, drive forward. Don’t pass back and let them reset.
+BUTTONS
+RT
+Sprint forward
+Y
+Through ball to the runner
+IN FC 26
+Since update 1.4.0 (January 2026) AI defenders react slower when marking the ball carrier, so space opens while they turn.
+Source: EA Title Update 1.4.0: AI defenders react slower
+===== U3
+U3 · BREAK THE AI · WHEN IT DEFENDS
+FAKE, THEN A YARD
+WATCH FOR
+The gap between your striker and the nearest defender at the moment he shoots.
+IN YOUR MATCH
+If a defender is within a yard, fake shot first. Shoot once you have space.
+BUTTONS
+B
+then
+A
+Fake shot, with a direction
+RB
++
+B
+Finesse, far post
+IN FC 26
+EA gives no block-reach number for FC 26. It did make the Fake Shot 5% faster in update 1.5.0.
+Source: EA Title Update 1.5.0: Fake Shot made faster
+===== U4
+U4 · BREAK THE AI · WHEN IT DEFENDS
+OVER THE HIGH LINE
+WATCH FOR
+How close their CBs are to the ground pass, and how far above them the lob goes.
+IN YOUR MATCH
+When their line is high and your runner is level, play the lobbed through ball, not the ground one.
+BUTTONS
+LB
++
+Y
+Lobbed through ball
+IN FC 26
+FIFA 23’s driven lobbed through (LB + RB + Y) is gone. In FC 26 that combo plays a driven ground through ball. Use LB + Y to go over the top.
+Source: FIFPlay: FC 26 controls
+===== U5
+U5 · BREAK THE AI · WHEN IT DEFENDS
+KEEPER RUSHES: CHIP
+WATCH FOR
+How far the keeper comes off his line before your striker shoots.
+IN YOUR MATCH
+One-on-one and the keeper rushes out? Chip it. If he stays on his line, shoot low to a corner.
+BUTTONS
+LB
++
+B
+Chip shot
+IN FC 26
+EA made chip shots more accurate and less likely to go wide in update 1.5.0. FC 26 keepers also make smarter one-on-one choices, so chip only once he commits.
+Sources: EA Title Update 1.5.0: chip shots more accurate · EA Gameplay Deep Dive: keepers in one-on-ones
+===== U6
+U6 · BREAK THE AI · WHEN IT DEFENDS
+SHOOT PAST A BODY
+WATCH FOR
+The defender between your striker and the keeper, and how far off your striker he is.
+IN YOUR MATCH
+A defender a few yards off, standing between you and the keeper? Shoot now, low. He is too far off to block it.
+BUTTONS
+B
+B
+Low driven: double-tap B
+IN FC 26
+Squad Battles uses Competitive gameplay, and EA lists “fewer auto tackles and auto blocks” there. In FC 26 a low driven shot is a double-tap of B. EA made them less accurate at extreme power, so don’t max it.
+Source: EA Gameplay Deep Dive: fewer auto blocks; double-tap for low driven
+===== U7
+U7 · BREAK THE AI · WHEN IT DEFENDS
+DON’T SPRINT INTO TRAFFIC
+WATCH FOR
+How fast their two midfielders close the gap when your player sprints.
+IN YOUR MATCH
+No space in front of you? Don’t sprint at them. Pass, then move into the space behind them.
+BUTTONS
+LB
++
+A
+Pass and go
+Y
+Return pass into his run
+IN FC 26
+FC 26 adds Controlled Sprint (hold RB) to keep the ball close. Against two men closing in, still pass first.
+Source: Red Bull: quick, first-time passing is one of FC 26’s strongest attacks
+===== A1
+A1 · STOP THE AI · WHEN IT ATTACKS
+THROUGH BALL BEHIND YOUR LINE
+WATCH FOR
+The gap behind your CB the moment he steps out.
+IN YOUR MATCH
+When their midfielder faces forward, hold your line. Let a midfielder press, and switch (LB) to the CB nearest their runner.
+BUTTONS
+LB
+Switch to the CB by the runner
+LT
+Jockey, stay goal-side
+IN FC 26
+Since update 1.4.0 the Squad Battles CPU moves the ball forward quicker instead of keeping it.
+Source: EA Title Update 1.4.0: the Squad Battles CPU attacks quicker
+===== A2
+A2 · STOP THE AI · WHEN IT ATTACKS
+CONTAIN THE DRIBBLER
+WATCH FOR
+Your full-back staying a yard off, on the inside, until the dribbler slows down.
+IN YOUR MATCH
+Never dive in on a CPU dribbler. Jockey, show him the touchline, tackle when he slows.
+BUTTONS
+LT
+Jockey
+B
+Tackle when he stops
+IN FC 26
+Update 1.1.3 made the CPU dribble with sharper turns. EA also made jockey more responsive (1.1.0) and tackles from behind less effective, so stay in front of him.
+Sources: EA 1.1.3 notes: the CPU dribbles with sharper turns · EA 1.1.0: jockey more responsive
+===== A3
+A3 · STOP THE AI · WHEN IT ATTACKS
+BOX FIRST VS CROSSES
+WATCH FOR
+The near post the moment your CB leaves it.
+IN YOUR MATCH
+When their winger reaches your byline, control the CB at the near post. Your full-back takes the winger.
+BUTTONS
+RS
+Switch to the near-post CB
+IN FC 26
+EA lowered cross height in update 1.3.0, so crosses arrive flatter. Get the near post covered early.
+Source: EA 1.3.0 notes: lower crosses
+===== A4
+A4 · STOP THE AI · WHEN IT ATTACKS
+CLOSE THE EDGE OF THE BOX
+WATCH FOR
+The edge of your box when their midfielder arrives late.
+IN YOUR MATCH
+When the ball goes wide near your box, keep one midfielder on the edge. Close the late runner while the pass travels.
+BUTTONS
+LB
+Switch to the midfielder
+RT
+Close him down
+IN FC 26
+Since update 1.2.0 AI defenders, your teammates included, mark the edge of the box less tightly. Nobody closes that runner unless you do.
+Source: EA 1.2.0 notes: looser marking at the edge of the box
+===== A5
+A5 · STOP THE AI · WHEN IT ATTACKS
+KEEPER HALFWAY IN A ONE-ON-ONE
+WATCH FOR
+Where your keeper stops when their striker is through.
+IN YOUR MATCH
+Their striker through on goal? Bring your keeper halfway with Y, then let him set. Don’t charge all the way.
+BUTTONS
+Y
+Keeper comes out: halfway only
+IN FC 26
+Chip shots got more accurate in update 1.5.0, so a keeper who charges all the way gets punished. The halfway tip itself comes from FIFA 23 guides.
+Sources: EA Title Update 1.5.0: chip shots more accurate · Sportskeeda (FIFA 23): bring the keeper halfway
+===== A6
+A6 · STOP THE AI · WHEN IT ATTACKS
+COUNTER THEIR LATE PUSH
+WATCH FOR
+How few of theirs are left back when they chase the game.
+IN YOUR MATCH
+Leading late and they throw players forward? Win it, then hit the space behind them straight away.
+SETTING
+If you lead late, keep the ball at the back until you can break.
+BUTTONS
+LB
++
+Y
+Lobbed through over the top
+IN FC 26
+A player tip on EA’s forums: the FC 26 Squad Battles AI “seems to really struggle with counter attacks”. It was written before update 1.4.0 made the CPU attack more, which leaves even more space behind.
+Sources: EA forums, player tip: the AI struggles with counter attacks · EA Title Update 1.4.0: the CPU attacks more
+===== B1
+B1 · BUILD-UP · GAP 1
+PIVOT
+WATCH FOR
+Wrong: the empty space in front of your center-backs. Right: the pivot standing in it.
+IN YOUR MATCH
+Before you build, find your pivot. If he isn’t in front of the CBs, don’t force a pass.
+SETTING
+One central midfielder as Deep-Lying Playmaker (Build-Up), so there is always a pass in front of your CBs.
+BUTTONS
+RB
++
+A
+Driven pass into the pivot
+IN FC 26
+FC 26 has no Player Instructions. Each player’s Role and Focus decide where he goes.
+Source: EA (FC 25 FC IQ, still used in FC 26): instructions replaced by Roles
+===== B2
+B2 · BUILD-UP · GAP 1
+WIDE, THEN INSIDE
+WATCH FOR
+How far their midfielder shifts when the ball goes out to your full-back.
+IN YOUR MATCH
+If the lane into your CM is blocked, go wide first, then play the diagonal back inside.
+BUTTONS
+A
+Pass to the full-back
+RB
++
+A
+Driven diagonal into the CM
+===== B3
+B3 · BUILD-UP · GAP 1
+UP, BACK, THROUGH
+WATCH FOR
+Which way your CM is facing when the ball reaches him.
+IN YOUR MATCH
+Back to goal means lay it off first time. Whoever faces forward plays forward.
+BUTTONS
+A
+First-time lay-off: press before the ball arrives
+Y
+Through ball to the runner
+===== B4
+B4 · BUILD-UP · GAP 1
+DRAW AND RELEASE
+WATCH FOR
+The moment their CM leaves his man to step out at your center-back.
+IN YOUR MATCH
+Unpressed CB? Walk forward. Pass the moment a defender commits to him.
+BUTTONS
+LS
+Walk with it, no sprint
+RB
++
+A
+Driven pass to the free man
+===== B5
+B5 · BUILD-UP · GAP 1
+OVER THE PRESS
+WATCH FOR
+Three pressers around your CB, and your full-back free behind them.
+IN YOUR MATCH
+When three men press your CB, go over them, not through them.
+BUTTONS
+A
+A
+Lofted ground pass
+LB
++
+RB
++
+X
+Driven lob for a longer switch
+===== B6
+B6 · BUILD-UP · GAP 1
+RESET AND SWITCH
+WATCH FOR
+How much space opens on the far side while they shift.
+IN YOUR MATCH
+Nothing on? Go back to a CB, across the back, then hit the far side before they reset.
+BUTTONS
+A
+Back to the CB
+RB
++
+A
+Driven pass wide
+===== C1
+C1 · CHANCES · GAP 2
+BYLINE CUTBACK
+WATCH FOR
+Where your edge-of-box man arrives while their defenders drop toward goal.
+IN YOUR MATCH
+Reach the byline, then look back, not across.
+SETTING
+FC 26 has no edge-of-box instruction. Roles decide who arrives, so look back for the late man.
+BUTTONS
+RT
+Sprint to the byline
+X
+X
+Ground cross
+B
+Shoot first time
+IN FC 26
+Since update 1.2.0 AI defenders mark the edge of their box less tightly, so the cutback man has more room. For a faster ball: LB + RB + X, X (driven ground cross).
+Sources: EA 1.2.0 notes: looser marking at the edge of the box · EarlyGame (German): driven ground cross for cutbacks
+===== C2
+C2 · CHANCES · GAP 2
+OVERLOAD, THEN SWITCH
+WATCH FOR
+How many of theirs end up on the ball side, and who is left on the far side.
+IN YOUR MATCH
+Three or four short passes on one side, then switch to the one-on-one.
+BUTTONS
+A
+Short passes to draw them in
+LB
++
+RB
++
+X
+Driven lob switch
+===== C3
+C3 · CHANCES · GAP 2
+PASS AND GO
+WATCH FOR
+Your marker’s eyes. He watches the ball, not your run.
+IN YOUR MATCH
+Pass into the striker’s feet, then sprint past the man who is watching the ball.
+BUTTONS
+LB
++
+A
+Pass and go (hold LB)
+A
+Return pass
+RB
++
+B
+Finesse shot
+===== C4
+C4 · CHANCES · GAP 2
+THROUGH-BALL TIMING
+WATCH FOR
+Where your runner is when the pass leaves, compared with the last defender.
+IN YOUR MATCH
+Release when the runner is level with the last defender and that defender is facing the ball.
+BUTTONS
+LB
++
+RB
++
+Y
+Driven through ball, tight gaps
+LB
++
+Y
+Lobbed through ball, high line
+IN FC 26
+Aim the through ball at the gap between two defenders. In FC 26, semi-assisted through balls pick the runner in that lane.
+Source: EA Gameplay Deep Dive: passing lanes for through balls
+===== C5
+C5 · CHANCES · GAP 2
+FIRST-TIME FINISH
+WATCH FOR
+How fast the defender closes during that one extra touch.
+IN YOUR MATCH
+In the box, press shoot before the ball arrives.
+BUTTONS
+B
+Shoot: press it early
+RB
++
+B
+Finesse to the far post
+FROM YOUR NOTES
+“In the box, if you pass, make the shot active so that it lands in the goal. You don’t need to wait.”
+IN FC 26
+EA made one-touch shots more responsive in FC 26’s Competitive gameplay, which Squad Battles uses.
+Source: EA FUT Deep Dive: more responsive one-touch shooting
+===== D1
+D1 · DEFENDING · GAP 3
+READ THE THROUGH BALL
+WATCH FOR
+The moment their midfielder turns to face your goal.
+IN YOUR MATCH
+Their midfielder turns: switch to the CB near the runner and drop before the pass.
+BUTTONS
+RS
+Flick to switch
+LT
+Jockey while you drop
+===== D2
+D2 · DEFENDING · GAP 3
+LOCK THE LANE
+WATCH FOR
+The lane between the ball and their striker.
+IN YOUR MATCH
+Stand in the passing lane, jockey and let him come. Don’t sprint at the ball.
+BUTTONS
+LT
+Jockey
+A
+hold
+Contain (Defending: Tactical)
+FROM YOUR NOTES
+“Ensure our player is blocking the opponent’s intended teammate. Avoid moving towards the opponent until they’re close.”
+IN FC 26
+In FC 26, hold A only contains if Defending is set to Tactical in your controller settings. On the default, Advanced, hold A is a physical tackle.
+Source: EA: FC 26 settings guide (Defending: Advanced, Tactical, Legacy)
+===== D3
+D3 · DEFENDING · GAP 3
+HAND IT OFF
+WATCH FOR
+The hole your first defender leaves when he follows the dribbler.
+IN YOUR MATCH
+When the dribbler enters the next defender’s zone, switch to that defender and send the first one home.
+BUTTONS
+RS
+Switch to the next man
+LT
+Jockey
+FROM YOUR NOTES
+“If the opponent moves towards another defender, immediately give the position to the person who’s being targeted.”
+===== D4
+D4 · DEFENDING · GAP 3
+CBS HOLD THE LINE
+WATCH FOR
+The gap that opens behind a center-back who steps out.
+IN YOUR MATCH
+Ball in midfield? Control a midfielder, never a CB. Let the back four hold itself.
+BUTTONS
+A
+hold
+Contain with your midfielder (Defending: Tactical)
+RS
+Switch off the CB
+FROM YOUR NOTES
+“Ensure the last four defenders aren’t moving away. If you rush, they’ll trigger another defender, escape your player, and pass the ball to them.”
+IN FC 26
+In FC 26, hold A only contains if Defending is set to Tactical in your controller settings. On the default, Advanced, hold A is a physical tackle.
+Source: EA: FC 26 settings guide (Defending: Advanced, Tactical, Legacy)
+===== N1
+N1 · YOUR NOTES · YOUR SKETCHES
+THREE PLUS A RUNNER
+WATCH FOR
+Their midfielder turning his body after every diagonal pass.
+IN YOUR MATCH
+Make a triangle, pass diagonally, then trigger the fourth man.
+BUTTONS
+LB
+Trigger the run
+Y
+Through ball
+FROM YOUR NOTES
+“Place / move 3 attackers when attacking. Give passes diagonally. Triggers that 4th player and manage to give ball to him safely.”
+===== N2
+N2 · YOUR NOTES · YOUR SKETCHES
+DRAG ONE WAY, PASS THE OTHER
+WATCH FOR
+Their midfield sliding across with your dribble.
+IN YOUR MATCH
+Carry the ball one way to drag them, then pass the other way.
+BUTTONS
+RB
++
+A
+Driven pass against your run
+FROM YOUR NOTES
+“Cross pass, opposite to the heading direction. When moving to that side the opponent will be ready.”
+===== N3
+N3 · YOUR NOTES · YOUR SKETCHES
+DIAGONAL RUNS
+WATCH FOR
+Whether the defender can keep facing the ball.
+IN YOUR MATCH
+Make runs diagonal, not straight. Trigger with LB, then aim it with RS.
+BUTTONS
+LB
+Trigger a run
+LB
+then
+RS
+Directed run: tap LB, flick RS
+Y
+Through ball
+FROM YOUR NOTES
+“Running straight up and down: wrong. Running diagonally: correct.”

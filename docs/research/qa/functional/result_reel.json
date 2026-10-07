@@ -1,0 +1,21 @@
+{
+ "name": "reel",
+ "fails": [
+  "fc26: reel label idle",
+  "fc23: reel label idle",
+  "fc23: reel at clip 2 after 9.5 s :: U1"
+ ],
+ "oks": 173,
+ "notes": [
+  "fc26: after the reel ends the masthead button reads 'Stop reel' (aria-pressed=true), play button 'Play'",
+  "fc26: reel took about 49.1 s simulated",
+  "fc23: after the reel ends the masthead button reads 'Stop reel' (aria-pressed=true), play button 'Play'",
+  "fc23: reel took about 51.9 s simulated",
+  "switch fc26->fc23 during title card: was U2 Reel 1/7; after switch U2 state=Wrong play=Pause",
+  "switch fc26->fc23 mid clip 2: was A1 Reel 2/7; after switch A1 state=Wrong play=Pause",
+  "switch fc26->fc23 in auto-next gap: was U2 Reel 1/7; after switch U2 state=Wrong play=Pause",
+  "switch fc23->fc26 during title card: was U1 Reel 1/7; after switch U1 state=Wrong play=Pause",
+  "switch fc23->fc26 mid clip 2: was A1 Reel 2/7; after switch A1 state=Wrong play=Pause",
+  "switch fc23->fc26 in auto-next gap: was U1 Reel 1/7; after switch U1 state=Wrong play=Pause"
+ ]
+}

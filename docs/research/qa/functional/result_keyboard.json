@@ -1,0 +1,18 @@
+{
+ "name": "keyboard",
+ "fails": [
+  "fc26: Space after clicking a clip in the picker pauses (instead of restarting the clip) :: {'before': (26, 'Pause', '❚❚'), 'after': (10, 'Pause', '0:01')}",
+  "fc26: Space after clicking the 1x speed button toggles play :: ('Pause', 'Pause', 16, 24)",
+  "fc23: Space after clicking a clip in the picker pauses (instead of restarting the clip) :: {'before': (26, 'Pause', '❚❚'), 'after': (10, 'Pause', '0:01')}",
+  "fc23: Space after clicking the 1x speed button toggles play :: ('Pause', 'Pause', 16, 24)"
+ ],
+ "oks": 116,
+ "notes": [
+  "fc26: Tab stops before tabs: ['BUTTON|BUTTON', 'BUTTON|BUTTON', 'reelBtn|BUTTON', 'mt-trainer|BUTTON']",
+  "fc26: Space with focus on the Replays tab -> play button before 'Pause' after 'Pause'",
+  "fc26: Space with focus on the Trainer tab starts a round: False",
+  "fc23: Tab stops before tabs: ['BUTTON|BUTTON', 'BUTTON|BUTTON', 'reelBtn|BUTTON', 'mt-trainer|BUTTON']",
+  "fc23: Space with focus on the Replays tab -> play button before 'Pause' after 'Pause'",
+  "fc23: Space with focus on the Trainer tab starts a round: False"
+ ]
+}

@@ -1,0 +1,5 @@
+[ai] OK checks: 380  FAILS: 0
+  NOTE fc26/1280: tested 20 clip refs
+  NOTE fc26/390: tested 20 clip refs
+  NOTE fc23/1280: tested 19 clip refs
+  NOTE fc23/390: tested 19 clip refs

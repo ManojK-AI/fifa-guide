@@ -1,0 +1,51 @@
+"""Evidence screenshots for specific findings."""
+from common import *
+from playwright.sync_api import sync_playwright
+S = SHOTS
+with sync_playwright() as p:
+    b = p.chromium.launch()
+    # C4 labels under the key chip (390, FC 26, board)
+    ctx, pg, errs = open_page(b, 390, 844, game='fc26')
+    i = TIDS.index('C4')
+    pg.evaluate(f"window.__lrrShow({i},'wrong',2.2,'board',true)"); pg.wait_for_timeout(300)
+    pg.locator('#p-replays .stage').screenshot(path=str(S / 'bug_C4_wrong_label_under_keychip_390.png'))
+    pg.evaluate(f"window.__lrrShow({i},'right',1.6,'board',true)"); pg.wait_for_timeout(300)
+    pg.locator('#p-replays .stage').screenshot(path=str(S / 'bug_C4_right_label_under_keychip_390.png'))
+    # U3 right in FC 26: "Within a yard" label
+    pg.evaluate(f"window.__lrrShow({TIDS.index('U3')},'right',1.0,'board',true)"); pg.wait_for_timeout(300)
+    pg.locator('#p-replays .stage').screenshot(path=str(S / 'bug_U3_fc26_within_a_yard_390.png'))
+    pg.evaluate(f"window.__lrrShow({TIDS.index('U6')},'right',1.0,'board',true)"); pg.wait_for_timeout(300)
+    pg.locator('#p-replays .stage').screenshot(path=str(S / 'bug_U6_fc26_keepers_way_390.png'))
+    ctx.close()
+    # dark segmented controls
+    ctx, pg, errs = open_page(b, 390, 844, dark=True, game='fc26')
+    pg.evaluate("window.__lrrMode('replays')"); pg.wait_for_timeout(200)
+    pg.locator('#p-replays .desk').screenshot(path=str(S / 'dark_desk_toggles_390.png'))
+    pg.evaluate("window.__lrrMode('trainer')"); pg.wait_for_timeout(200)
+    pg.locator('.tcontrols').screenshot(path=str(S / 'dark_trainer_toggles_390.png'))
+    ctx.close()
+    # play button out of sync after end-card Next (real time)
+    ctx, pg, errs = open_page(b, 1280, 1000, game='fc26')
+    pg.click('#mt-replays'); pg.click(f'.titem[data-i="{TIDS.index("U6")}"]')
+    pg.wait_for_function("!document.getElementById('endcard').hidden", timeout=20000)
+    pg.click('#endRow button[data-act="next"]'); pg.wait_for_timeout(2500)
+    pg.screenshot(path=str(S / 'bug_playbutton_shows_play_while_playing_1280.png'), clip={'x': 40, 'y': 290, 'width': 860, 'height': 700})
+    a = pg.evaluate("document.getElementById('bugClock').textContent+' '+document.getElementById('playBtn').getAttribute('aria-label')")
+    pg.wait_for_timeout(1200)
+    c = pg.evaluate("document.getElementById('bugClock').textContent+' '+document.getElementById('playBtn').getAttribute('aria-label')")
+    print('after Next:', a, '->', c)
+    ctx.close()
+    # stale trainer feedback after switching game
+    ctx, pg, errs = open_page(b, 1280, 900, game='fc23')
+    pg.evaluate("window.__lrrTrain(22,false,'reveal',null,'board')"); pg.wait_for_timeout(300)
+    pg.click('[data-gm="fc26"]'); pg.wait_for_timeout(300)
+    pg.screenshot(path=str(S / 'bug_trainer_feedback_stale_after_switch_1280.png'))
+    print('after switch to FC 26, #tsay =', pg.text_content('#tsay'))
+    ctx.close()
+    # reel finished, masthead still says Stop reel
+    ctx, pg, errs = open_clock(b, 1280, 900, game='fc26')
+    pg.click('#reelBtn'); pg.clock.run_for(56000)
+    pg.screenshot(path=str(S / 'reel_done_button_still_stop_1280.png'), clip={'x': 0, 'y': 0, 'width': 1280, 'height': 900})
+    print('reel end:', pg.text_content('#reelLabel'), pg.get_attribute('#reelBtn', 'aria-pressed'), pg.text_content('#endTitle'))
+    ctx.close()
+    b.close()

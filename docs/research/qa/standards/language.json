@@ -1,0 +1,529 @@
+{
+ "fc26_long": [
+  [
+   27,
+   "static:ai",
+   "Since update 1.4.0 (January 2026) EA says the Squad Battles CPU takes “a more proactive and attacking approach” and won’t keep the ball as much as before."
+  ],
+  [
+   26,
+   "static:trainer",
+   "A study of Premier League players found that the more a player looked around before getting the ball, the more likely his pass was to arrive."
+  ]
+ ],
+ "fc23_long": [
+  [
+   26,
+   "static:trainer",
+   "A study of Premier League players found that the more a player looked around before getting the ball, the more likely his pass was to arrive."
+  ],
+  [
+   26,
+   "static:plan",
+   "Pass back to the edge of the circle, then a driven lob over their line to your striker (LB + RB + Y). ▶ U1 RealSport101"
+  ]
+ ],
+ "doc_long": [
+  [
+   33,
+   "m43rrgjd38g.2378",
+   "You wrote that the AI works on \"ML probability.\" Whatever runs under the hood, the useful numbers are these: Legendary is set to 90% on attacking intelligence, defending intelligence, reaction speed and marking."
+  ],
+  [
+   28,
+   "m43rrgjd38g.5516",
+   "FC 26 has no such instruction, but since update 1.2.0 its AI defenders mark the edge of the box less tightly, so look back for the late man."
+  ],
+  [
+   28,
+   "m43rrgjd38g.5219",
+   "In PC Gamer's testing across dozens of FIFA 23 matches, headers from crosses almost never scored, corners rarely threatened, and goals from beyond about 20 yards were uncommon."
+  ],
+  [
+   27,
+   "m43rrgjd38g.12099",
+   "The CM can't turn with a defender on his back, so he lays it off first-time to the pivot, who faces forward and plays the winger in."
+  ],
+  [
+   26,
+   "m43rrgjd38g.12758",
+   "What it has said: since update 1.4.0 (January 2026) the Squad Battles AI moves the ball forward quicker, and its defenders react slower while they turn."
+  ]
+ ],
+ "update_naming": [
+  [
+   "doc",
+   "update N",
+   3
+  ],
+  [
+   "doc",
+   "patches",
+   2
+  ],
+  [
+   "doc",
+   "patch",
+   2
+  ],
+  [
+   "doc",
+   "Pitch Notes",
+   2
+  ],
+  [
+   "doc",
+   "May N update",
+   1
+  ],
+  [
+   "doc",
+   "Title Update N",
+   1
+  ],
+  [
+   "doc",
+   "The World's Game",
+   1
+  ],
+  [
+   "doc",
+   "update notes",
+   1
+  ],
+  [
+   "page",
+   "update N",
+   41
+  ],
+  [
+   "page",
+   "Title Update N",
+   17
+  ],
+  [
+   "page",
+   "EA N",
+   16
+  ],
+  [
+   "page",
+   "Update N",
+   10
+  ],
+  [
+   "page",
+   "Pitch Notes",
+   5
+  ],
+  [
+   "page",
+   "patch ",
+   1
+  ],
+  [
+   "page",
+   "Since N",
+   1
+  ],
+  [
+   "page",
+   "patches",
+   1
+  ],
+  [
+   "page",
+   "(N)",
+   1
+  ]
+ ],
+ "button_notation": [
+  [
+   "doc",
+   "B, B",
+   1
+  ],
+  [
+   "doc",
+   "B, then A",
+   1
+  ],
+  [
+   "doc",
+   "Flick right stick",
+   2
+  ],
+  [
+   "doc",
+   "Hold A",
+   1
+  ],
+  [
+   "doc",
+   "Hold LT",
+   1
+  ],
+  [
+   "doc",
+   "Hold RB",
+   2
+  ],
+  [
+   "doc",
+   "Hold X",
+   1
+  ],
+  [
+   "doc",
+   "Hold Y",
+   1
+  ],
+  [
+   "doc",
+   "double-tap shoot",
+   1
+  ],
+  [
+   "doc",
+   "flick right stick",
+   2
+  ],
+  [
+   "fc23",
+   "(LB)",
+   2
+  ],
+  [
+   "fc23",
+   "A hold",
+   1
+  ],
+  [
+   "fc23",
+   "B then A",
+   4
+  ],
+  [
+   "fc23",
+   "flick RS",
+   1
+  ],
+  [
+   "fc23",
+   "hold LB",
+   1
+  ],
+  [
+   "fc23",
+   "switch (LB)",
+   2
+  ],
+  [
+   "fc26",
+   "(LB)",
+   1
+  ],
+  [
+   "fc26",
+   "A hold",
+   1
+  ],
+  [
+   "fc26",
+   "B B",
+   2
+  ],
+  [
+   "fc26",
+   "B then A",
+   4
+  ],
+  [
+   "fc26",
+   "Hold Y",
+   1
+  ],
+  [
+   "fc26",
+   "LB + RB + X, X",
+   1
+  ],
+  [
+   "fc26",
+   "double-tap B",
+   7
+  ],
+  [
+   "fc26",
+   "double-tap of B",
+   2
+  ],
+  [
+   "fc26",
+   "flick RS",
+   1
+  ],
+  [
+   "fc26",
+   "hold A",
+   6
+  ],
+  [
+   "fc26",
+   "hold LB",
+   1
+  ],
+  [
+   "fc26",
+   "hold RB",
+   2
+  ],
+  [
+   "fc26",
+   "switch (LB)",
+   3
+  ]
+ ],
+ "abbr_fc26": [
+  [
+   "EA",
+   114
+  ],
+  [
+   "FC",
+   103
+  ],
+  [
+   "CB",
+   60
+  ],
+  [
+   "IN",
+   56
+  ],
+  [
+   "YOUR",
+   56
+  ],
+  [
+   "LB",
+   48
+  ],
+  [
+   "THE",
+   39
+  ],
+  [
+   "AI",
+   35
+  ],
+  [
+   "FOR",
+   32
+  ],
+  [
+   "RB",
+   31
+  ],
+  [
+   "THIS",
+   23
+  ],
+  [
+   "IT",
+   22
+  ],
+  [
+   "SEE",
+   21
+  ],
+  [
+   "YOU",
+   21
+  ],
+  [
+   "CM",
+   21
+  ],
+  [
+   "DO",
+   20
+  ],
+  [
+   "CBs",
+   20
+  ],
+  [
+   "CPU",
+   19
+  ],
+  [
+   "WHEN",
+   19
+  ],
+  [
+   "LL",
+   18
+  ],
+  [
+   "WHY",
+   18
+  ],
+  [
+   "GAP",
+   18
+  ],
+  [
+   "RT",
+   16
+  ],
+  [
+   "LT",
+   13
+  ],
+  [
+   "FROM",
+   11
+  ],
+  [
+   "RS",
+   11
+  ],
+  [
+   "BALL",
+   9
+  ],
+  [
+   "UP",
+   9
+  ],
+  [
+   "FIFA",
+   7
+  ],
+  [
+   "STOP",
+   7
+  ],
+  [
+   "CAM",
+   7
+  ],
+  [
+   "4-3-3",
+   6
+  ],
+  [
+   "BOX",
+   5
+  ],
+  [
+   "ONE",
+   5
+  ],
+  [
+   "OFF",
+   5
+  ],
+  [
+   "OVER",
+   5
+  ],
+  [
+   "LS",
+   5
+  ],
+  [
+   "EDGE",
+   4
+  ],
+  [
+   "OF",
+   4
+  ],
+  [
+   "LINE",
+   4
+  ],
+  [
+   "KICK",
+   4
+  ],
+  [
+   "AND",
+   4
+  ],
+  [
+   "THEN",
+   4
+  ],
+  [
+   "FAST",
+   3
+  ],
+  [
+   "ON",
+   3
+  ],
+  [
+   "TOP",
+   3
+  ],
+  [
+   "IQ",
+   3
+  ],
+  [
+   "GAME",
+   3
+  ],
+  [
+   "SCAN",
+   2
+  ],
+  [
+   "TO",
+   2
+  ],
+  [
+   "HAVE",
+   2
+  ],
+  [
+   "CBS",
+   2
+  ],
+  [
+   "LATE",
+   2
+  ],
+  [
+   "INTO",
+   2
+  ],
+  [
+   "CAN",
+   2
+  ],
+  [
+   "GO",
+   2
+  ],
+  [
+   "PASS",
+   2
+  ],
+  [
+   "ALL",
+   1
+  ],
+  [
+   "LOOK",
+   1
+  ],
+  [
+   "GETS",
+   1
+  ]
+ ]
+}

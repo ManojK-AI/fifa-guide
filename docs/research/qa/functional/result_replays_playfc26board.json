@@ -1,0 +1,42 @@
+{
+ "name": "replays_playfc26board",
+ "fails": [
+  "fc26/board/U2: captions during playback are the fc26 ones, in order :: ([], ['They press high. Two quick passes get you out.', 'Press beaten. Their pressers are behind the ball.', 'Look at the space ahead of you.', 'He passes back anyway.', 'Their press resets. Chance gone.', 'Now the right way.', 'Same press. Same two passes out.', 'Go now, while their defenders are still turning.', 'Through ball down the line.', 'Three of theirs left behind. Counter on.'])",
+  "fc26/board/A6: captions during playback are the fc26 ones, in order :: ([], ['They’re losing late, so they threw players forward.', 'You win it.', 'And play it back.', 'They all get back in shape. Chance gone.', 'Now the right way.', 'Go now. Lobbed through over their last two.', 'Your striker is through.', 'Goal. That’s how you punish a late push.'])",
+  "fc26/board/B6: captions during playback are the fc26 ones, in order :: ([], ['Ball on your left. Everything is covered.', 'Nothing on here. The other side is empty.', 'He forces it down the line anyway.', 'Cut out. They break down your left.', 'Now the right way.', 'Nothing on. Reset and switch.', 'Back to the CB. No shame in it.', 'Across the back while they shift.', 'They’re still shifting. Hit the far side.', 'Switched. Now attack the open side.'])"
+ ],
+ "oks": 276,
+ "notes": [
+  "fc26/board/U1: flashes ['Goal']",
+  "fc26/board/U2: flashes []",
+  "fc26/board/U3: flashes ['Goal']",
+  "fc26/board/U4: flashes []",
+  "fc26/board/U5: flashes ['Goal']",
+  "fc26/board/U6: flashes ['Goal']",
+  "fc26/board/U7: flashes []",
+  "fc26/board/A1: flashes ['Conceded']",
+  "fc26/board/A2: flashes []",
+  "fc26/board/A3: flashes ['Conceded']",
+  "fc26/board/A4: flashes ['Conceded']",
+  "fc26/board/A5: flashes ['Conceded']",
+  "fc26/board/A6: flashes ['Goal']",
+  "fc26/board/B1: flashes []",
+  "fc26/board/B2: flashes []",
+  "fc26/board/B3: flashes []",
+  "fc26/board/B4: flashes []",
+  "fc26/board/B5: flashes []",
+  "fc26/board/B6: flashes []",
+  "fc26/board/C1: flashes ['Goal']",
+  "fc26/board/C2: flashes []",
+  "fc26/board/C3: flashes ['Goal']",
+  "fc26/board/C4: flashes ['Goal', 'Offside']",
+  "fc26/board/C5: flashes ['Goal']",
+  "fc26/board/D1: flashes ['Conceded']",
+  "fc26/board/D2: flashes []",
+  "fc26/board/D3: flashes []",
+  "fc26/board/D4: flashes []",
+  "fc26/board/N1: flashes ['Goal']",
+  "fc26/board/N2: flashes []",
+  "fc26/board/N3: flashes ['Goal']"
+ ]
+}

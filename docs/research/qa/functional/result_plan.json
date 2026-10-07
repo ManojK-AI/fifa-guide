@@ -1,0 +1,10 @@
+{
+ "name": "plan",
+ "fails": [],
+ "oks": 34,
+ "notes": [
+  "storage after fc26 ticks: ['lrr:chk:f26-cam=1', 'lrr:chk:f26-def=1', 'lrr:chk:f26-radar=0', 'lrr:chk:f26-warm=1']",
+  "fc26: plan clip refs ['U1', 'C4', 'C1', 'U3', 'U5', 'A1', 'A2', 'U2', 'A6']",
+  "fc23: plan clip refs ['U1', 'U3', 'U5', 'A1', 'A2', 'U2', 'A6']"
+ ]
+}

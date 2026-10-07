@@ -1,0 +1,15 @@
+[transport] OK checks: 75  FAILS: 4
+  FAIL fc26: play button state matches playback after picking a clip while paused :: {'moving': True, 'button': 'Play', 'icon': 'play-icon'}
+  FAIL fc26: play button state matches playback after end-card Next :: {'moving': True, 'button': 'Play'}
+  FAIL fc23: play button state matches playback after picking a clip while paused :: {'moving': True, 'button': 'Play', 'icon': 'play-icon'}
+  FAIL fc23: play button state matches playback after end-card Next :: {'moving': True, 'button': 'Play'}
+  NOTE fc26: after end-card Next, clip moving=True with button "Play"; one click on it -> moving=False, button "Play"
+  NOTE fc26: jump Right while paused -> moving=True, button "Pause"
+  NOTE fc26: jump Wrong while paused -> moving=False, button "Play", state Wrong
+  NOTE fc23: after end-card Next, clip moving=True with button "Play"; one click on it -> moving=False, button "Play"
+  NOTE fc23: jump Right while paused -> moving=True, button "Pause"
+  NOTE fc23: jump Wrong while paused -> moving=False, button "Play", state Wrong
+  NOTE 390px group tabs: [['Break it', 'true', True], ['Stop it', 'false', True], ['Build-up', 'false', True], ['Chances', 'false', True], ['Defending', 'false', True], ['Notes', 'false', True]]
+  NOTE 390px tabs bar: {'sw': 408, 'cw': 358, 'items': [['Break it', 19, 81, False], ['Stop it', 84, 141, False], ['Build-up', 144, 213, False], ['Chances', 216, 284, False], ['Defending', 287, 365, False], ['Notes', 368, 421, False]]}
+  NOTE 320px group tabs: [['Break it', 'true', True], ['Stop it', 'false', True], ['Build-up', 'false', True], ['Chances', 'false', True], ['Defending', 'false', True], ['Notes', 'false', True]]
+  NOTE 320px tabs bar: {'sw': 408, 'cw': 288, 'items': [['Break it', 19, 81, False], ['Stop it', 84, 141, False], ['Build-up', 144, 213, False], ['Chances', 216, 284, False], ['Defending', 287, 365, False], ['Notes', 368, 421, False]]}

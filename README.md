@@ -29,8 +29,41 @@ A comprehensive single-page HTML application with tactical guides, AI scouting r
 ├── smoke.py                # Comprehensive functional test suite
 ├── checks2.py              # Targeted QA verification
 ├── harness.py              # Playwright test harness
+├── docs/
+│   ├── legendary-playbook.md   # The written coaching playbook
+│   └── research/               # Source research, bibliography, verification log
+│       ├── README.md           #   coverage map — READ BEFORE RESEARCHING
+│       ├── SOURCES.md          #   79 cited sources + 95 logged dead ends
+│       ├── METHODOLOGY.md      #   how it was gathered, confidence scale, limits
+│       ├── VERIFICATION_LOG.md #   102 claims checked, issues, resolutions
+│       ├── TEMPLATE.md         #   how to add research without duplicating
+│       ├── agents/             #   the three full research reports
+│       └── qa/                 #   claim verdicts, test code, logs, bug shots
 └── fontpkg/                # Self-hosted fonts (Instrument Sans, Kalam, Big Shoulders)
 ```
+
+## Documentation and research
+
+The content in this page is not improvised — it rests on a researched, fact-checked
+evidence base kept in [`docs/research/`](docs/research/).
+
+**Before researching anything about FC 26 or FIFA 23, read
+[`docs/research/README.md`](docs/research/README.md).** Its coverage map says what is
+already answered and to what depth; its "Known gaps" section says what was already
+searched for and not found. Re-researching covered ground wastes a search budget on
+questions that already have answers in `docs/research/agents/`.
+
+[`docs/research/TEMPLATE.md`](docs/research/TEMPLATE.md) contains a briefing prompt to
+paste at the start of any future AI research session, so it reads the archive before
+it starts searching.
+
+| Want to… | Go to |
+|---|---|
+| Look up the source for a claim | `docs/research/SOURCES.md` |
+| Judge how far to trust a finding | `docs/research/METHODOLOGY.md` |
+| See what was checked and what failed | `docs/research/VERIFICATION_LOG.md` |
+| Read the raw research | `docs/research/agents/` |
+| Read the coaching playbook | `docs/legendary-playbook.md` |
 
 ## Quick Start
 

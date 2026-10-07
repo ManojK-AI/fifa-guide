@@ -1,0 +1,14 @@
+[trainer_rounds] OK checks: 570  FAILS: 0
+  NOTE 390/fc26/leg/all/board: scenes [('s22', 'R', None), ('s9', 'W', 'cm'), ('s16', 'T', None), ('s10', 'R', None), ('s5', 'R', None), ('s6', 'W', 'am'), ('s4', 'R', None), ('s17', 'R', None), ('s12', 'R', None), ('s7', 'R', None)]; score 7; best 7|0.55
+  NOTE 390/fc26/leg/def/cam: started from the summary with Go again (level/focus/camera changed while the summary was up)
+  NOTE 390/fc26/leg/def/cam: scenes [('s7', 'R', None), ('s21', 'R', None), ('s16', 'W', None), ('s9', 'R', None), ('s15', 'R', None), ('s17', 'R', None), ('s8', 'R', None), ('s19', 'R', None), ('s18', 'R', None), ('s14', 'R', None)]; score 9; best 9|0.31
+  NOTE 390/fc26/ult/att/board: started from the summary with Go again (level/focus/camera changed while the summary was up)
+  NOTE 390/fc26/ult/att/board: scenes [('s4', 'R', None), ('s5', 'R', None), ('s22', 'R', None), ('s2', 'R', None), ('s20', 'T', None), ('s1', 'R', None), ('s23', 'R', None), ('s12', 'R', None), ('s10', 'R', None), ('s3', 'W', 'am')]; score 8; best 8|0.31
+  NOTE 390/fc23/leg/all/board: started from the summary with Go again (level/focus/camera changed while the summary was up)
+  NOTE 390/fc23/leg/all/board: scenes [('s8', 'W', 'cm'), ('s9', 'R', None), ('s11', 'R', None), ('s17', 'T', None), ('s7', 'R', None), ('s23', 'R', None), ('s16', 'R', None), ('s1', 'R', None), ('s5', 'W', 'am'), ('s22', 'R', None)]; score 7; best 9|0.31
+  NOTE 390/fc23/leg/def/cam: started from the summary with Go again (level/focus/camera changed while the summary was up)
+  NOTE 390/fc23/leg/def/cam: scenes [('s15', 'R', None), ('s18', 'W', 'x10'), ('s16', 'R', None), ('s9', 'R', None), ('s8', 'R', None), ('s17', 'R', None), ('s21', 'T', None), ('s14', 'R', None), ('s7', 'R', None), ('s19', 'R', None)]; score 8; best 9|0.31
+  NOTE 390/fc23/ult/att/cam: started from the summary with Go again (level/focus/camera changed while the summary was up)
+  NOTE 390/fc23/ult/att/cam: scenes [('s2', 'R', None), ('s12', 'R', None), ('s11', 'R', None), ('s20', 'R', None), ('s23', 'R', None), ('s22', 'R', None), ('s6', 'R', None), ('s13', 'R', None), ('s3', 'R', None), ('s4', 'R', None)]; score 10; best 10|0.31
+  NOTE scenes seen in real rounds fc26: ['s1', 's2', 's3', 's4', 's5', 's6', 's7', 's8', 's9', 's10', 's12', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23']
+  NOTE scenes seen in real rounds fc23: ['s1', 's2', 's3', 's4', 's5', 's6', 's7', 's8', 's9', 's11', 's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23']

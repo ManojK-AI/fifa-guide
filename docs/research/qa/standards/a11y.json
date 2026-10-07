@@ -1,0 +1,249 @@
+{
+ "headings_fc26_trainer": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 LOOK BEFORE THE BALL GETS TO YOU",
+  "H2 SEE THIS, DO THIS"
+ ],
+ "headings_fc26_ai": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 KNOW EVERY MOVE IT MAKES",
+  "H3 WHEN IT ATTACKS YOU",
+  "H4 1 GOES FORWARD FAST",
+  "H4 2 THROUGH BALL BETWEEN YOUR CBS",
+  "H4 3 SHARP DRIBBLER",
+  "H4 4 LATE SHOT FROM THE EDGE OF YOUR BOX",
+  "H4 5 CROSSES INTO YOUR BOX",
+  "H4 6 QUICK PASSING THROUGH YOUR LINES",
+  "H4 7 STRONG MAN SHIELDING THE BALL",
+  "H4 8 STRIKER THROUGH ON YOUR KEEPER",
+  "H4 9 CORNERS",
+  "H3 WHEN IT DEFENDS",
+  "H4 1 SLOW TO REACT IN TRANSITION",
+  "H4 2 LOOSER LINE, FEWER AUTOMATIC BLOCKS",
+  "H4 3 GAPS BETWEEN TWO DEFENDERS",
+  "H4 4 EDGE OF ITS BOX LEFT OPEN",
+  "H4 5 CLOSES THE BALL DOWN FAST",
+  "H4 6 BLOCKS UP CLOSE",
+  "H4 7 KEEPER IN A ONE-ON-ONE",
+  "H4 8 FINESSE FROM THE EDGE, NOT FROM RANGE",
+  "H4 9 LEAVES SPACE WHEN IT ATTACKS"
+ ],
+ "headings_fc26_replays": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 BREAK THE AI WHEN IT DEFENDS",
+  "H2 STOP THE AI WHEN IT ATTACKS",
+  "H2 BUILD-UP GAP 1",
+  "H2 CHANCES GAP 2",
+  "H2 DEFENDING GAP 3",
+  "H2 YOUR NOTES YOUR SKETCHES",
+  "H2 KICK-OFF OVER THE TOP"
+ ],
+ "headings_fc26_plan": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 SEE MORE OF THE PITCH",
+  "H2 SIX STEPS, EVERY GAME",
+  "H2 PLAYERS THAT FIT THIS PLAN",
+  "H2 WHAT THIS CAN AND CAN’T DO",
+  "H2 SOURCES"
+ ],
+ "headings_fc23_trainer": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 LOOK BEFORE THE BALL GETS TO YOU",
+  "H2 SEE THIS, DO THIS"
+ ],
+ "headings_fc23_ai": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 KNOW EVERY MOVE IT MAKES",
+  "H3 WHEN IT ATTACKS YOU",
+  "H4 1 THROUGH BALL BEHIND YOUR LINE",
+  "H4 2 WINGER DOWN THE TOUCHLINE, THEN A CROSS",
+  "H4 3 DRIBBLER ON A LONG RUN",
+  "H4 4 FIRST-TIME SHOT FROM THE EDGE",
+  "H4 5 STRIKER THROUGH ON YOUR KEEPER",
+  "H4 6 THEIR PLAYMAKER",
+  "H4 7 LONG SWITCH TO THE FAR SIDE",
+  "H4 8 LATE PUSH WHEN IT’S LOSING",
+  "H4 9 CORNERS",
+  "H3 WHEN IT DEFENDS",
+  "H4 1 MARKS AND REACTS AT 100%",
+  "H4 2 PRESSES, THEN IS SLOW TO GET BACK",
+  "H4 3 ONLY BLOCKS UP CLOSE",
+  "H4 4 ITS KEEPER NEEDS TO SEE THE BALL",
+  "H4 5 CLOSES A SPRINTING CARRIER FAST",
+  "H4 6 SITS DEEP AND COMPACT",
+  "H4 7 HOLDS A HIGH LINE",
+  "H4 8 KEEPER RUSHES IN A ONE-ON-ONE",
+  "H4 9 CHASES THE GAME WHEN LOSING"
+ ],
+ "headings_fc23_replays": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 BREAK THE AI WHEN IT DEFENDS",
+  "H2 STOP THE AI WHEN IT ATTACKS",
+  "H2 BUILD-UP GAP 1",
+  "H2 CHANCES GAP 2",
+  "H2 DEFENDING GAP 3",
+  "H2 YOUR NOTES YOUR SKETCHES",
+  "H2 KICK-OFF OVER THE TOP"
+ ],
+ "headings_fc23_plan": [
+  "H1 LEGENDARY REPLAY ROOM",
+  "H2 SEE MORE OF THE PITCH",
+  "H2 SIX STEPS, EVERY GAME",
+  "H2 PLAYERS THAT FIT THIS PLAN",
+  "H2 WHAT THIS CAN AND CAN’T DO",
+  "H2 SOURCES"
+ ],
+ "ai_snapshot_has_fifa23": false,
+ "ai_snapshot_head": "- tabpanel \"AI moves Its habits\":\n  - paragraph: Scouting report · FC 26 CPU\n  - heading \"Know every move it makes\" [level=2]\n  - paragraph: What the FC 26 AI does, how to spot it early, and how to punish it. Each move comes from EA’s FC 26 patch notes, or from players and guides, and says which. Tap ▶ to watch it animated, or drill the reads in the trainer.\n  - paragraph: Squad Battles AI in FC 26\n  - table:\n    - rowgroup:\n      - row \"Gameplay Competitive, always. EA locks it in Ultimate Team.\":\n        - rowheader \"Gameplay\"\n        - cell \"Competitive, always. EA locks it in Ultimate Team.\"\n      - row \"Tiredness EA says CPU-controlled players in Squad Battles aren’t affected by fatigue.\":\n        - rowheader \"Tiredness\"\n        - cell \"EA says CPU-controlled players in Squad Battles aren’t affected by fatigue.\"\n      - row \"Since 1.4.0 It attacks quicker, and its defenders react slower.\":\n        - rowheader \"Since 1.4.0\"\n        - cell \"It attacks quicker, and its defenders react slower.\"\n      - row \"Ultimate vs Legendary EA hasn’t published the numbers for FC 26.\":\n        - rowheader \"Ultimate vs Legendary\"\n        - cell \"EA hasn’t published the numbers for FC 26.\"\n  - paragraph:\n    - text: Squad Battles runs from Beginner up to Ultimate.\n    - link \"EA Deep Dive\":\n      - /url: https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive\n    - text: ·\n    - link \"EA 1.4.0\":\n      - /url: https://www.ea.com/games/ea-sports-fc/fc-26/news/pit",
+ "plan_snapshot_has_fifa23": false,
+ "coach_ax": {
+  "U6": "- text: \"Low driven: double-tap B\"",
+  "U6_labels": [
+   "B plus B"
+  ],
+  "D2": "- text: \"Jockey Contain (Defending: Tactical)\"",
+  "D2_labels": [
+   "LT",
+   "A plus hold"
+  ],
+  "U3": "- text: Fake shot, with a direction Finesse, far post",
+  "U3_labels": [
+   "B then A",
+   "RB plus B"
+  ],
+  "B5": "- text: Lofted ground pass Driven lob for a longer switch",
+  "B5_labels": [
+   "A plus A",
+   "LB plus RB plus X"
+  ],
+  "C1": "- text: Sprint to the byline Ground cross Shoot first time",
+  "C1_labels": [
+   "RT",
+   "X plus X",
+   "B"
+  ]
+ },
+ "keychip_hidden": "true",
+ "cv_label_A1_wrong": "A1 Through ball behind your line, wrong way. You step out to the man who dropped short.",
+ "cv_label_A1_right": "A1 Through ball behind your line, right way. Stay goal-side of the runner.",
+ "tcv_label_intro": "Scan trainer pitch",
+ "clipref_names_sample": [
+  [
+   "▶ A1",
+   "Watch clip A1"
+  ],
+  [
+   "▶ A1",
+   "Watch clip A1"
+  ],
+  [
+   "▶ D1",
+   "Watch clip D1"
+  ],
+  [
+   "▶ A2",
+   "Watch clip A2"
+  ],
+  [
+   "▶ A4",
+   "Watch clip A4"
+  ],
+  [
+   "▶ A3",
+   "Watch clip A3"
+  ]
+ ],
+ "drill_names": [
+  "Drill these reads ▶",
+  "Drill these reads ▶"
+ ],
+ "new_tab_links": 189,
+ "new_tab_links_with_hint": 0,
+ "same_text_diff_href": [
+  [
+   "FIFAUTeam",
+   2
+  ],
+  [
+   "Red Bull",
+   2
+  ],
+  [
+   "FIFPlay",
+   2
+  ]
+ ],
+ "focus_after_clipref": "BODY#. visible=true",
+ "mode_after_clipref": "mt-replays",
+ "focus_after_drill": "BODY#.",
+ "trainer_phase_after_drill": true,
+ "tab_seq_from_replays_tab": [
+  "BUTTON.titem  U1 Kick-off over the top",
+  "BUTTON.titem  U2 Beat the press, then ",
+  "BUTTON.titem  U3 Fake, then a yard Def",
+  "BUTTON.titem  U4 Over the high line Hi",
+  "BUTTON.titem  U5 Keeper rushes: chip K",
+  "BUTTON.titem  U6 Shoot past a body A f",
+  "BUTTON.titem  U7 Don’t sprint into tra",
+  "BUTTON.titem  A1 Through ball behind y",
+  "BUTTON.titem  A2 Contain the dribbler ",
+  "BUTTON.titem  A3 Box first vs crosses ",
+  "BUTTON.titem  A4 Close the edge of the",
+  "BUTTON.titem  A5 Keeper halfway in a o"
+ ],
+ "picker_tab_arrow": {
+  "before": "A1",
+  "after": "A2",
+  "focus": "",
+  "picker_tabs_tabindex": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "main_tabs_End": "mt-replays",
+ "small_targets_390": {
+  "trainer": [],
+  "ai": [
+   "clip-ref ▶ A1 41x20",
+   "clip-ref ▶ D1 41x20",
+   "clip-ref ▶ A2 43x20",
+   "clip-ref ▶ A4 44x20",
+   "clip-ref ▶ A3 44x20",
+   "clip-ref ▶ D2 44x20",
+   "clip-ref ▶ A5 44x20",
+   "clip-ref ▶ U2 44x20",
+   "clip-ref ▶ U6 44x20",
+   "clip-ref ▶ C4 44x20",
+   "clip-ref ▶ C1 41x20",
+   "clip-ref ▶ U7 44x20"
+  ],
+  "replays": [],
+  "plan": [
+   "linkbtn Clear 41x21",
+   "INPUT  19x19",
+   "clip-ref ▶ U1 41x20",
+   "clip-ref ▶ C4 44x20",
+   "clip-ref ▶ C1 41x20",
+   "clip-ref ▶ U3 44x20",
+   "clip-ref ▶ U5 44x20",
+   "clip-ref ▶ A1 41x20",
+   "clip-ref ▶ A2 43x20",
+   "clip-ref ▶ U2 44x20",
+   "clip-ref ▶ A6 43x20"
+  ]
+ },
+ "outline_clip_check": {
+  "titemTop": 0,
+  "listOverflowX": "auto",
+  "listOverflowY": "auto",
+  "listPad": "0px 0px 4px",
+  "ringNeeds": 4.5
+ },
+ "reduced_motion_replays_playing": "Play",
+ "reduced_motion_after_click_playing": "Play",
+ "reduced_motion_card_anim": "none"
+}

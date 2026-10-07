@@ -1,0 +1,14 @@
+[game] OK checks: 869  FAILS: 3
+  FAIL trainer reveal feedback s13 follows a live game switch (fc23 -> fc26) :: ('The CPU blocks almost anything within a yard. Fake shot first (B then ', 'The CPU blocks almost anything within a yard. Fake shot first (B then ')
+  FAIL trainer reveal feedback s23 follows a live game switch (fc23 -> fc26) :: ('He’s too far off to block it, and he’s in the keeper’s way, so the kee', 'He’s too far off to block it, and he’s in the keeper’s way, so the kee')
+  FAIL trainer reveal feedback s17 follows a live game switch (fc23 -> fc26) :: ('Their midfielder arrives late at the edge of your box. CPU players wit', 'Their midfielder arrives late at the edge of your box. CPU players wit')
+  NOTE fc26 AI clip refs: ['A1', 'A1', 'D1', 'A2', 'A4', 'A3', 'D2', 'A5', 'U2', 'U6', 'C4', 'C4', 'C1', 'U7', 'C3', 'U3', 'U5', 'C3', 'U3', 'A6']
+  NOTE fc26 plan clip refs: ['U1', 'C4', 'C1', 'U3', 'U5', 'A1', 'A2', 'U2', 'A6']
+  NOTE fc23 AI clip refs: ['A1', 'A3', 'A2', 'A2', 'A4', 'A5', 'D2', 'A6', 'U1', 'U4', 'U2', 'U3', 'U6', 'U7', 'C1', 'U4', 'U1', 'U5', 'A6']
+  NOTE fc23 plan clip refs: ['U1', 'U3', 'U5', 'A1', 'A2', 'U2', 'A6']
+  NOTE TEXT[fc26/ai] "FIFA 23" in: Update 1.5.0 made chip shots more accurate, more so for strikers with the Chip Shot PlayStyle. The halfway idea itself is a FIFA 23 tip.
+  NOTE TEXT[fc26/ai] "FIFA 23" in: EA, Title Update 1.5.0 · Sportskeeda (FIFA 23 tip)
+  NOTE TEXT[fc26/plan] "FIFA 23" in: Sportskeeda (FIFA 23): bring the keeper halfway
+  NOTE TEXT[fc26/mast] "FIFA 23" in: FIFA 23
+  NOTE TEXT[fc26/mast] "Ultimate AI" in: Train your eyes to read the pitch in under two seconds. Learn every move Ultimate AI makes and how to punish it. Then watch each one the wrong way and the right
+  NOTE TEXT[fc23/mast] "FC 26" in: FC 26

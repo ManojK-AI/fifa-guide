@@ -1,0 +1,11 @@
+[keyboard] OK checks: 116  FAILS: 4
+  FAIL fc26: Space after clicking a clip in the picker pauses (instead of restarting the clip) :: {'before': (26, 'Pause', '❚❚'), 'after': (10, 'Pause', '0:01')}
+  FAIL fc26: Space after clicking the 1x speed button toggles play :: ('Pause', 'Pause', 16, 24)
+  FAIL fc23: Space after clicking a clip in the picker pauses (instead of restarting the clip) :: {'before': (26, 'Pause', '❚❚'), 'after': (10, 'Pause', '0:01')}
+  FAIL fc23: Space after clicking the 1x speed button toggles play :: ('Pause', 'Pause', 16, 24)
+  NOTE fc26: Tab stops before tabs: ['BUTTON|BUTTON', 'BUTTON|BUTTON', 'reelBtn|BUTTON', 'mt-trainer|BUTTON']
+  NOTE fc26: Space with focus on the Replays tab -> play button before 'Pause' after 'Pause'
+  NOTE fc26: Space with focus on the Trainer tab starts a round: False
+  NOTE fc23: Tab stops before tabs: ['BUTTON|BUTTON', 'BUTTON|BUTTON', 'reelBtn|BUTTON', 'mt-trainer|BUTTON']
+  NOTE fc23: Space with focus on the Replays tab -> play button before 'Pause' after 'Pause'
+  NOTE fc23: Space with focus on the Trainer tab starts a round: False

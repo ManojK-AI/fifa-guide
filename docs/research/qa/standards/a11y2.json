@@ -1,0 +1,41 @@
+{
+ "picker_arrow_390": {
+  "before": "U1",
+  "after": "U2",
+  "focus": "tab-ultimate",
+  "selected_tab": [
+   "tab-ultimate"
+  ]
+ },
+ "picker_tab_order_390": [
+  "tab-stop",
+  "tab-build",
+  "tab-chance",
+  "tab-defend",
+  "tab-notes",
+  "titem",
+  "titem"
+ ],
+ "play_state_after_pick": {
+  "label_when_paused": "Play",
+  "label_after_pick": "Play",
+  "clock_t1": "0:01",
+  "clock_t2": "\u275a\u275a"
+ },
+ "play_state_after_next": {
+  "label_before": "Play",
+  "label_after": "Play",
+  "clock": "0:01"
+ },
+ "trainer_types": {
+  "mate": 7,
+  "spot": 3,
+  "switch": 4,
+  "choice": 6,
+  "lane": 1,
+  "predict": 2
+ },
+ "trainer_started_by_space": true,
+ "tcv_tabindex": null,
+ "tsay_live": "polite"
+}

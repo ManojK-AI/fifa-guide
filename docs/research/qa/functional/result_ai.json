@@ -1,0 +1,11 @@
+{
+ "name": "ai",
+ "fails": [],
+ "oks": 380,
+ "notes": [
+  "fc26/1280: tested 20 clip refs",
+  "fc26/390: tested 20 clip refs",
+  "fc23/1280: tested 19 clip refs",
+  "fc23/390: tested 19 clip refs"
+ ]
+}
