@@ -42,6 +42,27 @@ with sync_playwright() as p:
     check(pg.evaluate("document.documentElement.dataset.game") == 'fc23', 'game choice persists')
     pg.click('[data-gm="fc26"]')
     check(pg.inner_text('#chkCount') == '1 of 12 done', 'FC 26 tick persisted: ' + pg.inner_text('#chkCount'))
+    # Pro tab (added 2026-11-04): panel, tables, evidence tags, clip links, FIFA 23 note, Pro clips in the picker
+    pg.click('#mt-pro')
+    check(pg.is_visible('#p-pro') and not pg.is_visible('#p-plan'), 'Pro tab shows only its panel')
+    check(pg.eval_on_selector_all('#p-pro table.ptab', 'els=>els.length') == 5, 'Pro tab tables')
+    check(pg.eval_on_selector_all('#p-pro .ev', 'els=>els.length') > 50, 'Pro tab evidence tags')
+    hrefs = pg.eval_on_selector_all('#p-pro a.src, #p-pro .srcs a', 'els=>els.map(a=>a.getAttribute("href"))')
+    check(hrefs and all(h.startswith('https://') for h in hrefs), 'Pro tab links: ' + str([h for h in hrefs if not h.startswith('https://')][:3]))
+    check(not pg.is_visible('#p-pro .g23'), 'FIFA 23 note hidden in FC 26')
+    prefs = pg.eval_on_selector_all('#p-pro .clip-ref', 'els=>els.map(e=>e.dataset.clip)')
+    pids = pg.evaluate("[...document.querySelectorAll('.titem .code')].map(e=>e.textContent)")
+    check(prefs and all(r in pids for r in prefs), 'unknown clip ref in Pro tab: ' + str([r for r in prefs if r not in pids]))
+    check(pg.eval_on_selector_all('#grp-pro .titem', 'els=>els.length') == 4, 'Pro patterns group has 4 clips')
+    pg.click('#p-pro .clip-ref[data-clip="P1"]'); pg.wait_for_timeout(150)
+    check(pg.evaluate("document.documentElement.querySelector('#p-replays').hidden") is False, 'Pro clip link opens Replays')
+    check(pg.evaluate("document.querySelector('.titem[aria-current=\"true\"] .code').textContent") == 'P1', 'Pro clip link selects P1')
+    check('Deep-Lying Playmaker' in pg.inner_text('#cSet'), 'P1 FC 26 setting: ' + pg.inner_text('#cSet'))
+    check('1.4.0' in pg.inner_text('#cN26T'), 'P1 FC 26 note: ' + pg.inner_text('#cN26T'))
+    pg.click('[data-gm="fc23"]'); pg.click('#mt-pro')
+    check(pg.is_visible('#p-pro .g23'), 'FIFA 23 note shown in FIFA 23')
+    check('Stay Back While Attacking' in pg.evaluate("(()=>{window.__lrrMode('replays');document.querySelector('.titem[data-i]');return ''})()") + pg.evaluate("(()=>{const i=[...document.querySelectorAll('.titem')].find(b=>b.querySelector('.code').textContent==='P1').dataset.i;document.querySelector('.titem[data-i=\"'+i+'\"]').click();return document.getElementById('cSet').innerText})()"), 'P1 FIFA 23 setting')
+    pg.click('[data-gm="fc26"]')
     # Replays: coach card per game
     pg.click('#mt-replays')
     pg.evaluate("window.__lrrShow && 0")
@@ -92,7 +113,7 @@ with sync_playwright() as p:
         for game in ('fc26', 'fc23'):
             for dark in (False, True):
                 ctx, pg, errs = open_page(b, w, 900, dark=dark, game=game)
-                for m in ('trainer', 'ai', 'replays', 'plan'):
+                for m in ('trainer', 'ai', 'replays', 'plan', 'pro'):
                     pg.evaluate(f"window.__lrrMode('{m}')"); pg.wait_for_timeout(120)
                     sw = pg.evaluate('document.documentElement.scrollWidth'); cw = pg.evaluate('document.documentElement.clientWidth')
                     check(sw <= cw, f'h-scroll {w} {game} {m} dark={dark}: {sw}>{cw}')

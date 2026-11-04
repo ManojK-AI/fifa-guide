@@ -3,7 +3,7 @@ import pathlib, re
 
 W = pathlib.Path(__file__).parent
 FP = W / 'fontpkg'
-LIVE = (W.parent / 'live' / 'index.html').read_text()
+LIVE = (W / 'base' / 'replay-room-fifa23.html').read_text()
 WRAP_HEAD = LIVE[:LIVE.index('<title>')]           # the publisher's own skeleton
 WRAP_TAIL = '\n</body></html>'
 URL = 'https://lrr.test/'

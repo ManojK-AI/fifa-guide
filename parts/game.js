@@ -24,7 +24,8 @@ const U26={
   fpctl:'https://www.fifplay.com/fc-26-controls/',
   fp23ctl:'https://www.fifplay.com/fifa-23-controls/',
   cheese:'https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774',
-  sk23:'https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023'
+  sk23:'https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023',
+  may26:'https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25'
 };
 const CONTAIN26='Hold A contains only on Tactical defending (or Legacy, which Ultimate Team doesn’t allow). On the default, Advanced, hold A is a physical tackle.';
 const CONTAIN26_SRC=[{t:'FIFPlay: FC 26 controls (Contain vs Physical Tackle)',u:U26.fpctl},{t:'EA: FC 26 settings guide (Defending options)',u:U26.acc}];
@@ -76,7 +77,19 @@ const F26={
   C5:{n:'EA made one-touch shots more responsive in Competitive gameplay, which Squad Battles uses.',
       src:{t:'EA Ultimate Team Deep Dive: more responsive one-touch shooting',u:U26.fut}},
   D2:{n:CONTAIN26,src:CONTAIN26_SRC},
-  D4:{n:CONTAIN26,src:CONTAIN26_SRC}
+  D4:{n:CONTAIN26,src:CONTAIN26_SRC},
+  /* Pro patterns (2026-11-04): same inputs in both games; FC 26 roles and patch context here */
+  P1:{setting:'Pivot: Deep-Lying Playmaker (Build-Up). Far full-back: Fullback (Defend).',
+      n:'Since update 1.4.0 the Squad Battles AI attacks more and keeps the ball less, so it counters the moment it wins the ball. Four behind it is your insurance.',
+      src:{t:'EA update 1.4.0: Squad Battles AI more direct',u:U26.v140}},
+  P2:{setting:'Long spell in their half? Quick tactic Team Press: D-pad Up, then Left.',
+      n:'Since update 1.4.0 AI defenders react slower when marking the ball carrier, so space opens while they reset. Since May 2026 Team Press presses less in your own half, so use it in theirs.',
+      src:[{t:'EA update 1.4.0 notes: AI defenders react slower',u:U26.v140n},{t:'MP1st: May 2026 update notes (Team Press)',u:U26.may26}]},
+  P3:{n:'Since May 2026, AI teammates stop doubling up on the ball carrier while you mark him yourself, and contain him when your man is further away. Get tight yourself first, then use the second man.',
+      src:{t:'MP1st: May 2026 update notes (teammate contain)',u:U26.may26}},
+  P4:{setting:'Wingers on Inside Forward: they run in behind, inside their full-back.',
+      n:'FC 26 semi-assisted through balls pick the runner in the lane you aim at, the gap between two defenders. Directed runs also work while you dribble with controlled sprint (hold RB), since update 1.1.0.',
+      src:[{t:'EA Gameplay Deep Dive: passing lanes for through balls',u:U26.dd},{t:'EA update 1.1.0 notes: directed runs in controlled sprint',u:U26.v110n}]}
 };
 /* Button prompts that change in FC 26, keyed by the label the clips use */
 const L26={

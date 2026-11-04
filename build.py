@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Builds replay-room.html (FC 26 + FIFA 23) from the live v3 page plus parts/. Every edit is an exact, single-occurrence replace."""
+"""Builds replay-room.html (FC 26 + FIFA 23) from the FIFA 23 base page plus parts/. Every edit is an exact, single-occurrence replace.
+
+The base page is base/replay-room-fifa23.html (the published v3 FIFA 23 page with the publisher's wrapper).
+It used to live outside the repo at ../live/index.html; see base/README.md."""
 import pathlib, re, subprocess, sys
 
 W = pathlib.Path(__file__).parent
 P = W / 'parts'
-live = (W.parent / 'live' / 'index.html').read_text()
+live = (W / 'base' / 'replay-room-fifa23.html').read_text()
 
 # 1. strip the publish wrapper: keep from <title> to the end of the last </script>
 start = live.index('<title>')
@@ -23,10 +26,14 @@ def part(name):
 
 subprocess.run([sys.executable, str(W / 'make_ai26.py')], check=True)
 subprocess.run([sys.executable, str(W / 'make_plan26.py')], check=True)
+subprocess.run([sys.executable, str(W / 'make_pro.py')], check=True)
 
 # 2. CSS
 first_style_end = s.index('</style>')
 s = s[:first_style_end] + part('game.css') + s[first_style_end:]
+# 2b. Pro tab CSS, after the FC 26 CSS
+first_style_end = s.index('</style>')
+s = s[:first_style_end] + part('pro.css') + s[first_style_end:]
 
 # 3. masthead: game switch + eyebrow per game
 rep('<p class="eyebrow">FIFA 23 · Ultimate AI · your 4-3-3 Attack</p>',
@@ -61,6 +68,20 @@ rep('<article class="pcard pwide honest">', '<article class="pcard pwide honest 
 rep('<article class="pcard pwide">\n        <p class="coach-k">Where this comes from</p>', '<article class="pcard pwide g23">\n        <p class="coach-k">Where this comes from</p>')
 rep('</ol>\n      </article>\n    </div>\n  </section>\n\n  <p class="foot">',
     '</ol>\n      </article>\n' + part('plan26_cards.html') + '    </div>\n  </section>\n\n  <p class="foot">')
+
+# 7b. Pro patterns: a new clip group, four advanced clips at the end of TACTICS (parts/pro_clips.js)
+rep("  {id:'notes',  name:'Your notes', tab:'Notes', gap:'Your sketches'}\n",
+    "  {id:'notes',  name:'Your notes', tab:'Notes', gap:'Your sketches'},\n  {id:'pro',    name:'Pro patterns', tab:'Pro', gap:'Advanced'}\n")
+rep("}\n];\n\n/* ======================= Scan trainer scenes",
+    "},\n" + part('pro_clips.js') + "\n];\n\n/* ======================= Scan trainer scenes")
+
+# 7c. Pro tab: fifth section tab, its panel (parts/pro.html from make_pro.py), mode list and clip links
+rep('<button type="button" class="mtab" role="tab" id="mt-plan" data-m="plan" aria-controls="p-plan" aria-selected="false" tabindex="-1"><strong>Plan</strong><small>Settings, script</small></button>\n',
+    '<button type="button" class="mtab" role="tab" id="mt-plan" data-m="plan" aria-controls="p-plan" aria-selected="false" tabindex="-1"><strong>Plan</strong><small>Settings, script</small></button>\n'
+    '    <button type="button" class="mtab" role="tab" id="mt-pro" data-m="pro" aria-controls="p-pro" aria-selected="false" tabindex="-1"><strong>Pro</strong><small>Advanced kit</small></button>\n')
+rep('    </div>\n  </section>\n\n  <p class="foot">', '    </div>\n  </section>\n\n' + part('pro.html') + '\n  <p class="foot">')
+rep("const MODES=['trainer','ai','replays','plan'];", "const MODES=['trainer','ai','replays','plan','pro'];")
+rep("['p-plan','p-ai','tmissed'].forEach(", "['p-plan','p-ai','p-pro','tmissed'].forEach(")
 
 # 8. JS: reel lists move into the game block
 rep("const REEL = ['U1','A1','U2','U3','A2','A3','U6'];\n", '')

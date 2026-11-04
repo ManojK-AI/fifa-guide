@@ -373,6 +373,48 @@ h1{margin:0;font-family:var(--f-display);font-weight:800;font-size:clamp(2.2rem,
 .kc-row{flex-wrap:wrap;justify-content:flex-end;row-gap:3px;white-space:normal}
 .kc-row .kb{flex:none;white-space:nowrap}
 .kc-row>span:last-child{flex:1 1 7.5em;min-width:7.5em;white-space:normal;text-align:right;line-height:1.25;overflow:visible;text-overflow:clip}
+
+/* Pro tab (advanced kit), added 2026-11-04 */
+.modes{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media (min-width:980px){.modes{max-width:900px}}
+@media (max-width:419px){.mtab strong{font-size:.95rem;letter-spacing:.01em}.modes{gap:2px;padding:3px}}
+@media (max-width:359px){.mtab strong{font-size:.86rem;letter-spacing:0}.mtab{padding:11px 2px}}
+.ev{display:inline-block;margin:0 4px 2px 0;padding:1px 6px 0;border-radius:5px;font-size:.66rem;font-weight:700;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;vertical-align:1px;border:1px solid var(--rule);color:var(--ink-2)}
+.ev-ea{border-color:var(--good);color:var(--good)}
+.ev-guide{border-color:var(--ink-2);color:var(--ink)}
+.ev-players{border-style:dashed}
+.ev-coach{background:var(--chip);border-color:var(--chip);color:var(--ink)}
+.ev-unconfirmed{border-style:dotted;border-color:var(--bad);color:var(--bad)}
+.evl{display:inline;font-size:.82rem;line-height:1.5}
+.evkey{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;margin:0 0 10px;font-size:.86rem;color:var(--ink-2)}
+.evk{display:inline-flex;align-items:baseline;gap:5px;margin-right:12px}
+@media (max-width:520px){.evkey{flex-direction:column;align-items:flex-start;gap:4px}.evk{display:flex;margin-right:0}}
+.evkey .ev{margin:0}
+.pro-head p{max-width:76ch}
+.pnote{display:block;margin-top:3px;font-size:.76rem;line-height:1.3;color:var(--ink-2)}
+.pfoot{margin:10px 0 0;font-size:.86rem;line-height:1.5;color:var(--ink-2)}
+.ptab-h{margin:16px 0 4px;font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.ptab{width:100%;margin:4px 0 0;border-collapse:collapse;font-size:.9rem;line-height:1.42}
+.ptab th,.ptab td{padding:9px 12px 9px 0;border-top:1px solid var(--rule);text-align:left;vertical-align:top}
+.ptab thead th{border-top:0;padding-top:2px;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.ptab td:last-child,.ptab th:last-child{padding-right:0}
+.ptab .kb{flex-wrap:wrap;row-gap:3px}
+.ptab td .kb{flex-wrap:nowrap}
+#p-pro .src{white-space:normal;overflow-wrap:anywhere}
+.t-pts td,.t-pts th{text-align:right}.t-pts td:first-child,.t-pts th:first-child{text-align:left}
+@media (max-width:700px){
+  .ptab thead{display:none}
+  .ptab,.ptab tbody,.ptab tr,.ptab td{display:block;width:100%}
+  .ptab tr{padding:10px 0;border-top:1px solid var(--rule)}
+  .ptab td{padding:2px 0;border:0;white-space:normal!important}
+  .ptab td::before{content:attr(data-l);display:block;margin-top:5px;font-size:.66rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+  .ptab td:first-child::before{display:none}
+  .ptab td:first-child{font-size:.95rem}
+  .t-pts td,.t-pts th{text-align:left}
+}
+.pro-list li{display:block}
+.pro-list li>span:first-child{display:inline}
+.pro-list .kb{vertical-align:middle}
 </style>
 
 <div class="app">
@@ -394,6 +436,7 @@ h1{margin:0;font-family:var(--f-display);font-weight:800;font-size:clamp(2.2rem,
     <button type="button" class="mtab" role="tab" id="mt-ai" data-m="ai" aria-controls="p-ai" aria-selected="false" tabindex="-1"><strong>AI moves</strong><small>Its habits</small></button>
     <button type="button" class="mtab" role="tab" id="mt-replays" data-m="replays" aria-controls="p-replays" aria-selected="false" tabindex="-1"><strong>Replays</strong><small>Wrong, then right</small></button>
     <button type="button" class="mtab" role="tab" id="mt-plan" data-m="plan" aria-controls="p-plan" aria-selected="false" tabindex="-1"><strong>Plan</strong><small>Settings, script</small></button>
+    <button type="button" class="mtab" role="tab" id="mt-pro" data-m="pro" aria-controls="p-pro" aria-selected="false" tabindex="-1"><strong>Pro</strong><small>Advanced kit</small></button>
   </nav>
 
   <section class="panel" id="p-trainer" role="tabpanel" aria-labelledby="mt-trainer">
@@ -1018,6 +1061,201 @@ h1{margin:0;font-family:var(--f-display);font-weight:800;font-size:clamp(2.2rem,
     </div>
   </section>
 
+  <section class="panel" id="p-pro" role="tabpanel" aria-labelledby="mt-pro" hidden>
+    <div class="plan pro">
+      <article class="pcard pwide pro-head">
+        <p class="coach-k">Pro kit · FC 26</p>
+        <h2>The next level</h2>
+        <p>The other tabs stop the leaks: build-up, chances, balls in behind. This one is what separates winning on Legendary from running the game on Ultimate: the right shot for the moment, the full pass kit, manual defending, a tactic for every scoreline, and practice that actually transfers.</p>
+        <p class="pintro">Inputs are FC 26 Classic controls on an Xbox pad. Every line says how sure it is:</p>
+        <p class="evkey"><span class="evk"><span class="ev ev-ea" title="From EA’s own pages">EA</span> EA’s own notes</span><span class="evk"><span class="ev ev-guide" title="From an established guide site">Guide</span> an established guide</span><span class="evk"><span class="ev ev-players" title="What players report on EA’s forums">Players</span> players on EA’s forums</span><span class="evk"><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> reasoning, not a measured fact</span><span class="evk"><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> found in search results only</span></p>
+        <p class="n26 g23"><span class="n26-t"><b>Playing FIFA 23?</b> This tab is written for FC 26. Most inputs are the same, but these are FC 26 only: the double-tap low driven shot (FIFA 23 has Timed Finishing instead), precision passes, controlled sprint, the new skill moves, Roles and the tactics lab (FIFA 23 uses player instructions and game plans), and every patch note. The four Pro clips work in both games.</span></p>
+      </article>
+      <article class="pcard pwide">
+        <p class="coach-k">Finishing</p>
+        <h2>Pick the shot for the moment</h2>
+        <p>Shot choice beats shot power. Read the keeper and the nearest defender, then pick from this table.</p>
+          <table class="ptab t-finish">
+            <thead><tr><th scope="col">The moment</th><th scope="col">The shot</th><th scope="col">Input</th><th scope="col">Why</th></tr></thead>
+            <tbody>
+            <tr><td data-l="The moment">Cutback to the edge or the penalty spot, you arrive first time</td><td data-l="The shot"><b>First-time low driven shot</b></td><td data-l="Input"><span class="kb" role="img" aria-label="double-tap B"><span class="k k-B" aria-hidden="true">B</span><span class="k k-B" aria-hidden="true">B</span></span><span class="pnote">hold B briefly, tap again, before the ball reaches you</span></td><td data-l="Why">Low driven is a double tap in FC 26, and one-touch shots trigger as little as one frame before you receive. A guide rates low drivens faster and harder for keepers to save. <button type="button" class="clip-ref" data-clip="C1" aria-label="Watch clip C1">▶ C1</button> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Ultimate Team Deep Dive (Aug 2025)">EA UT Deep Dive</a> · <a class="src" href="https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/how-to-do-low-driven-shots-headers-in-ea-fc-26/" target="_blank" rel="noopener" title="Dexerto: FC 26 low driven shots">Dexerto</a></span></td></tr>
+            <tr><td data-l="The moment">One-on-one, keeper rushing out</td><td data-l="The shot"><b>Chip</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus B"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-B" aria-hidden="true">B</span></span></td><td data-l="Why">Update 1.5.0 made chips more accurate and less likely to go wide, more so with the Chip Shot PlayStyle. <button type="button" class="clip-ref" data-clip="U5" aria-label="Watch clip U5">▶ U5</button> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a></span></td></tr>
+            <tr><td data-l="The moment">One-on-one, keeper set on his line</td><td data-l="The shot"><b>Low driven finesse to the far corner</b></td><td data-l="Input"><span class="kb" role="img" aria-label="RB plus double-tap B"><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-B" aria-hidden="true">B</span><span class="k k-B" aria-hidden="true">B</span></span><span class="pnote">short hold</span></td><td data-l="Why">Low driven works with finesse too. Keep the press short: EA made low drivens less accurate at extreme power. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-feedback-update-october" target="_blank" rel="noopener" title="EA: FC 26 October Feedback Update (Oct 2025)">EA Oct 2025 update</a></span></td></tr>
+            <tr><td data-l="The moment">Edge of the box, after cutting in onto your strong foot</td><td data-l="The shot"><b>Finesse, far post</b></td><td data-l="Input"><span class="kb" role="img" aria-label="RB plus B"><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-B" aria-hidden="true">B</span></span></td><td data-l="Why">From the edge, not from range: at launch EA cut the top spin on finesse shots from outside the box. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update" target="_blank" rel="noopener" title="EA: FC 26 Launch Update (Sep 2025)">EA launch update</a></span></td></tr>
+            <tr><td data-l="The moment">20 to 25 yards out with space, shooter has Power Shot</td><td data-l="The shot"><b>Power shot</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus RB plus B"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-B" aria-hidden="true">B</span></span></td><td data-l="Why">Update 1.5.0 gave power shots a better trajectory from long range, and more accuracy with the Power Shot PlayStyle. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a></span></td></tr>
+            <tr><td data-l="The moment">A defender within a yard of you</td><td data-l="The shot"><b>Fake shot, then shoot</b></td><td data-l="Input"><span class="kb" role="img" aria-label="B then A"><span class="k k-B" aria-hidden="true">B</span><span class="kword" aria-hidden="true">then</span><span class="k k-A" aria-hidden="true">A</span></span><span class="pnote">plus a direction</span></td><td data-l="Why">Update 1.5.0 made the Fake Shot 5% faster. <button type="button" class="clip-ref" data-clip="U3" aria-label="Watch clip U3">▶ U3</button> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a></span></td></tr>
+            <tr><td data-l="The moment">Tight angle near the byline</td><td data-l="The shot"><b>Don’t shoot: cut it back low</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus RB plus double-tap X"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-X" aria-hidden="true">X</span><span class="k k-X" aria-hidden="true">X</span></span><span class="pnote">driven ground cross</span></td><td data-l="Why">A guide rates the driven ground cross the best option for fast, low cutbacks. <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel" target="_blank" rel="noopener" title="EarlyGame (German): FC 26 passing guide">EarlyGame passing</a></span></td></tr>
+            <tr><td data-l="The moment">A high ball in their box</td><td data-l="The shot"><b>Head it only with a strong header</b></td><td data-l="Input"><span class="kb" role="img" aria-label="B"><span class="k k-B" aria-hidden="true">B</span></span></td><td data-l="Why">Squad Battles plays Competitive gameplay, which EA says has more heading error than Authentic. Strength decides who wins the ball in the air. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></td></tr>
+            <tr><td data-l="The moment">You want the outside of the foot</td><td data-l="The shot"><b>Trivela</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LT plus B"><span class="k k-trig" aria-hidden="true">LT</span><span class="kplus" aria-hidden="true">+</span><span class="k k-B" aria-hidden="true">B</span></span></td><td data-l="Why">Only players with the Gamechanger PlayStyle can hit one in FC 26. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></td></tr>
+            </tbody>
+          </table>
+      </article>
+      <article class="pcard pwide">
+        <p class="coach-k">Passing</p>
+        <h2>The full pass kit</h2>
+        <p>The Playbook’s button table covers the everyday passes. FC 26 has more than ten, and each one has its moment. Learn them one at a time.</p>
+          <table class="ptab t-pass">
+            <thead><tr><th scope="col">Pass</th><th scope="col">Input</th><th scope="col">Use it when</th><th scope="col">Evidence</th></tr></thead>
+            <tbody>
+            <tr><td data-l="Pass"><b>Driven ground pass</b></td><td data-l="Input"><span class="kb" role="img" aria-label="RB plus A"><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-A" aria-hidden="true">A</span></span></td><td data-l="Use it when">Any pass that breaks a line. A soft one gets cut out.</td><td data-l="Evidence">Update 1.5.0 made ground passes quicker and more accurate, most for good passers. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Precision pass</b></td><td data-l="Input"><span class="kb" role="img" aria-label="RB plus Y"><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-Y" aria-hidden="true">Y</span></span></td><td data-l="Use it when">Into space ahead of a runner, exactly where you aim. For space, not feet.</td><td data-l="Evidence">A deliberate pass, close to manual. One guide calls it precise but less effective than the other options, so use it for the one pass that needs it. <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-precision-pass/" target="_blank" rel="noopener" title="FIFPlay: FC 26 precision pass">FIFPlay precision pass</a> · <a class="src" href="https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel" target="_blank" rel="noopener" title="EarlyGame (German): FC 26 passing guide">EarlyGame passing</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Precision lob</b></td><td data-l="Input"><span class="kb" role="img" aria-label="RB plus X"><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-X" aria-hidden="true">X</span></span></td><td data-l="Use it when">Drop the ball onto a spot over a defender.</td><td data-l="Evidence"><span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Precision swerve pass</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LT plus RB plus Y"><span class="k k-trig" aria-hidden="true">LT</span><span class="kplus" aria-hidden="true">+</span><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-Y" aria-hidden="true">Y</span></span></td><td data-l="Use it when">Bend a ground pass round the man standing in the lane.</td><td data-l="Evidence"><span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-precision-pass/" target="_blank" rel="noopener" title="FIFPlay: FC 26 precision pass">FIFPlay precision pass</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Lofted through ball</b></td><td data-l="Input"><span class="kb" role="img" aria-label="double-tap Y"><span class="k k-Y" aria-hidden="true">Y</span><span class="k k-Y" aria-hidden="true">Y</span></span></td><td data-l="Use it when">Defenders tight on your runner: go over them.</td><td data-l="Evidence">A guide calls it one of FC 26’s strongest passes, but update 1.5.0 cut lofted pass accuracy, so play it from a passer with time. <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel" target="_blank" rel="noopener" title="EarlyGame (German): FC 26 passing guide">EarlyGame passing</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Lobbed through ball</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus Y"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-Y" aria-hidden="true">Y</span></span></td><td data-l="Use it when">Their line is high and your runner is level with it.</td><td data-l="Evidence"><button type="button" class="clip-ref" data-clip="U4" aria-label="Watch clip U4">▶ U4</button> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Driven through ball</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus RB plus Y"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-Y" aria-hidden="true">Y</span></span></td><td data-l="Use it when">A tight gap on the ground: faster than a plain through ball.</td><td data-l="Evidence"><span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Driven lob</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus RB plus X"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-X" aria-hidden="true">X</span></span></td><td data-l="Use it when">Fast switch to the far winger once they are all ball-side.</td><td data-l="Evidence"><button type="button" class="clip-ref" data-clip="C2" aria-label="Watch clip C2">▶ C2</button> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Driven ground cross</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus RB plus double-tap X"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-bump" aria-hidden="true">RB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-X" aria-hidden="true">X</span><span class="k k-X" aria-hidden="true">X</span></span></td><td data-l="Use it when">Low, fast cutback from the byline.</td><td data-l="Evidence"><span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel" target="_blank" rel="noopener" title="EarlyGame (German): FC 26 passing guide">EarlyGame passing</a></span></td></tr>
+            <tr><td data-l="Pass"><b>First-time pass</b></td><td data-l="Input"><span class="kb" role="img" aria-label="A"><span class="k k-A" aria-hidden="true">A</span></span><span class="pnote">tap before the ball arrives</span></td><td data-l="Use it when">Quick triangles to beat a press. Forward or square, not back across your body.</td><td data-l="Evidence">A guide rates first-time passing “extremely powerful”. EA: Competitive gameplay cuts first-time pass accuracy, and first-time through balls at 135° or 180° are much less accurate. <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking" target="_blank" rel="noopener" title="Red Bull: FC 26 meta guide (Feb 2026)">Red Bull meta guide</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Ultimate Team Deep Dive (Aug 2025)">EA UT Deep Dive</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></td></tr>
+            <tr><td data-l="Pass"><b>Pass and go</b></td><td data-l="Input"><span class="kb" role="img" aria-label="LB plus A"><span class="k k-bump" aria-hidden="true">LB</span><span class="kplus" aria-hidden="true">+</span><span class="k k-A" aria-hidden="true">A</span></span></td><td data-l="Use it when">The one-two at the edge of the box. One guide lists a driven version on LB + RB + A.</td><td data-l="Evidence"><button type="button" class="clip-ref" data-clip="C3" aria-label="Watch clip C3">▶ C3</button> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a> · <a class="src" href="https://www.operationsports.com/ea-fc-26-all-passing-techniques-explained/" target="_blank" rel="noopener" title="Operation Sports: every FC 26 passing technique">Operation Sports passing</a></span></td></tr>
+            </tbody>
+          </table>
+        <p class="pfoot">Two settings that go with this: Pass Receiver Lock on Late lets you change the target at the last moment, and Precision Pass Sensitivity on High cuts the assistance on precision passes. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/able/resources/ea-sports-fc/fc-26" target="_blank" rel="noopener" title="EA: FC 26 settings and accessibility guide">EA settings guide</a></span></p>
+      </article>
+      <article class="pcard">
+        <p class="coach-k">Defending</p>
+        <h2>Defend by hand</h2>
+        <ul class="plist pro-list">
+          <li><span><b>Choose your defending mode on purpose.</b> Tactical: hold A contains and the game picks the tackle. Advanced, the default: hold A is a physical tackle, RB + B a hard tackle, RB + X a hard slide. Stay on Tactical until your tackles are timed, then try Advanced for the extra tools.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/able/resources/ea-sports-fc/fc-26" target="_blank" rel="noopener" title="EA: FC 26 settings and accessibility guide">EA settings guide</a> · <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a> · <a class="src" href="https://www.fifplay.com/fc-26-defending-tips/" target="_blank" rel="noopener" title="FIFPlay: FC 26 defending tips">FIFPlay defending</a></span></li>
+          <li><span><b>Sprint jockey</b> <span class="kb" role="img" aria-label="LT plus RT"><span class="k k-trig" aria-hidden="true">LT</span><span class="kplus" aria-hidden="true">+</span><span class="k k-trig" aria-hidden="true">RT</span></span> keeps you goal-side of a runner. Update 1.1.0 made jockey and sprint jockey faster and more responsive.</span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.fifplay.com/fc-26-defending-tips/" target="_blank" rel="noopener" title="FIFPlay: FC 26 defending tips">FIFPlay defending</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update" target="_blank" rel="noopener" title="EA: FC 26 update 1.1.0 Pitch Notes (Oct 2025)">EA 1.1.0</a></span></li>
+          <li><span><b>Tackle when the ball leaves his foot</b> or when he turns his back to you. Never from behind: EA made tackles from behind less effective.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>Pick defenders by Stand Tackle.</b> 85 or more gets every tackle animation, 71 to 84 most of them, under 71 only the basic ones.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>Shoulder only a weaker man.</b> Since update 1.4.0 a big Strength gap makes the weaker player stumble. Bruiser was toned down in May 2026.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.4.0 (Jan 2026)">EA 1.4.0</a> · <a class="src" href="https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25" target="_blank" rel="noopener" title="MP1st: copy of EA’s May 2026 update notes">EA May 2026 notes (MP1st)</a></span></li>
+          <li><span><b>Put your interceptors in the lanes.</b> Since May 2026 players with 90+ Interceptions get the Intercept PlayStyle’s animations.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25" target="_blank" rel="noopener" title="MP1st: copy of EA’s May 2026 update notes">EA May 2026 notes (MP1st)</a></span></li>
+          <li><span><b>Second man in bursts.</b> Hold RB for about a second, then let go before you tackle so he drops back into his lane. <button type="button" class="clip-ref" data-clip="P3" aria-label="Watch clip P3">▶ P3</button> Since May 2026 AI teammates stop doubling up while you mark the man yourself, so get tight first.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25" target="_blank" rel="noopener" title="MP1st: copy of EA’s May 2026 update notes">EA May 2026 notes (MP1st)</a></span></li>
+          <li><span><b>Pressing calls.</b> Partial team press: double-tap RB and hold. Team Press: D-pad Up, then Left, in their half only since May 2026. Offside trap: Up, then Up, only when your line is set and their passer is under pressure. <button type="button" class="clip-ref" data-clip="P2" aria-label="Watch clip P2">▶ P2</button></span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.operationsports.com/how-to-press-with-multiple-players-in-ea-fc-26/" target="_blank" rel="noopener" title="Operation Sports: pressing with several players in FC 26">Operation Sports pressing</a> · <a class="src" href="https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25" target="_blank" rel="noopener" title="MP1st: copy of EA’s May 2026 update notes">EA May 2026 notes (MP1st)</a></span></li>
+          <li><span><b>Leave your keeper alone.</b> Update 1.3.0 greatly cut manual keeper movement and removed Rush to Center in open play. Hold Y only to come halfway.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-holiday-update" target="_blank" rel="noopener" title="EA: FC 26 Holiday Update, 1.3.0 (Dec 2025)">EA 1.3.0</a></span></li>
+          <li><span><b>Switch to the man in the lane,</b> not the nearest one: flick the right stick. Keep the Next Player Switch Indicator on. <button type="button" class="clip-ref" data-clip="D2" aria-label="Watch clip D2">▶ D2</button></span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/able/resources/ea-sports-fc/fc-26" target="_blank" rel="noopener" title="EA: FC 26 settings and accessibility guide">EA settings guide</a></span></li>
+        </ul>
+      </article>
+      <article class="pcard">
+        <p class="coach-k">Movement and dribbling</p>
+        <h2>Move like a forward</h2>
+        <ul class="plist pro-list">
+          <li><span><b>Controlled sprint:</b> hold <span class="kb" role="img" aria-label="RB"><span class="k k-bump" aria-hidden="true">RB</span></span> while dribbling to carry it fast and close. Since update 1.1.0 you can trigger directed runs during it.</span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update" target="_blank" rel="noopener" title="EA: FC 26 update 1.1.0 Pitch Notes (Oct 2025)">EA 1.1.0</a> · <a class="src" href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780" target="_blank" rel="noopener" title="EA: FC 26 update 1.1.0 notes (Oct 2025)">EA 1.1.0 notes</a></span></li>
+          <li><span><b>Directed run:</b> tap LB, then flick the right stick where you want him to go. Send one as a decoy and pass into the gap it leaves. <button type="button" class="clip-ref" data-clip="P4" aria-label="Watch clip P4">▶ P4</button></span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a></span></li>
+          <li><span><b>Player lock:</b> press both sticks in, <span class="kb" role="img" aria-label="left stick plus right stick"><span class="k k-stick" aria-hidden="true">LS</span><span class="kplus" aria-hidden="true">+</span><span class="k k-stick" aria-hidden="true">RS</span></span>, to take a player off the ball and make his run yourself; press both again to let go. Some players say it doesn’t work in Ultimate Team, so try it in Kick-off first.</span> <span class="evl"><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://www.operationsports.com/how-to-use-player-lock-in-ea-fc-26" target="_blank" rel="noopener" title="Operation Sports: player lock in FC 26">Operation Sports player lock</a></span></li>
+          <li><span><b>First touch:</b> hold <span class="kb" role="img" aria-label="LT"><span class="k k-trig" aria-hidden="true">LT</span></span> as the pass arrives for a cleaner touch, at the cost of speed.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>Loose balls:</b> press <span class="kb" role="img" aria-label="RT"><span class="k k-trig" aria-hidden="true">RT</span></span> to make your man attack the ball.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>Shield:</b> hold LT. Since update 1.4.0 Strength and Aggression decide more of it, and Enforcer got a boost in May 2026.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.4.0 (Jan 2026)">EA 1.4.0</a> · <a class="src" href="https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25" target="_blank" rel="noopener" title="MP1st: copy of EA’s May 2026 update notes">EA May 2026 notes (MP1st)</a></span></li>
+          <li><span><b>Left-stick dribbling</b> works better again in FC 26, best with Quick Step players.</span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking" target="_blank" rel="noopener" title="Red Bull: FC 26 meta guide (Feb 2026)">Red Bull meta guide</a></span></li>
+        </ul>
+        <p class="ptab-h">Skill moves worth learning</p>
+          <table class="ptab t-skill">
+            <thead><tr><th scope="col">Move</th><th scope="col">Stars</th><th scope="col">Input</th><th scope="col">Why</th></tr></thead>
+            <tbody>
+            <tr><td data-l="Move"><b>Fake shot</b></td><td data-l="Stars">1★</td><td data-l="Input"><span class="kb" role="img" aria-label="B then A"><span class="k k-B" aria-hidden="true">B</span><span class="kword" aria-hidden="true">then</span><span class="k k-A" aria-hidden="true">A</span></span></td><td data-l="Why">The one move to master. 5% faster since update 1.5.0. <button type="button" class="clip-ref" data-clip="U3" aria-label="Watch clip U3">▶ U3</button> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a></span></td></tr>
+            <tr><td data-l="Move"><b>Ball roll</b></td><td data-l="Stars">1–2★</td><td data-l="Input"><span class="kb" role="img" aria-label="hold right stick"><span class="kword" aria-hidden="true">hold</span><span class="k k-stick" aria-hidden="true">RS</span></span><span class="pnote">left or right</span></td><td data-l="Why">Steps you across a defender’s line. Rated effective in FC 26; sources differ on its stars. <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking" target="_blank" rel="noopener" title="Red Bull: FC 26 meta guide (Feb 2026)">Red Bull meta guide</a> · <a class="src" href="https://www.destructoid.com/all-fc-26-skill-moves-and-how-to-do-them/" target="_blank" rel="noopener" title="Destructoid: every FC 26 skill move">Destructoid</a></span></td></tr>
+            <tr><td data-l="Move"><b>Explosive Stepover</b></td><td data-l="Stars">3★, new</td><td data-l="Input"><span class="kb" role="img" aria-label="hold LB"><span class="kword" aria-hidden="true">hold</span><span class="k k-bump" aria-hidden="true">LB</span></span><span class="pnote">and roll RS from forward to the side, then LS to exit</span></td><td data-l="Why">New in FC 26, with a burst of speed on the way out. <span class="evl"><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://www.redbull.com/ie-en/ea-fc-26-skillmoves-tricks-guide" target="_blank" rel="noopener" title="Red Bull: FC 26 skill moves guide">Red Bull skill moves</a> · <a class="src" href="https://beebom.com/ea-sports-fc-26-skill-moves-and-controls/" target="_blank" rel="noopener" title="Beebom: all new FC 26 skill moves">Beebom</a> · <a class="src" href="https://www.operationsports.com/the-best-skill-moves-in-fc-26" target="_blank" rel="noopener" title="Operation Sports: best FC 26 skill moves">Operation Sports skill moves</a></span></td></tr>
+            <tr><td data-l="Move"><b>Drag to Chop</b></td><td data-l="Stars">4★, new</td><td data-l="Input"><span class="kb" role="img" aria-label="hold LT"><span class="kword" aria-hidden="true">hold</span><span class="k k-trig" aria-hidden="true">LT</span></span><span class="pnote">and roll RS left, back, right (or the reverse)</span></td><td data-l="Why">New in FC 26. <span class="evl"><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://www.redbull.com/ie-en/ea-fc-26-skillmoves-tricks-guide" target="_blank" rel="noopener" title="Red Bull: FC 26 skill moves guide">Red Bull skill moves</a> · <a class="src" href="https://beebom.com/ea-sports-fc-26-skill-moves-and-controls/" target="_blank" rel="noopener" title="Beebom: all new FC 26 skill moves">Beebom</a></span></td></tr>
+            </tbody>
+          </table>
+        <p class="pfoot">Skip the Elastico variations: a guide calls them “largely ineffective” in FC 26. Heel Chop and Feint and Exit also got 5% faster in update 1.5.0. Simplified Skill Moves, off by default, turns a right-stick flick into a contextual move. <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking" target="_blank" rel="noopener" title="Red Bull: FC 26 meta guide (Feb 2026)">Red Bull meta guide</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.5.0 (Mar 2026)">EA 1.5.0</a> · <a class="src" href="https://www.ea.com/able/resources/ea-sports-fc/fc-26" target="_blank" rel="noopener" title="EA: FC 26 settings and accessibility guide">EA settings guide</a></span></p>
+      </article>
+      <article class="pcard pwide">
+        <p class="coach-k">Tactics lab</p>
+        <h2>A tactic for every scoreline</h2>
+        <p>One tactic for 90 minutes leaves points on the pitch. Save four and switch with the score. The numbers are a starting point within EA’s ranges: change one thing every two or three matches and check your log. <span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span></p>
+          <table class="ptab t-tac">
+            <thead><tr><th scope="col">Plan</th><th scope="col">D-pad</th><th scope="col">When</th><th scope="col">Shape and team settings</th><th scope="col">Roles that change</th></tr></thead>
+            <tbody>
+            <tr><td data-l="Plan"><b>1. Control</b></td><td data-l="D-pad">Left, then Up</td><td data-l="When">The default</td><td data-l="Shape and team settings">4-3-3 (4) · Build-Up Balanced · Defensive Approach Balanced · Line Height 45</td><td data-l="Roles that change">Your base roles from the Plan tab.</td></tr>
+            <tr><td data-l="Plan"><b>2. Counter</b></td><td data-l="D-pad">Left, then Left</td><td data-l="When">They hog the ball, or you lead and they push up</td><td data-l="Shape and team settings">4-3-3 (4) · Build-Up Counter · Balanced · Line Height 40</td><td data-l="Roles that change">Wingers Inside Forward (Attack). Striker Advanced Forward (Attack).</td></tr>
+            <tr><td data-l="Plan"><b>3. Chase</b></td><td data-l="D-pad">Left, then Right</td><td data-l="When">Losing after 70 minutes</td><td data-l="Shape and team settings">4-3-3 (4) · Build-Up Balanced · High · Line Height 65</td><td data-l="Roles that change">One full-back Attacking Wingback (Attack). In the last ten minutes add Get In The Box: Up, then Down.</td></tr>
+            <tr><td data-l="Plan"><b>4. Lock</b></td><td data-l="D-pad">Left, then Down</td><td data-l="When">Winning after 75 minutes</td><td data-l="Shape and team settings">4-3-3 (2), one CDM · Build-Up Short Passing · Deep · Line Height 28</td><td data-l="Roles that change">CDM Holding (Defend). Both full-backs Fullback (Defend). Wingers Winger (Balanced), so they stay wide.</td></tr>
+            </tbody>
+          </table>
+        <ul class="plist pro-list">
+          <li><span><b>Four tactics, one D-pad.</b> D-pad Left, then a direction, picks Custom Tactic 1 to 4. FC 26 saves Line Height in the tactic code and keeps up to ten codes.</span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>The line ranges.</b> Deep 1–30 (default 25), Balanced 31–60 (50), High 61–90 (70), Aggressive 91–100 (95, presses heavy touches, drains stamina). A pro puts the ceiling at 60: “the highest your defensive line can be without taking unnecessary risks”.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive" target="_blank" rel="noopener" title="EA: FC IQ Deep Dive (FC 25; FC 26 keeps the system)">EA FC IQ (FC 25)</a> · <a class="src" href="https://www.redbull.com/us-en/ea-fc-26-best-tactics-formations" target="_blank" rel="noopener" title="Red Bull: FC 26 tactics, with pro player RedLac (Oct 2025)">Red Bull tactics</a></span></li>
+          <li><span><b>Tactical Focus</b> on D-pad Right shifts both Build-Up and Defensive Approach a step: Right, then Right for attacking; Right, then Left for defending. EA described it this way for FC 25.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive" target="_blank" rel="noopener" title="EA: FC IQ Deep Dive (FC 25; FC 26 keeps the system)">EA FC IQ (FC 25)</a> · <a class="src" href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener" title="FIFPlay: FC 26 controls">FIFPlay controls</a></span></li>
+          <li><span><b>Four behind the ball</b> in every plan except Chase: both CBs, the pivot and the far full-back. <button type="button" class="clip-ref" data-clip="P1" aria-label="Watch clip P1">▶ P1</button></span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0" target="_blank" rel="noopener" title="EA: FC 26 Title Update 1.4.0 (Jan 2026)">EA 1.4.0</a></span></li>
+          <li><span><b>Role, Role+ and Role++.</b> EA says familiarity can make 10% to 40% of the difference (FC 25), and FC 26 brought Role and Role+ “closer to Role++” and cut the out-of-position penalty. Chase ++ in the pivot and striker roles, but don’t drop a better player for it.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive" target="_blank" rel="noopener" title="EA: FC IQ Deep Dive (FC 25; FC 26 keeps the system)">EA FC IQ (FC 25)</a> · <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>New FC 26 roles.</b> Box Crasher: a CDM who makes trailing runs into the box, made for Chase. Inverted Wingback: a full-back who moves central and high when you have the ball, risky against an AI that counters. Wide Back: a CB who opens wide to cover his full-back. Ball-Playing Keeper: an option in build-up who stays on his line in defence.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>A pro’s offline view:</b> “make the pitch as big as possible”, with four at the back and three central midfielders or a 4-2-3-1, and wide players on the Winger role. 4-2-3-1 Wide is the alternative Control plan to test.</span> <span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://www.redbull.com/us-en/ea-fc-26-best-tactics-formations" target="_blank" rel="noopener" title="Red Bull: FC 26 tactics, with pro player RedLac (Oct 2025)">Red Bull tactics</a></span></li>
+        </ul>
+      </article>
+      <article class="pcard">
+        <p class="coach-k">Set pieces</p>
+        <h2>Dead balls, live chances</h2>
+        <ul class="plist pro-list">
+          <li><span><b>Corner jobs.</b> FC 26 added attacking roles Top of Box and Defensive Cover, and defending ones Threat Marker, Post Watcher, Near Post and Back Post. Put a good finisher on Top of Box for the ball that comes back out.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>Go short more often.</b> In Competitive gameplay, which Squad Battles uses, fewer attackers go up for corners by default and headers miss more. A short corner and a cutback beats a 50/50 header. Crossing anyway? Overload Set Pieces (Up, then Right) adds bodies, per one guide.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-guide" title="From an established guide site">Guide</span><span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a> · <a class="src" href="https://fifauteam.com/fc-26-smart-tactics/" target="_blank" rel="noopener" title="FIFAUTeam: FC 26 quick tactics">FIFAUTeam quick tactics</a></span></li>
+          <li><span><b>Throw-ins.</b> Press RB to call your chosen throw-in taker. Long throws need the Long Throw PlayStyle.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a></span></li>
+          <li><span><b>Free kicks.</b> EA re-tuned free-kick flight when it removed Timed Finishing. Guides disagree on power, from about 1.5 to 3.5 bars, so find your taker’s number in the Practice Arena, which lets you change the kick-taker in FC 26. Use a Dead Ball PlayStyle player.</span> <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener" title="EA: FC 26 Gameplay Deep Dive (Jul 2025)">EA Deep Dive</a> · <a class="src" href="https://realsport101.com/article/fc-26-how-to-score-free-kicks-the-best-techniques-and-dead-ball-specialists" target="_blank" rel="noopener" title="RealSport101: FC 26 free kicks">RealSport101</a> · <a class="src" href="https://www.teamgullit.com/ea-fc-26/set-pieces" target="_blank" rel="noopener" title="Team Gullit: FC 26 set pieces">Team Gullit</a> · <a class="src" href="https://www.fifplay.com/fc-26-practice-arena/" target="_blank" rel="noopener" title="FIFPlay: FC 26 Practice Arena">FIFPlay Practice Arena</a></span></li>
+          <li><span><b>Penalties.</b> No FC 26 method could be confirmed. Practise them in the Practice Arena before you trust one.</span> </li>
+        </ul>
+      </article>
+      <article class="pcard">
+        <p class="coach-k">Squad Battles</p>
+        <h2>Play the points</h2>
+          <table class="ptab t-pts">
+            <thead><tr><th scope="col">Difficulty</th><th scope="col">Win multiplier</th><th scope="col">Loss multiplier</th><th scope="col">Points per goal</th></tr></thead>
+            <tbody>
+            <tr><td data-l="Difficulty">Legendary</td><td data-l="Win multiplier">2.1</td><td data-l="Loss multiplier">0.7</td><td data-l="Points per goal">140 (max 700)</td></tr>
+            <tr><td data-l="Difficulty">Ultimate</td><td data-l="Win multiplier">2.6</td><td data-l="Loss multiplier">0.7</td><td data-l="Points per goal">160 (max 800)</td></tr>
+            </tbody>
+          </table>
+        <p class="pfoot"><span class="evl"><span class="ev ev-guide" title="From an established guide site">Guide</span> <a class="src" href="https://fifauteam.com/fc-26-squad-battle-points/" target="_blank" rel="noopener" title="FIFAUTeam: FC 26 Squad Battles points">FIFAUTeam points</a></span></p>
+        <p><b>When Ultimate pays more.</b> With the same match points either way, Ultimate is worth it once your Ultimate win rate is about three-quarters of your Legendary one (2.6u + 0.7(1−u) ≥ 2.1l + 0.7(1−l), so u ≥ 0.74 l). Win 80% on Legendary and Ultimate pays from about 59%. <span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span></p>
+        <p>Up to 18 matches a week count. Check each squad before kick-off: one player drops to World Class against teams rated 80 or more. <span class="evl"><span class="ev ev-ea" title="From EA’s own pages">EA</span><span class="ev ev-players" title="What players report on EA’s forums">Players</span> <a class="src" href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update" target="_blank" rel="noopener" title="EA: FC 26 Launch Update (Sep 2025)">EA launch update</a> · <a class="src" href="https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774" target="_blank" rel="noopener" title="EA forums: “Cheesing squad battles”">EA forums</a></span></p>
+      </article>
+      <article class="pcard pwide">
+        <p class="coach-k">Practice</p>
+        <h2>Train like it matters</h2>
+        <p>Pros don’t just play more matches. They drill one thing, measure it, then test it in a match. Here is a week that works that way. <span class="ev ev-coach" title="Coach’s call: reasoning from the sourced facts, not a measured fact">Coach’s call</span></p>
+        <ol class="script">
+          <li><span>Practice Arena, 15 minutes, twice a week. Ten first-time low drivens from cutbacks, ten finesse shots from the edge, ten chips past a keeper coming out. Move up a station at 8 out of 10.</span></li>
+          <li><span>One skill move a week: 50 reps in the arena, then use it in matches only in its moment from the table above.</span></li>
+          <li><span>Scan trainer at Ultimate speed (1.4 seconds) until you score 8 out of 10 twice in a row.</span></li>
+          <li><span>After every match, open Match Facts. One guide says it shows Expected Goals and Ball Recovery Time. Log your xG for and against, and how each goal against started.</span></li>
+          <li><span>Change one thing at a time: a tactic setting or a habit, every two or three matches, then check the log.</span></li>
+        </ol>
+        <p class="pfoot">Match Facts: <span class="evl"><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://fifauteam.com/fc-26-stats-match-facts-performance/" target="_blank" rel="noopener" title="FIFAUTeam: FC 26 match facts and stats">FIFAUTeam stats</a></span> · Practice Arena: <span class="evl"><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a class="src" href="https://www.fifplay.com/fc-26-practice-arena/" target="_blank" rel="noopener" title="FIFPlay: FC 26 Practice Arena">FIFPlay Practice Arena</a></span></p>
+      </article>
+      <article class="pcard pwide">
+        <p class="coach-k">Where this comes from</p>
+        <h2>Sources</h2>
+        <p class="pintro">Pages marked Unconfirmed were found through search but could not be opened when this tab was written (2026-11-04), so treat those lines as leads to test.</p>
+        <ol class="srcs">
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive" target="_blank" rel="noopener">EA: FC 26 Gameplay Deep Dive (Jul 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive" target="_blank" rel="noopener">EA: FC 26 Ultimate Team Deep Dive (Aug 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update" target="_blank" rel="noopener">EA: FC 26 Launch Update (Sep 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-feedback-update-october" target="_blank" rel="noopener">EA: FC 26 October Feedback Update (Oct 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update" target="_blank" rel="noopener">EA: FC 26 update 1.1.0 Pitch Notes (Oct 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780" target="_blank" rel="noopener">EA: FC 26 update 1.1.0 notes (Oct 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-holiday-update" target="_blank" rel="noopener">EA: FC 26 Holiday Update, 1.3.0 (Dec 2025)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0" target="_blank" rel="noopener">EA: FC 26 Title Update 1.4.0 (Jan 2026)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0" target="_blank" rel="noopener">EA: FC 26 Title Update 1.5.0 (Mar 2026)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/able/resources/ea-sports-fc/fc-26" target="_blank" rel="noopener">EA: FC 26 settings and accessibility guide</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive" target="_blank" rel="noopener">EA: FC IQ Deep Dive (FC 25; FC 26 keeps the system)</a></li>
+          <li><span class="ev ev-ea" title="From EA’s own pages">EA</span> <a href="https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25" target="_blank" rel="noopener">MP1st: copy of EA’s May 2026 update notes</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.fifplay.com/fc-26-controls/" target="_blank" rel="noopener">FIFPlay: FC 26 controls</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.fifplay.com/fc-26-defending-tips/" target="_blank" rel="noopener">FIFPlay: FC 26 defending tips</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.fifplay.com/fc-26-precision-pass/" target="_blank" rel="noopener">FIFPlay: FC 26 precision pass</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel" target="_blank" rel="noopener">EarlyGame (German): FC 26 passing guide</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.operationsports.com/how-to-press-with-multiple-players-in-ea-fc-26/" target="_blank" rel="noopener">Operation Sports: pressing with several players in FC 26</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.operationsports.com/ea-fc-26-all-passing-techniques-explained/" target="_blank" rel="noopener">Operation Sports: every FC 26 passing technique</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking" target="_blank" rel="noopener">Red Bull: FC 26 meta guide (Feb 2026)</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.redbull.com/us-en/ea-fc-26-best-tactics-formations" target="_blank" rel="noopener">Red Bull: FC 26 tactics, with pro player RedLac (Oct 2025)</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/how-to-do-low-driven-shots-headers-in-ea-fc-26/" target="_blank" rel="noopener">Dexerto: FC 26 low driven shots</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://fifauteam.com/fc-26-smart-tactics/" target="_blank" rel="noopener">FIFAUTeam: FC 26 quick tactics</a></li>
+          <li><span class="ev ev-guide" title="From an established guide site">Guide</span> <a href="https://fifauteam.com/fc-26-squad-battle-points/" target="_blank" rel="noopener">FIFAUTeam: FC 26 Squad Battles points</a></li>
+          <li><span class="ev ev-players" title="What players report on EA’s forums">Players</span> <a href="https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774" target="_blank" rel="noopener">EA forums: “Cheesing squad battles”</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://www.redbull.com/ie-en/ea-fc-26-skillmoves-tricks-guide" target="_blank" rel="noopener">Red Bull: FC 26 skill moves guide</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://beebom.com/ea-sports-fc-26-skill-moves-and-controls/" target="_blank" rel="noopener">Beebom: all new FC 26 skill moves</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://www.operationsports.com/the-best-skill-moves-in-fc-26" target="_blank" rel="noopener">Operation Sports: best FC 26 skill moves</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://www.destructoid.com/all-fc-26-skill-moves-and-how-to-do-them/" target="_blank" rel="noopener">Destructoid: every FC 26 skill move</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://www.operationsports.com/how-to-use-player-lock-in-ea-fc-26" target="_blank" rel="noopener">Operation Sports: player lock in FC 26</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://fifauteam.com/fc-26-stats-match-facts-performance/" target="_blank" rel="noopener">FIFAUTeam: FC 26 match facts and stats</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://www.fifplay.com/fc-26-practice-arena/" target="_blank" rel="noopener">FIFPlay: FC 26 Practice Arena</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://realsport101.com/article/fc-26-how-to-score-free-kicks-the-best-techniques-and-dead-ball-specialists" target="_blank" rel="noopener">RealSport101: FC 26 free kicks</a></li>
+          <li><span class="ev ev-unconfirmed" title="Found in search results; the page itself could not be opened when this was written">Unconfirmed</span> <a href="https://www.teamgullit.com/ea-fc-26/set-pieces" target="_blank" rel="noopener">Team Gullit: FC 26 set pieces</a></li>
+        </ol>
+      </article>
+    </div>
+  </section>
+
   <p class="foot">These are drawn animations, not game footage. White is your team, black is the AI, and the yellow arrow marks the player you control. Built from your <a href="https://claude.ai/code/artifact/0d59fc09-1372-49cb-9b31-046037e23caf" target="_blank" rel="noopener">Legendary Playbook</a>.<span class="kbd-hint"> Keyboard: in the trainer, Space starts and moves on and 1 to 3 pick an answer. In Replays, Space plays or pauses and ← → change clip. V switches camera in both.</span></p>
 </div>
 
@@ -1035,7 +1273,8 @@ const GROUPS = [
   {id:'build',  name:'Build-up',   gap:'Gap 1'},
   {id:'chance', name:'Chances',    gap:'Gap 2'},
   {id:'defend', name:'Defending',  gap:'Gap 3'},
-  {id:'notes',  name:'Your notes', tab:'Notes', gap:'Your sketches'}
+  {id:'notes',  name:'Your notes', tab:'Notes', gap:'Your sketches'},
+  {id:'pro',    name:'Pro patterns', tab:'Pro', gap:'Advanced'}
 ];
 const LABEL = {gk:'GK',lb:'LB',lcb:'CB',rcb:'CB',rb:'RB',pv:'PIV',cm:'CM',am:'AM',lw:'LW',st:'ST',rw:'RW'};
 
@@ -1876,6 +2115,128 @@ const TACTICS = [
     say:[[0,'Same pass, same defender.'],[0.6,'The striker runs diagonally across his back.'],[1.05,'Diagonal run. The defender has to turn to follow.'],[3.15,'Through, and onside. Diagonal runs beat the line.'],[4.3,'Goal.']],
     key:[[0.3,['LB','then','RS'],'Directed run','good'],[1.15,['Y'],'Through ball','good']],
     ann:[{k:'arrow',pts:[[79.5,31.8],[85,28.6],[88.8,21.8]],c:'good',t:[1.05,2.5]},{k:'lab',id:'xcbT',text:'Has to turn',c:'pen',t:[1.05,2.5]}]}
+},
+/* ---------------- PRO PATTERNS (advanced: transitions, pressing, decoys) ----------------
+   Same format as the clips above. Inputs are the same in FC 26 and FIFA 23; FC 26 notes and
+   settings live in F26 (parts/game.js). Added 2026-11-04. */
+{ id:'P1', g:'pro', name:'Keep four behind the ball', short:'Rest defence: four stay home',
+  watch:'How many of yours are behind the ball at the moment you lose it.',
+  cue:'When you attack, keep four behind the ball: both CBs, the pivot and the far full-back.',
+  setting:'Pivot and the far full-back on Stay Back While Attacking.',
+  keys:[[['LB'],'Switch to the pivot'],[['A'],'Pass it straight on']],
+  cast:{lcb:[50,27],rcb:[50,41],lb:[64,12],rb:[77,61],pv:[66,36],cm:[72,27],am:[80,41],st:[87,33],rw:[81,55],
+        xfbB:[85,55],xcmB:[77,48],xdm:[79,37],xst:[61,35],xwB:[69,60],xwT:[63,13]},
+  wrong:{dur:5.6,
+    mv:{rw:[[0.8,83,53.2]], xfbB:[[0.8,84,53.6]],
+        xwB:[[1.2,68,60],[2.2,61,59.5],[3.2,53.5,58],[4.0,47.5,56.2],[4.8,43,54.5]],
+        rb:[[1.3,77,61],[2.4,71.5,61],[4.0,62,59.6],[4.8,58,59]],
+        rcb:[[2.3,49,43.5],[3.4,47,49],[4.0,45,51.5]], lcb:[[2.3,49.5,29],[3.6,46,34],[4.6,41,37]],
+        xst:[[2.0,59,36],[3.0,52.5,38.5],[4.0,46,40],[4.8,40.5,40.5],[5.4,37,40.6]],
+        pv:[[1.4,66,36.5],[3.0,61,38],[4.4,55,40]], lb:[[1.5,64,13],[3.5,57,20],[4.6,52,25]],
+        xwT:[[1.6,62,14],[3.6,52,18]], am:[[1.4,80,41],[3.4,74,43]], cm:[[1.4,72,27.5],[3.4,67,30]]},
+    ball:'rw',
+    pass:[{t:0.95,to:'xfbB',k:'tk'},{t:1.35,to:'xwB',k:'d'},{t:4.0,to:'xst',k:'th'}],
+    hold:[[2.5,1.0]],
+    say:[[0,'You attack down the right. Both full-backs and the pivot have gone forward.'],[1.0,'You lose it out wide.'],[1.4,'One pass and their winger is behind your right back.'],[2.5,'Two CBs left, and nobody in front of them.'],[4.0,'Through ball between your CBs.'],[5.0,'Through on goal, from your own attack.']],
+    key:[[1.6,['RT'],'Sprint back: too late','bad']],
+    ann:[{k:'zone',at:[60,60],r:5,c:'bad',text:'Behind your RB',t:[1.4,2.6]},{k:'chain',ids:['lcb','rcb'],c:'bad',text:'Only two back',t:[2.5,3.5]},{k:'lane',a:'xwB',b:'xst',c:'bad',t:[3.9,4.7]}]},
+  right:{dur:4.6,
+    pos:{lb:[54,18],pv:[62,42],lcb:[49,30],rcb:[50,44]},
+    mv:{rw:[[0.8,83,53.2]], xfbB:[[0.8,84,53.6]],
+        pv:[[1.2,62,43],[1.9,61.5,48],[2.4,62,50]],
+        xwB:[[1.2,68,60],[2.2,61,59.5],[3.0,58,58.5]],
+        rcb:[[1.8,50,46],[2.8,52,50]], lb:[[1.6,54,19],[2.8,56,22]],
+        xst:[[2.0,60,37],[3.0,58,39]], am:[[2.0,80,42],[3.0,78,44]], cm:[[2.4,72,28],[3.4,73,30]]},
+    ball:'rw',
+    pass:[{t:0.95,to:'xfbB',k:'tk'},{t:1.35,to:'pv',k:'d'},{a:0.3,to:'am',k:'g'}],
+    hold:[[2.5,1.1]],
+    say:[[0,'Same attack. This time your left back and pivot stay home.'],[1.0,'You lose it in the same spot.'],[1.35,'Same pass for their winger…'],[2.3,'…straight into your pivot.'],[2.5,'Four behind the ball: two CBs, the pivot and one full-back.'],[3.3,'Won straight back. Attack again.']],
+    key:[[2.45,['A'],'Pass it straight on','good']],
+    ann:[{k:'chain',ids:['lb','lcb','rcb'],c:'good',text:'Back three',t:[0.2,1.3]},{k:'ring',id:'pv',c:'good',t:[0.2,1.3]},{k:'lane',a:'xfbB',b:'pv',c:'good',t:[1.4,2.4]},{k:'lab',id:'pv',text:'Pivot in the lane',c:'good',t:[2.4,3.6]}]}
+},
+{ id:'P2', g:'pro', name:'Win it back in five seconds', short:'Lost it up there? Press at once',
+  watch:'How long he gets on the ball after he wins it.',
+  cue:'Lose it in their half? Press the man who won it at once, with a second man (hold RB), before he looks up.',
+  keys:[[['hold','RB'],'Second man press, one second'],[['B'],'Tackle'],[['Y'],'Through ball']],
+  cast:{lcb:[46,28],rcb:[46,41],pv:[58,35],cm:[66,28],am:[73,40],st:[84,34],lw:[80,15],rw:[80,55],
+        xgk:[103,34],xcbT:[90,30],xcbB:[90,40],xdm:[81,36],xcmA:[72,33],xcmB:[75,47],xst:[57,40],xwB:[65,58]},
+  wrong:{dur:4.4,
+    mv:{xcmA:[[0.4,71.5,33.5],[1.0,71.3,33.7],[2.0,69.5,35]],
+        am:[[1.0,73,40],[2.6,66,40]], cm:[[1.0,66,28.5],[2.6,60,30]], st:[[1.0,84,34],[2.8,78,34]],
+        xwB:[[2.0,64,58],[3.2,57,57],[4.0,52,56]], lw:[[1.2,80,15],[3.0,74,17]], rw:[[1.2,80,55],[3.0,75,53]]},
+    ball:'cm',
+    pass:[{t:0.4,to:'xcmA',k:'g'},{t:2.2,to:'xwB',k:'d'}],
+    hold:[[1.6,1.0]],
+    say:[[0,'You lose it in their half.'],[1.0,'You turn and jog back into shape.'],[1.6,'He has two seconds to look up.'],[2.2,'Out to the wing. Their counter is on.'],[3.5,'Now you defend for a minute.']],
+    key:[[1.1,['LT'],'Drop off and wait','bad']],
+    ann:[{k:'zone',at:'xcmA',r:4,c:'bad',text:'All the time he wants',t:[1.0,2.2]}]},
+  right:{dur:4.2,
+    mv:{xcmA:[[0.4,71.5,33.5],[1.4,71.6,33.6]],
+        am:[[0.6,73,39],[1.2,72.6,35.6],[1.45,72.2,34.6]], cm:[[0.6,67,29],[1.2,69.6,31],[1.45,70.3,32]],
+        st:[[1.4,84,34],[2.2,88,35],[2.9,92.5,35.5],[3.2,94,35.6]],
+        xcbB:[[1.8,90,40],[2.8,92,38.5]], xcbT:[[1.8,90,30],[2.8,92,32]], xdm:[[1.6,81,36],[2.6,84,35]],
+        xgk:[[2.8,102.6,34.6]]},
+    ball:'cm',
+    pass:[{t:0.4,to:'xcmA',k:'g'},{t:1.5,to:'am',k:'tk'},{a:0.12,to:'st',k:'th'},{a:0.08,to:[105,32.2,0.4],k:'sh',goal:true}],
+    hold:[[1.45,0.9]],
+    say:[[0,'You lose it in their half.'],[0.95,'Don’t turn and run. Press him now.'],[1.45,'Two of yours on him before he can look up.'],[1.7,'Won back. Their defence is still turning.'],[2.4,'Through ball while they face the wrong way.'],[3.4,'Goal, about four seconds after you lost it.']],
+    key:[[0.95,['hold','RB'],'Second man, one second','good'],[1.45,['B'],'Tackle','good'],[1.75,['Y'],'Through ball','good']],
+    ann:[{k:'ring',id:'xcmA',c:'bad',t:[0.95,1.6]},{k:'chain',ids:['am','cm'],c:'good',text:'Press as a pair',t:[1.2,1.6]}]}
+},
+{ id:'P3', g:'pro', name:'Second man in short bursts', short:'Hold RB a second, then let go',
+  watch:'Where your second man is when their midfielder looks up.',
+  cue:'Hold RB in bursts of about a second, and let go before you tackle so your second man drops back.',
+  keys:[[['hold','RB'],'Second man press, one second'],[['LT'],'Jockey'],[['B'],'Tackle when the ball leaves his foot']],
+  cast:{gk:[4,34],lcb:[17,29],rcb:[17,40],lb:[22,12],rb:[22,57],pv:[33,37],cm:[37,26],
+        xcmB:[42,40],x10:[37,22],xst:[25,36],xwB:[33,56],xwT:[31,11]},
+  wrong:{dur:4.9,
+    mv:{xcmB:[[0.8,40,39.6],[1.6,38.6,39.4]], pv:[[0.8,35,38.2],[1.6,34.5,38.6]],
+        cm:[[0.3,37,26.6],[1.1,38.4,31.5],[1.8,38.3,35.6]], x10:[[0.8,36.5,23.5],[1.8,35.5,27]],
+        xst:[[2.4,24.5,36],[3.1,21,35],[3.8,16.5,33.8]],
+        lcb:[[2.8,17.5,30],[3.8,15,31.5]], rcb:[[2.8,17,39],[3.8,14.6,37]], gk:[[3.6,4.5,33.6]]},
+    ball:'xcmB',
+    pass:[{t:1.85,to:'x10',k:'g'},{a:0.04,to:'xst',k:'th'},{a:0.06,to:[0,31.4,0.5],k:'sh',goal:true}],
+    hold:[[1.85,1.0]],
+    say:[[0,'Their midfielder runs at you. You jockey.'],[0.3,'You hold RB the whole time.'],[1.0,'Your second man chases the ball and leaves his lane.'],[1.85,'One pass into the gap he left.'],[2.7,'First time, between your CBs.'],[4.0,'Goal against.']],
+    key:[[0.3,['hold','RB'],'Held the whole time','bad']],
+    ann:[{k:'zone',at:[37,26],r:3.5,c:'bad',text:'His lane, now empty',t:[1.2,2.9]},{k:'lane',a:'xcmB',b:'x10',c:'bad',t:[1.85,2.7]}]},
+  right:{dur:3.8,
+    mv:{xcmB:[[0.8,40,39.6],[1.3,39.4,39.6],[1.8,39.9,40.4]], pv:[[0.8,35,38.2],[1.5,35.8,38.9],[1.95,38.4,40.0]],
+        cm:[[0.3,37,26.5],[0.9,38.3,30.5],[1.4,37.6,28.3],[1.9,37,26.6]], x10:[[0.8,36.5,23.5],[1.8,36,25]]},
+    ball:'xcmB',
+    pass:[{t:1.95,to:'pv',k:'tk'},{a:0.3,to:'cm',k:'g'}],
+    hold:[[1.0,0.9]],
+    say:[[0,'Same run at you. You jockey.'],[0.3,'Hold RB for about a second.'],[1.0,'He has to check back. Let go of RB.'],[1.4,'Your second man drops back into his lane.'],[1.95,'Ball off his foot: tackle.'],[2.6,'Won, and your shape is still there.']],
+    key:[[0.3,['hold','RB'],'Second man, one second','good'],[1.05,['LT'],'Let go, jockey','good'],[1.9,['B'],'Tackle on the loose touch','good']],
+    ann:[{k:'chain',ids:['cm','pv'],c:'good',text:'Close, then drop',t:[0.5,1.4]},{k:'zone',at:[37,26.6],r:3.5,c:'good',text:'Lane covered',t:[1.6,2.6]}]}
+},
+{ id:'P4', g:'pro', name:'Decoy run, then the gap', short:'Send the striker away first',
+  watch:'Where their CB goes when your striker makes his run.',
+  cue:'Striker marked? Send him away with a directed run first, then pass into the gap his marker leaves.',
+  keys:[[['LB','then','RS'],'Directed run (tap LB, flick)'],[['Y'],'Through ball into the gap'],[['RB','+','B'],'Finesse, far post']],
+  cast:{am:[68,36],cm:[62,44],st:[84,34],lw:[79,15],rw:[82,50],
+        xgk:[103,34],xcbT:[89,30],xcbB:[89,39],xfbT:[86,18],xfbB:[86,51],xdm:[77,35]},
+  wrong:{dur:3.0,
+    mv:{am:[[0.6,69,36]], xcbB:[[0.8,88.5,38],[1.4,86.5,35.5]], st:[[0.6,85,34],[1.3,86.5,34.2]]},
+    ball:'am',
+    pass:[{t:0.8,to:'xcbB',k:'th'}],
+    hold:[[1.95,0.8]],
+    say:[[0,'Your striker is between their two CBs.'],[0.8,'Through ball straight to him.'],[1.9,'Their CB is right there. Cut out.']],
+    key:[[0.75,['Y'],'Through ball to the marked man','bad']],
+    ann:[{k:'x',id:'xcbB',c:'bad',t:[1.9,2.9]},{k:'lab',id:'xcbB',text:'Read it',c:'bad',t:[1.9,2.9]}]},
+  right:{dur:4.3,
+    mv:{am:[[0.6,69,36]],
+        st:[[0.2,84,34],[0.95,86,30.5],[1.7,89,26],[2.5,91.5,23]],
+        xcbT:[[0.5,89,30],[1.2,90,27.5],[1.9,91.5,25],[2.6,93,23.5]], xfbT:[[1.0,87,19],[2.0,89,21]],
+        rw:[[0.2,82.3,49.5],[1.0,85,45.5],[1.8,88.5,41.5],[2.6,91.8,38]],
+        xcbB:[[0.9,89,39],[1.6,89.5,40.5],[2.4,90.5,41.5]], xfbB:[[1.0,86,50],[2.0,88,46],[2.8,90,43]],
+        xgk:[[2.6,102.5,35.5],[3.2,102.2,36.4]]},
+    ball:'am',
+    pass:[{t:1.55,to:'rw',k:'th'},{a:0.08,to:[105,31.2,0.4],k:'sh',goal:true}],
+    hold:[[1.5,1.0]],
+    say:[[0,'Same spot. First, send your striker away.'],[0.25,'Directed run: tap LB, then flick the right stick.'],[1.0,'Their CB goes with him.'],[1.5,'Now the gap is there for your inside forward.'],[3.0,'Through on goal.'],[3.6,'Goal. The decoy made the space.']],
+    key:[[0.2,['LB','then','RS'],'Directed run: the decoy','good'],[1.45,['Y'],'Through ball into the gap','good'],[2.95,['RB','+','B'],'Finesse, far post','good']],
+    ann:[{k:'arrow',pts:[[84,34],[87.5,28.5],[91.5,23.5]],c:'good',t:[0.25,1.6]},{k:'ring',id:'xcbT',c:'bad',t:[1.0,2.0]},{k:'zone',at:[89.5,34.5],r:3,c:'good',text:'The gap',t:[1.5,2.6]}]}
 }
 ];
 
@@ -2090,7 +2451,8 @@ const U26={
   fpctl:'https://www.fifplay.com/fc-26-controls/',
   fp23ctl:'https://www.fifplay.com/fifa-23-controls/',
   cheese:'https://forums.ea.com/discussions/fc-26-ultimate-team-en/cheesing-squad-battles/13016774',
-  sk23:'https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023'
+  sk23:'https://sportskeeda.com/esports/5-best-tips-defending-fifa-23-march-2023',
+  may26:'https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25'
 };
 const CONTAIN26='Hold A contains only on Tactical defending (or Legacy, which Ultimate Team doesn’t allow). On the default, Advanced, hold A is a physical tackle.';
 const CONTAIN26_SRC=[{t:'FIFPlay: FC 26 controls (Contain vs Physical Tackle)',u:U26.fpctl},{t:'EA: FC 26 settings guide (Defending options)',u:U26.acc}];
@@ -2142,7 +2504,19 @@ const F26={
   C5:{n:'EA made one-touch shots more responsive in Competitive gameplay, which Squad Battles uses.',
       src:{t:'EA Ultimate Team Deep Dive: more responsive one-touch shooting',u:U26.fut}},
   D2:{n:CONTAIN26,src:CONTAIN26_SRC},
-  D4:{n:CONTAIN26,src:CONTAIN26_SRC}
+  D4:{n:CONTAIN26,src:CONTAIN26_SRC},
+  /* Pro patterns (2026-11-04): same inputs in both games; FC 26 roles and patch context here */
+  P1:{setting:'Pivot: Deep-Lying Playmaker (Build-Up). Far full-back: Fullback (Defend).',
+      n:'Since update 1.4.0 the Squad Battles AI attacks more and keeps the ball less, so it counters the moment it wins the ball. Four behind it is your insurance.',
+      src:{t:'EA update 1.4.0: Squad Battles AI more direct',u:U26.v140}},
+  P2:{setting:'Long spell in their half? Quick tactic Team Press: D-pad Up, then Left.',
+      n:'Since update 1.4.0 AI defenders react slower when marking the ball carrier, so space opens while they reset. Since May 2026 Team Press presses less in your own half, so use it in theirs.',
+      src:[{t:'EA update 1.4.0 notes: AI defenders react slower',u:U26.v140n},{t:'MP1st: May 2026 update notes (Team Press)',u:U26.may26}]},
+  P3:{n:'Since May 2026, AI teammates stop doubling up on the ball carrier while you mark him yourself, and contain him when your man is further away. Get tight yourself first, then use the second man.',
+      src:{t:'MP1st: May 2026 update notes (teammate contain)',u:U26.may26}},
+  P4:{setting:'Wingers on Inside Forward: they run in behind, inside their full-back.',
+      n:'FC 26 semi-assisted through balls pick the runner in the lane you aim at, the gap between two defenders. Directed runs also work while you dribble with controlled sprint (hold RB), since update 1.1.0.',
+      src:[{t:'EA Gameplay Deep Dive: passing lanes for through balls',u:U26.dd},{t:'EA update 1.1.0 notes: directed runs in controlled sprint',u:U26.v110n}]}
 };
 /* Button prompts that change in FC 26, keyed by the label the clips use */
 const L26={
@@ -3295,12 +3669,12 @@ function watchClip(id,kb){
   setMode('replays');selectTactic(i,{});if(kb)$('playBtn').focus({preventScroll:true});
   const st=document.querySelector('#p-replays .stage');if(st&&st.getBoundingClientRect().top<0)st.scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'});
 }
-['p-plan','p-ai','tmissed'].forEach(id=>$(id).addEventListener('click',e=>{const b=e.target.closest('.clip-ref');if(b)watchClip(b.dataset.clip,e.detail===0);}));
+['p-plan','p-ai','p-pro','tmissed'].forEach(id=>$(id).addEventListener('click',e=>{const b=e.target.closest('.clip-ref');if(b)watchClip(b.dataset.clip,e.detail===0);}));
 $('p-ai').addEventListener('click',e=>{const b=e.target.closest('[data-drill]');if(!b)return;setMode('trainer');trSetFocus(b.dataset.drill);if(e.detail===0){trIntro();$('tstart').focus({preventScroll:true});}else trStart();const st=document.querySelector('#p-trainer .stage');if(st&&st.getBoundingClientRect().top<0)st.scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'});});
 $('tclip').addEventListener('click',e=>watchClip(e.currentTarget.dataset.clip,e.detail===0));
 
 /* ======================= Sections ======================= */
-const MODES=['trainer','ai','replays','plan'];
+const MODES=['trainer','ai','replays','plan','pro'];
 let ACTIVE='trainer';
 function setMode(m){
   if(!MODES.includes(m))m='trainer';

@@ -16,6 +16,7 @@ FILES = {
     "research/agents/fc26_ai.md": "FC 26 AI & difficulty",
     "research/agents/fc26_controls.md": "FC 26 controls & settings",
     "research/agents/fc26_tactics.md": "FC 26 tactics & roles",
+    "research/agents/fc26_advanced.md": "FC 26 advanced layer (2026-11-04)",
     "legendary-playbook.md": "Legendary Playbook",
 }
 
