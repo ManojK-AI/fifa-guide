@@ -41,6 +41,10 @@ any new research** — most FC 26 gameplay questions are already answered in
 | What FC 26 removed vs FIFA 23 | `agents/fc26_tactics.md` §3 | Thorough | High |
 | Meta tactics against the CPU | `agents/fc26_tactics.md` | **Thin** — no priority-outlet guide exists | Low (community) |
 | FIFA 23 tactics, instructions, controls | `../legendary-playbook.md` Sources | Moderate | Med (FIFPlay, PC Gamer, GGRecon) |
+| Advanced layer: shot selection, full pass kit, manual defending, game-state tactics, points maths | `agents/fc26_advanced.md` §1, §3 | Thorough (built on the archive) | High/med for facts; Coach's calls labelled |
+| FC 26 skill moves (new moves, inputs, stars) | `agents/fc26_advanced.md` §2 | **Thin** — search excerpts only | Low-med (Unconfirmed) |
+| Set pieces: free kicks, penalties | `agents/fc26_advanced.md` §2, §4 | **Thin** — power conflicts, no penalty method | Low |
+| Player Lock, Match Facts xG, Practice Arena | `agents/fc26_advanced.md` §2 | Thin — search excerpts only | Low-med (Unconfirmed) |
 
 ### Known gaps — research these if you need them
 
@@ -58,6 +62,11 @@ is likely to cost budget for nothing unless new sources have appeared since
 - Patches not checked: v1.1.2, any v1.3.x point release, v1.5.2, v1.6.5.
 - A second complete FC 26 list of Roles and Focuses was never found (the search
   budget ran out), so the Roles list rests on one source plus fut.gg.
+- **2026-11-04:** no guide page could be opened at all: the session's network policy
+  blocked every guide host. Everything tagged Unconfirmed in the Pro tab came from search
+  excerpts and is listed for checking in `agents/fc26_advanced.md` §5. Allow those hosts in
+  the cloud environment's network settings before the next research pass.
+- No FC 26 penalty method was found; free-kick power advice conflicts between guides.
 
 ## The three agent reports
 
@@ -70,6 +79,7 @@ before trusting any individual line.
 | [`agents/fc26_ai.md`](agents/fc26_ai.md) | 657 lines | CPU AI, difficulty, gameplay presets, every patch v1.0.2–v1.6.6 |
 | [`agents/fc26_tactics.md`](agents/fc26_tactics.md) | 552 lines | Tactics, Roles, PlayStyles, AcceleRATE, the anti-AI meta |
 | [`agents/fc26_controls.md`](agents/fc26_controls.md) | 402 lines | Xbox/PS inputs, settings, what changed from FIFA 23 |
+| [`agents/fc26_advanced.md`](agents/fc26_advanced.md) | 2026-11-04 | The advanced layer: what the archive proved but the guide never used, search-only findings, coach's calls, and the pages still to open |
 
 All three use the same line format:
 

@@ -1,10 +1,10 @@
 # Sources
 
-**79 cited sources** across the research corpus, grouped by publisher and
+**92 cited sources** across the research corpus, grouped by publisher and
 ordered by evidential weight: EA's own pages first, then outlets reproducing EA's
 notes, then reference sites, then community and opinion.
 
-A further 95 URLs were encountered but not cited — search-result
+A further 96 URLs were encountered but not cited — search-result
 listings, pages that were blocked or unreachable, and pages checked and rejected.
 They are kept at the end so a later pass does not re-walk the same dead ends.
 
@@ -37,27 +37,27 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
 - [FC 25 FC IQ deep dive, the tactics system FC 26 keeps](https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive)
   <br>*cited in: Legendary Playbook*
 - [EA v1.1.0 Pitch Notes, 2025-10-23](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update)
-  <br>*cited in: FC 26 AI & difficulty*
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 - [EA Closed Beta FB](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-closed-beta-feedback-update)
   <br>*cited in: FC 26 AI & difficulty*
 - [EA Pitch Notes November Feedback Update, 2025-11-25](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-feedback-update-november)
   <br>*cited in: FC 26 AI & difficulty*
-- [link](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-feedback-update-october)
-  <br>*cited in: FC 26 AI & difficulty*
+- [FC 26 October Feedback Update](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-feedback-update-october)
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 - [EA Pitch Notes FUT Deep Dive, 2025-08-05](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive)
-  <br>*cited in: FC 26 AI & difficulty*
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 - [EA Pitch Notes Gameplay Deep Dive, 2025-07-22](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive)
   <br>*cited in: FC 26 AI & difficulty, FC 26 controls & settings, Legendary Playbook*
 - [EA Gameplay Responsiveness Update, 2025-07-16](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-responsiveness-update)
   <br>*cited in: FC 26 AI & difficulty*
-- [link](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-holiday-update)
-  <br>*cited in: FC 26 AI & difficulty*
-- [EA Pitch Notes Launch Update, 2025-09-12](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update)
-  <br>*cited in: FC 26 AI & difficulty*
-- [FC 26 Title Update 1.4.0 Pitch Notes](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0)
+- [FC 26 Holiday Update, 1.3.0](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-holiday-update)
   <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
-- [link](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0)
-  <br>*cited in: FC 26 AI & difficulty*
+- [EA Pitch Notes Launch Update, 2025-09-12](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update)
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
+- [EA Pitch Notes TU v1.4.0, 2026-01-05](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-4-0)
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
+- [FC 26 Title Update 1.5.0 Pitch Notes](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-title-update-1-5-0)
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 
 ## EA SPORTS — update notes on EA Forums (primary)
 
@@ -69,8 +69,8 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
   <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 - [EA v1.3.0 notes, mod 2025-12-02](https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-3-0-update-notes/12977359)
   <br>*cited in: FC 26 AI & difficulty*
-- [EA Forums v1.4.0 notes](https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-4-0-update-notes/13073501)
-  <br>*cited in: FC 26 AI & difficulty*
+- [FC 26 update 1.4.0 notes](https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc-26-version-1-4-0-update-notes/13073501)
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 - [EA notes](https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-v1-1-0-update-notes/12815780)
   <br>*cited in: FC 26 AI & difficulty*
 - [EA notes](https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-26-version-1-0-2-update-notes/12651602)
@@ -129,7 +129,7 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
   <br>*cited in: FC 26 AI & difficulty*
 - [MP1st](https://mp1st.com/?p=311945)
   <br>*cited in: FC 26 AI & difficulty*
-- [FC 26 "The World's Game" update notes](https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25)
+- [FC 26 “The World's Game” update notes](https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25)
   <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
 - [MP1st, 2025-11-04](https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-update-1-000-009-v1-1-3-ai-changes)
   <br>*cited in: FC 26 AI & difficulty*
@@ -152,7 +152,9 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
 - [FIFAUTeam FC 26 Difficulty, pub 2025-02-12 (before FC 26 existed), mod 2025-10-03](https://fifauteam.com/fc-26-difficulty-levels-explained/)
   <br>*cited in: FC 26 AI & difficulty*
 - [FIFAUTeam FC 26 Squad Battle Points, pub 2025-08-17, mod 2025-10-20](https://fifauteam.com/fc-26-squad-battle-points/)
-  <br>*cited in: FC 26 AI & difficulty*
+  <br>*cited in: FC 26 AI & difficulty, Legendary Playbook*
+- [FC 26 match facts](https://fifauteam.com/fc-26-stats-match-facts-performance/)
+  <br>*cited in: FC 26 advanced layer (2026-11-04), Legendary Playbook*
 - [FIFAUTeam's FC 26 tactics guide](https://fifauteam.com/fc-26-tactics/)
   <br>*cited in: Legendary Playbook*
 
@@ -162,12 +164,16 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
   <br>*cited in: FC 26 AI & difficulty*
 - [FIFPlay's FC 26 controls](https://www.fifplay.com/fc-26-controls/)
   <br>*cited in: FC 26 controls & settings, Legendary Playbook*
-- [https://www.fifplay.com/fc-26-defending-tips/](https://www.fifplay.com/fc-26-defending-tips/)
-  <br>*cited in: FC 26 controls & settings*
+- [FC 26 defending tips](https://www.fifplay.com/fc-26-defending-tips/)
+  <br>*cited in: FC 26 controls & settings, Legendary Playbook*
 - [FIFPlay FC 26 Game Settings, 2025-09-06](https://www.fifplay.com/fc-26-game-settings/)
   <br>*cited in: FC 26 AI & difficulty*
 - [https://www.fifplay.com/fc-26-passing-tips/](https://www.fifplay.com/fc-26-passing-tips/)
   <br>*cited in: FC 26 controls & settings*
+- [FIFPlay Practice Arena](https://www.fifplay.com/fc-26-practice-arena/)
+  <br>*cited in: FC 26 advanced layer (2026-11-04)*
+- [precision pass](https://www.fifplay.com/fc-26-precision-pass/)
+  <br>*cited in: Legendary Playbook*
 - [FIFPlay FC 26 Squad Battles, 2025-08-02](https://www.fifplay.com/fc-26-squad-battles/)
   <br>*cited in: FC 26 AI & difficulty*
 - [FIFPlay FC 27](https://www.fifplay.com/fc-27-difficulty-levels/)
@@ -185,11 +191,13 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
 
 - [Dexerto, 2025-10-07](https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/best-ai-behavior-sliders)
   <br>*cited in: FC 26 AI & difficulty*
+- [FC 26 low driven shots](https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/how-to-do-low-driven-shots-headers-in-ea-fc-26/)
+  <br>*cited in: Legendary Playbook*
 
 ## EarlyGame (DE) — settings & passing
 
-- [https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel](https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel)
-  <br>*cited in: FC 26 controls & settings*
+- [FC 26 passing guide (German)](https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel)
+  <br>*cited in: FC 26 controls & settings, Legendary Playbook*
 - [https://earlygame.com/de/guides/fifa/ea-fc-26-verteidigung-guide-9-profi-tipps-fuer-stabiles-defending](https://earlygame.com/de/guides/fifa/ea-fc-26-verteidigung-guide-9-profi-tipps-fuer-stabiles-defending)
   <br>*cited in: FC 26 controls & settings*
 
@@ -204,21 +212,54 @@ confidence column, and `qa/claim_verdicts.md` records it as a verdict.
   <br>*cited in: FC 26 controls & settings*
 - [How to press with multiple players in FC 26](https://www.operationsports.com/how-to-press-with-multiple-players-in-ea-fc-26/)
   <br>*cited in: FC 26 controls & settings, Legendary Playbook*
+- [Operation Sports](https://www.operationsports.com/how-to-use-player-lock-in-ea-fc-26)
+  <br>*cited in: FC 26 advanced layer (2026-11-04)*
+- [Operation Sports](https://www.operationsports.com/the-best-skill-moves-in-fc-26)
+  <br>*cited in: FC 26 advanced layer (2026-11-04)*
 
 ## PC Gamer — FIFA 23 testing
 
 - [7 tips to help you win at FIFA 23 Career Mode](https://www.pcgamer.com/7-tips-to-help-you-win-at-fifa-23-career-mode/)
   <br>*cited in: Legendary Playbook*
 
+## RealSport101 — settings
+
+- [FC 26 free kicks](https://realsport101.com/article/fc-26-how-to-score-free-kicks-the-best-techniques-and-dead-ball-specialists)
+  <br>*cited in: FC 26 advanced layer (2026-11-04), Legendary Playbook*
+
+## Red Bull — meta guides
+
+- [Red Bull skill moves guide](https://www.redbull.com/ie-en/ea-fc-26-skillmoves-tricks-guide)
+  <br>*cited in: FC 26 advanced layer (2026-11-04), Legendary Playbook*
+- [FC 26 tactics with pro player RedLac](https://www.redbull.com/us-en/ea-fc-26-best-tactics-formations)
+  <br>*cited in: Legendary Playbook*
+- [FC 26 meta guide](https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking)
+  <br>*cited in: Legendary Playbook*
+
+## Team Gullit — pro coaching
+
+- [Team Gullit](https://www.teamgullit.com/ea-fc-26/set-pieces)
+  <br>*cited in: FC 26 advanced layer (2026-11-04)*
+
 ## allthings.how
 
 - [AllThings.how, 2025-09-29](https://allthings.how/ea-fc-26-squad-battles-rewards-timing-and-how-it-works/)
   <br>*cited in: FC 26 AI & difficulty*
 
+## beebom.com
+
+- [new FC 26 skill moves](https://beebom.com/ea-sports-fc-26-skill-moves-and-controls/)
+  <br>*cited in: FC 26 advanced layer (2026-11-04), Legendary Playbook*
+
 ## cmtracker.net
 
 - [CMTracker Career settings, 2025-10-21](https://cmtracker.net/cn/news/best-settings-for-fc26-career-mode-the-complete-guide)
   <br>*cited in: FC 26 AI & difficulty*
+
+## destructoid.com
+
+- [Destructoid](https://www.destructoid.com/all-fc-26-skill-moves-and-how-to-do-them/)
+  <br>*cited in: FC 26 advanced layer (2026-11-04)*
 
 ## fut.gg — community tactics
 
@@ -286,6 +327,7 @@ does not spend budget re-checking them.
 - https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-update-may-8-applies-version-1-5-5-patch-1-24-1-000-023 — *seen in: FC 26 tactics & roles*
 - https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-version-1-6-2-released-on-june-16-update-1-27-1-000-027 — *seen in: FC 26 tactics & roles*
 - https://proleague.de/en/news/the-best-settings-for-ea-sports-fc-26 — *seen in: FC 26 controls & settings*
+- https://realsport101.com/article/fc-26-defending-guide-how-to-stop-conceding-easy-goals — *seen in: FC 26 advanced layer (2026-11-04)*
 - https://realsport101.com/article/fc-26-game-settings-best-controller-camera-settings — *seen in: FC 26 controls & settings*
 - https://resident.com/resource-guide/2025/11/12/all-fc-26-positions-explained — *seen in: FC 26 tactics & roles*
 - https://soccergaming.com/ea-sports-fc-26-update-goalkeeper-movement-nerf-ai-fixes-and-2026-changes-revealed/ — *seen in: FC 26 AI & difficulty*
@@ -302,18 +344,17 @@ does not spend budget re-checking them.
 - https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/best-camera-settings/ — *seen in: FC 26 controls & settings*
 - https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/best-formations-and-custom-tactics/ — *seen in: FC 26 tactics & roles*
 - https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/best-gameplay-setting-career/ — *seen in: FC 26 tactics & roles*
-- https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/how-to-do-low-driven-shots-headers-in-ea-fc-26/ — *seen in: FC 26 controls & settings, FC 26 tactics & roles*
 - https://www.ea.com/en/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive — *seen in: FC 26 controls & settings*
 - https://www.ea.com/games/ea-sports-fc/fc-26/controls — *seen in: FC 26 controls & settings*
 - https://www.ea.com/games/ea-sports-fc/fc-26/features/feedback — *seen in: FC 26 AI & difficulty*
 - https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fc-feedback-deep-dive — *seen in: FC 26 AI & difficulty*
+- https://www.fifplay.com/article-fc-26-penalty-shootout-guide/ — *seen in: FC 26 advanced layer (2026-11-04)*
 - https://www.fifplay.com/fc-25-controls/ — *seen in: FC 26 controls & settings*
 - https://www.fifplay.com/fc-26-attacking-tips/ — *seen in: FC 26 controls & settings, FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26-best-attacking-formations/ — *seen in: FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26-camera/ — *seen in: FC 26 controls & settings*
 - https://www.fifplay.com/fc-26-player-roles/ — *seen in: FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26-playstyles/ — *seen in: FC 26 tactics & roles*
-- https://www.fifplay.com/fc-26-precision-pass/ — *seen in: FC 26 controls & settings*
 - https://www.fifplay.com/fc-26-shooting-and-finishing-tips/ — *seen in: FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26/formations/ — *seen in: FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26/formations/4-2-3-1-wide/ — *seen in: FC 26 tactics & roles*
@@ -323,6 +364,7 @@ does not spend budget re-checking them.
 - https://www.fifplay.com/fc-26/formations/4-3-3-defend/ — *seen in: FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26/formations/4-3-3-flat/ — *seen in: FC 26 tactics & roles*
 - https://www.fifplay.com/fc-26/formations/4-3-3-holding/ — *seen in: FC 26 tactics & roles*
+- https://www.fourfourtwo.com/features/ea-sports-fc-26-10-defending-tips — *seen in: FC 26 advanced layer (2026-11-04)*
 - https://www.fut.gg/ea-sports-fc-25/fc-iq-tactics-revamp — *seen in: FC 26 tactics & roles*
 - https://www.fut.gg/news/bruiser-shoulder-barges-finally-nerfed-in-upcoming-fc-26-feedback-update/ — *seen in: FC 26 AI & difficulty, FC 26 tactics & roles*
 - https://www.fut.gg/news/top-10-gameplay-changes-coming-to-ea-sports-fc-26/ — *seen in: FC 26 controls & settings, FC 26 tactics & roles*
@@ -333,14 +375,14 @@ does not spend budget re-checking them.
 - https://www.itemd2r.com/blog/fc-26/ea-sports-fc-26-title-update-140-full-gameplay-fut-breakdown — *seen in: FC 26 tactics & roles*
 - https://www.magicgameworld.com/ea-fc-26-how-to-use-quick-tactics-for-smarter-gameplay/ — *seen in: FC 26 controls & settings*
 - https://www.onlinegooner.com/articles/view/best-fc-26-formations-and-tactics-for-ultimate-team-after-the-world-cup-update — *seen in: FC 26 tactics & roles*
+- https://www.operationsports.com/ea-fc-26-how-to-master-set-pieces-explained — *seen in: FC 26 advanced layer (2026-11-04)*
 - https://www.redbull.com/au-en/fc-26-meta-guide-tactics-dribbling-attacking — *seen in: FC 26 tactics & roles*
 - https://www.redbull.com/ca-en/fc-26-ultimate-team-best-playstyles — *seen in: FC 26 tactics & roles*
 - https://www.redbull.com/mk-mk/fc-26-meta-guide-tactics-dribbling-attacking — *seen in: FC 26 tactics & roles*
 - https://www.redbull.com/us-en/ea-fc-26-best-controller-and-gameplay-settings — *seen in: FC 26 controls & settings*
-- https://www.redbull.com/us-en/ea-fc-26-best-tactics-formations — *seen in: FC 26 tactics & roles*
-- https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking — *seen in: FC 26 controls & settings, FC 26 tactics & roles*
 - https://www.redbull.com/us-en/fc-26-ultimate-team-best-playstyles — *seen in: FC 26 tactics & roles*
 - https://www.sportskeeda.com/gaming-tech/best-ea-fc-26-controller-and-game-settings — *seen in: FC 26 controls & settings*
+- https://www.teamgullit.com/ea-fc-26/defend-tips — *seen in: FC 26 advanced layer (2026-11-04)*
 - https://www.teamgullit.com/ea-fc-26/formations — *seen in: FC 26 tactics & roles*
 - https://www.thegamer.com/ea-sports-fc-26-best-camera-controller-settings/ — *seen in: FC 26 controls & settings*
 - https://x.com/News_FC26/status/2084796448680423824 — *seen in: FC 26 controls & settings*

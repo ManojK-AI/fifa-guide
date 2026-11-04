@@ -1,0 +1,42 @@
+
+/* Pro tab (advanced kit), added 2026-11-04 */
+.modes{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media (min-width:980px){.modes{max-width:900px}}
+@media (max-width:419px){.mtab strong{font-size:.95rem;letter-spacing:.01em}.modes{gap:2px;padding:3px}}
+@media (max-width:359px){.mtab strong{font-size:.86rem;letter-spacing:0}.mtab{padding:11px 2px}}
+.ev{display:inline-block;margin:0 4px 2px 0;padding:1px 6px 0;border-radius:5px;font-size:.66rem;font-weight:700;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;vertical-align:1px;border:1px solid var(--rule);color:var(--ink-2)}
+.ev-ea{border-color:var(--good);color:var(--good)}
+.ev-guide{border-color:var(--ink-2);color:var(--ink)}
+.ev-players{border-style:dashed}
+.ev-coach{background:var(--chip);border-color:var(--chip);color:var(--ink)}
+.ev-unconfirmed{border-style:dotted;border-color:var(--bad);color:var(--bad)}
+.evl{display:inline;font-size:.82rem;line-height:1.5}
+.evkey{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;margin:0 0 10px;font-size:.86rem;color:var(--ink-2)}
+.evk{display:inline-flex;align-items:baseline;gap:5px;margin-right:12px}
+@media (max-width:520px){.evkey{flex-direction:column;align-items:flex-start;gap:4px}.evk{display:flex;margin-right:0}}
+.evkey .ev{margin:0}
+.pro-head p{max-width:76ch}
+.pnote{display:block;margin-top:3px;font-size:.76rem;line-height:1.3;color:var(--ink-2)}
+.pfoot{margin:10px 0 0;font-size:.86rem;line-height:1.5;color:var(--ink-2)}
+.ptab-h{margin:16px 0 4px;font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.ptab{width:100%;margin:4px 0 0;border-collapse:collapse;font-size:.9rem;line-height:1.42}
+.ptab th,.ptab td{padding:9px 12px 9px 0;border-top:1px solid var(--rule);text-align:left;vertical-align:top}
+.ptab thead th{border-top:0;padding-top:2px;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.ptab td:last-child,.ptab th:last-child{padding-right:0}
+.ptab .kb{flex-wrap:wrap;row-gap:3px}
+.ptab td .kb{flex-wrap:nowrap}
+#p-pro .src{white-space:normal;overflow-wrap:anywhere}
+.t-pts td,.t-pts th{text-align:right}.t-pts td:first-child,.t-pts th:first-child{text-align:left}
+@media (max-width:700px){
+  .ptab thead{display:none}
+  .ptab,.ptab tbody,.ptab tr,.ptab td{display:block;width:100%}
+  .ptab tr{padding:10px 0;border-top:1px solid var(--rule)}
+  .ptab td{padding:2px 0;border:0;white-space:normal!important}
+  .ptab td::before{content:attr(data-l);display:block;margin-top:5px;font-size:.66rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+  .ptab td:first-child::before{display:none}
+  .ptab td:first-child{font-size:.95rem}
+  .t-pts td,.t-pts th{text-align:left}
+}
+.pro-list li{display:block}
+.pro-list li>span:first-child{display:inline}
+.pro-list .kb{vertical-align:middle}

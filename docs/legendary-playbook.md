@@ -1,10 +1,9 @@
 <!--
-Exported from the Legendary Playbook Claude Doc on 2026-11-04 (doc revision 45).
+Exported from the Legendary Playbook Claude Doc on 2026-11-04 (doc revision 50).
 Live doc: https://claude.ai/artifact/2edEEMC38u4mDKVqEhPxDk
 This is a point-in-time snapshot for the repo. The live doc remains editable;
 if you change the doc, re-export to keep this file in step.
-The previous export (2026-10-07) predated the fact-check alignment edits made in
-the doc (revisions 34-45); this export includes them.
+Revision 50 adds "The pro layer" (advanced techniques) and its sources.
 -->
 
 # Legendary Playbook
@@ -13,7 +12,7 @@ Watch every tactic animated, wrong way then right way, in FC 26 or FIFA 23: [Leg
 
 2026-10-06 · @Manoj kumar Palle
 
-Covers EA SPORTS FC 26 and FIFA 23. The pre-game card and the three gaps work in both games. Lines marked FC 26 show what changes, and the tactics and buttons sections each have an FC 26 part.
+Covers EA SPORTS FC 26 and FIFA 23. The pre-game card and the three gaps work in both games. Lines marked FC 26 show what changes, and the tactics and buttons sections each have an FC 26 part. The pro layer, after the first five sessions, is the next step once the three gaps are closed.
 
 ## Pre-game card
 
@@ -255,6 +254,74 @@ The World Class match in session 1 is a timing warm-up, not a step down. Go stra
 
 On FC 26, swap the skill games for five minutes in the Practice Arena and one round of the Scan trainer in the Replay Room.
 
+## The pro layer
+
+Start this once you concede one or fewer in most Legendary matches. Each part matches a section of the new Pro tab in the [Legendary Replay Room](https://claude.ai/artifact/Src3NGZaBXPV1oqyEUpDyp), and four new clips (P1 to P4) animate the key habits. Inputs are FC 26 on Xbox. *(coach's call)* marks reasoning rather than a sourced fact; *(unconfirmed)* marks a line found in search results only, so check it in-game first.
+
+**Pick the shot for the moment**
+
+| Moment | Shot | Xbox |
+|---|---|---|
+| Cutback, you arrive first time | First-time low driven | B, B before the ball arrives |
+| One-on-one, keeper rushing out | Chip | LB + B |
+| One-on-one, keeper set | Low driven finesse, far corner | RB + B, B (short hold) |
+| Edge of the box, cut onto your strong foot | Finesse, far post | RB + B |
+| 20 to 25 yards, Power Shot player | Power shot | LB + RB + B |
+| Defender within a yard | Fake shot first | B, then A + direction |
+| Tight angle at the byline | Cut it back instead | LB + RB + X, X |
+
+Keep the press short: EA made low drivens less accurate at extreme power. Finesse shots from outside the box lost their top spin at launch, while update 1.5.0 improved power shots and chips. FIFA 23 has no double-tap low driven; it uses Timed Finishing.
+
+**Add these passes**
+
+- Precision pass (RB + Y): into space exactly where you aim. Save it for the one pass that needs it.
+- Lofted through ball (Y, Y): over defenders tight on your runner, from a passer with time. Update 1.5.0 cut its accuracy.
+- Driven ground cross (LB + RB + X, X): the fast, low cutback.
+- First-time passes: forward or square, never back across your body. FC 26 made first-time through balls at 135° or 180° much less accurate.
+
+**Defend by hand**
+
+- Sprint jockey (LT + RT) to stay goal-side. Tackle when the ball leaves his foot or he turns his back, never from behind: EA made tackles from behind less effective.
+- Second man (hold RB) in bursts of about a second, then let go before you tackle so he drops back into his lane. *(coach's call)*
+- Shoulder only a weaker man: since update 1.4.0 a big Strength gap makes the weaker player stumble.
+- Pick defenders with Stand Tackle 85 or more: only they get every tackle animation.
+- Team Press (Up, then Left) only in their half: since May 2026 it presses less in yours.
+- Leave your keeper alone. Update 1.3.0 greatly cut manual keeper movement; hold Y only to come halfway.
+
+**Keep four behind the ball**
+
+When you attack, both CBs, the pivot and the far full-back stay home. Since update 1.4.0 the Squad Battles AI counters the moment it wins the ball. If you lose it in their half, press the man who won it at once, with a second man, before he looks up. *(coach's call)*
+
+**A tactic for every scoreline**
+
+Save four custom tactics and switch them from the D-pad: Left, then a direction. FC 26 saves Line Height in the tactic code. The values below sit inside EA's ranges; test one change at a time. *(coach's call)*
+
+| Plan | D-pad | When | Settings |
+|---|---|---|---|
+| Control | Left, Up | Default | 4-3-3 (4), Balanced build-up, Balanced approach, line 45 |
+| Counter | Left, Left | They hog the ball, or you lead and they push up | Counter build-up, Balanced, line 40. Wingers Inside Forward (Attack) |
+| Chase | Left, Right | Losing after 70 minutes | Balanced build-up, High, line 65. One full-back Attacking Wingback. Get In The Box (Up, Down) late |
+| Lock | Left, Down | Winning after 75 minutes | 4-3-3 (2), Short Passing, Deep, line 28. CDM Holding (Defend), both full-backs Fullback (Defend) |
+
+Role++ matters less in FC 26 than in FC 25, because EA brought Role and Role+ closer to it. Chase ++ in the pivot and striker roles, but not at the cost of a better player.
+
+**Set pieces**
+
+- Corners: put a good finisher on the Top of Box job for the ball that comes back out. In Squad Battles a short corner and a cutback beats a 50/50 header, because Competitive gameplay sends fewer attackers up and headers miss more.
+- Free kicks: guides disagree on power, from about 1.5 to 3.5 bars, so find your taker's number in the Practice Arena. *(unconfirmed)*
+- Throw-ins: RB calls your chosen throw-in taker.
+
+**Play the points**
+
+Ultimate pays 2.6 times for a win, Legendary 2.1 times, and both 0.7 times for a loss, per FIFAUTeam. With similar match points, Ultimate is worth it once your Ultimate win rate is about three-quarters of your Legendary one: win 80% on Legendary and Ultimate pays from about 59%. *(coach's call)*
+
+**Practice week**
+
+- [ ] Practice Arena twice, 15 minutes each: 10 first-time low drivens from cutbacks, 10 finesse shots from the edge, 10 chips. Move on at 8 out of 10.
+- [ ] One skill move: 50 reps, then use it only in its moment. Fake shot first. Explosive Stepover (hold LB, roll the right stick from forward to the side) is new in FC 26. *(unconfirmed input)*
+- [ ] Scan trainer at Ultimate speed until you score 8 out of 10 twice running.
+- [ ] After each match, add xG for and against from Match Facts to your log. *(unconfirmed: one guide says Match Facts shows xG)*
+
 ## Buttons you'll need
 
 Classic controls, only the inputs this playbook uses. “X, X” means tap X twice; “+” means press together.
@@ -332,3 +399,17 @@ Count clean progressions in the first half only; a rough tally is fine.
 - [4-3-3(4) custom tactics in FC 26](https://www.fut.gg/news/4-3-34-custom-tactics-the-hyper-aggressive-setup-to-break-ai-defending-in-fc-26/), fut.gg
 - [How to press with multiple players in FC 26](https://www.operationsports.com/how-to-press-with-multiple-players-in-ea-fc-26/), Operation Sports
 - [FC 26 “The World's Game” update notes](https://mp1st.com/title-updates-and-patches/ea-sports-fc-26-the-worlds-game-update-released-patch-1-25), MP1st
+
+**Pro layer**
+
+- [FC 26 Launch Update Pitch Notes](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-launch-update), EA
+- [FC 26 October Feedback Update](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-feedback-update-october), EA
+- [FC 26 Ultimate Team Deep Dive](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-fut-deep-dive), EA
+- [FC 26 update 1.1.0 Pitch Notes](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-1-1-0-update), EA
+- [FC 26 Holiday Update, 1.3.0](https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-holiday-update), EA
+- [FC 26 defending tips](https://www.fifplay.com/fc-26-defending-tips/) and [precision pass](https://www.fifplay.com/fc-26-precision-pass/), FIFPlay
+- [FC 26 passing guide (German)](https://earlygame.com/de/guides/fifa/ea-fc-26-so-bringst-du-jeden-pass-ans-ziel), EarlyGame
+- [FC 26 meta guide](https://www.redbull.com/us-en/fc-26-meta-guide-tactics-dribbling-attacking) and [FC 26 tactics with pro player RedLac](https://www.redbull.com/us-en/ea-fc-26-best-tactics-formations), Red Bull
+- [FC 26 low driven shots](https://www.dexerto.com/wikis/ea-fc-26-guides-walkthrough-tips/how-to-do-low-driven-shots-headers-in-ea-fc-26/), Dexerto
+- [FC 26 Squad Battles points](https://fifauteam.com/fc-26-squad-battle-points/), FIFAUTeam
+- Unconfirmed, found through search only: [FC 26 skill moves](https://www.redbull.com/ie-en/ea-fc-26-skillmoves-tricks-guide), Red Bull; [new FC 26 skill moves](https://beebom.com/ea-sports-fc-26-skill-moves-and-controls/), Beebom; [FC 26 match facts](https://fifauteam.com/fc-26-stats-match-facts-performance/), FIFAUTeam; [FC 26 free kicks](https://realsport101.com/article/fc-26-how-to-score-free-kicks-the-best-techniques-and-dead-ball-specialists), RealSport101

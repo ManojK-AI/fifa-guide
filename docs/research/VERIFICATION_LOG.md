@@ -145,6 +145,60 @@ coverage map and known gaps written up so later passes do not duplicate the work
 
 ---
 
+## 2026-11-04 — Advanced layer, build repair, Playbook sync
+
+### Findings
+
+- **Build was not reproducible from the repo.** `build.py` and `harness.py` read
+  `../live/index.html`, which was never committed. Recovered as
+  `base/replay-room-fifa23.html` by reversing build.py's 51 edits; rebuilding from it
+  reproduced the committed `replay-room.html` byte for byte. See `../../base/README.md`.
+- **Playbook export was stale.** `docs/legendary-playbook.md` predated revisions 34–45 of
+  the live doc (the alignment edits logged on 2026-10-07). Re-exported from revision 45,
+  then again from revision 50 after the pro layer was added.
+- **Advanced research could not open any page.** The session's network policy refused DNS
+  for every guide host (list in `agents/fc26_advanced.md`). The advanced layer therefore
+  rests on (1) archive findings already quoted and graded on 2026-10-06, (2) search-result
+  excerpts, tagged Unconfirmed on the page, and (3) coaching reasoning, tagged Coach's call.
+
+### What was added
+
+- Replay Room: a fifth tab, **Pro** (finishing matrix, full pass kit, movement and skill
+  moves, manual defending, four game-state tactics, set pieces, Squad Battles points,
+  practice week), and four clips in a new **Pro patterns** group: P1 rest defence,
+  P2 counter-press, P3 second man in bursts, P4 decoy directed run.
+- Playbook: **The pro layer** section (revisions 46–50) and a Pro layer source list.
+
+### Checks run
+
+- New clips: headless choreography check (holders, tackle distance, receivers on the
+  ball, timings inside each clip, run speeds under 9.5 m/s, shots on target): 0 warnings.
+  Key frames reviewed by eye on a contact sheet.
+- `smoke.py`, extended with Pro tab checks and all five tabs in the no-horizontal-scroll
+  sweep (320/390/820/1280 px, both games, light and dark): 0 failures.
+- `checks2.py` (key chips now include the Pro clips): 0 failures.
+
+### Issues found
+
+1. Pro tab overflowed at 1280 px: no-wrap input cells forced the skill table wider than
+   its card. Fixed by letting notes wrap.
+2. Pro tab overflowed at 320 px: long source titles in no-wrap links, then no-wrap
+   legend items. Fixed with short inline labels and wrapping legend items.
+3. "AI moves" truncated in the five-tab nav at 320 px. Fixed with a smaller label size
+   under 360 px.
+4. P1 label "Your RB was here" sat on the RB himself. Moved to "Behind your RB".
+
+### Still open
+
+- Every **Unconfirmed** line on the Pro tab (skill-move inputs and stars, Player Lock,
+  Match Facts xG, free-kick power, Practice Arena kick-taker) needs its page opened and
+  quoted. URLs are listed in `agents/fc26_advanced.md` §5.
+- No FC 26 penalty method confirmed.
+- Coach's-call values (the four tactics, the break-even rule, the practice week) are
+  hypotheses for the match log, not measurements.
+
+---
+
 ## Template for new entries
 
 ```markdown
