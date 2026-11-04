@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Builds replay-room.html (FC 26 + FIFA 23) from the live v3 page plus parts/. Every edit is an exact, single-occurrence replace."""
+"""Builds replay-room.html (FC 26 + FIFA 23) from the FIFA 23 base page plus parts/. Every edit is an exact, single-occurrence replace.
+
+The base page is base/replay-room-fifa23.html (the published v3 FIFA 23 page with the publisher's wrapper).
+It used to live outside the repo at ../live/index.html; see base/README.md."""
 import pathlib, re, subprocess, sys
 
 W = pathlib.Path(__file__).parent
 P = W / 'parts'
-live = (W.parent / 'live' / 'index.html').read_text()
+live = (W / 'base' / 'replay-room-fifa23.html').read_text()
 
 # 1. strip the publish wrapper: keep from <title> to the end of the last </script>
 start = live.index('<title>')
